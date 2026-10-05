@@ -1,0 +1,463 @@
+@import '@fontsource/tektur/latin-400.css';
+@import '@fontsource/tektur/latin-600.css';
+@import '@fontsource/tektur/latin-700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Marketplace palette — deep violet dark + electric accent */
+:root {
+  --bg: #08060f;
+  --bg-elevated: #0c0a1a;
+  --bg-band: #100c1a;
+  --bg-card: #14101f;
+  --bg-card-hover: #1a1529;
+  --ink: #f3f0ff;
+  --muted: rgba(214, 205, 255, 0.58);
+  --border: rgba(167, 139, 250, 0.14);
+  --border-strong: rgba(176, 64, 251, 0.35);
+  --accent: #b040fb;
+  --accent-soft: #a78bfa;
+  --accent-deep: #7c3aed;
+  --success: #c084fc;
+  --glow: rgba(176, 64, 251, 0.35);
+  --glow-soft: rgba(167, 139, 250, 0.12);
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+body {
+  margin: 0;
+  font-family: 'Tektur', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:
+    radial-gradient(ellipse 90% 55% at 15% -10%, rgba(176, 64, 251, 0.22), transparent 55%),
+    radial-gradient(ellipse 70% 45% at 90% 5%, rgba(124, 58, 237, 0.14), transparent 50%),
+    var(--bg);
+  color: var(--ink);
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+}
+
+@layer components {
+  .page-x {
+    @apply px-5 sm:px-8 lg:px-12;
+  }
+}
+
+@layer utilities {
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+}
+
+.search-results {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.search-results::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.cta-gradient {
+  background: linear-gradient(135deg, #c084fc 0%, #b040fb 42%, #7c3aed 100%);
+  box-shadow: none;
+  color: #fff;
+}
+
+.cta-gradient:hover {
+  opacity: 0.94;
+  box-shadow: none;
+}
+
+.glass {
+  background: rgba(20, 16, 36, 0.55);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(167, 139, 250, 0.16);
+  box-shadow: none;
+}
+
+.hero-panel {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+
+.hero-panel--home {
+  height: 100svh;
+  max-height: 100svh;
+  min-height: 100svh;
+}
+
+.hero-panel--forums {
+  height: 65svh;
+  max-height: 65svh;
+  min-height: 65svh;
+  /* Allow forum search dropdown to extend below the hero band */
+  overflow: visible;
+  z-index: 20;
+}
+
+.hero-video-wrap {
+  background: #08060f;
+}
+
+/* Hide edge artifacts on embedded preview videos */
+.video-brand-mask {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  background: #000;
+}
+
+/* Crop battlelog header bar out of the top of the frame */
+.video-brand-crop {
+  top: -6% !important;
+  height: 112% !important;
+  width: 100%;
+  object-position: center 42%;
+}
+
+.video-brand-blur {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 4.25rem;
+  z-index: 3;
+  pointer-events: none;
+  backdrop-filter: blur(14px) saturate(1.1);
+  -webkit-backdrop-filter: blur(14px) saturate(1.1);
+  background: linear-gradient(
+    180deg,
+    rgba(8, 6, 15, 0) 0%,
+    rgba(8, 6, 15, 0.55) 35%,
+    rgba(20, 16, 36, 0.92) 100%
+  );
+}
+
+/* Cover any leftover Battlelog / watermark strip at the top */
+.video-brand-blur--top {
+  top: 0;
+  bottom: auto;
+  height: 4.25rem;
+  background: linear-gradient(
+    0deg,
+    rgba(8, 6, 15, 0) 0%,
+    rgba(8, 6, 15, 0.72) 45%,
+    rgba(8, 6, 15, 0.98) 100%
+  );
+}
+
+@media (min-width: 640px) {
+  .video-brand-blur {
+    height: 5rem;
+  }
+
+  .video-brand-blur--top {
+    height: 5rem;
+  }
+
+  .video-brand-crop {
+    top: -7% !important;
+    height: 114% !important;
+  }
+}
+
+.hero-video-bg {
+  border: 0;
+  outline: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 1;
+  /* Do not filter the <video> — GPU compositing can freeze on the first frame */
+}
+
+/* Product page — infinite gameplay preview marquee */
+.preview-marquee-root {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0;
+  border-top: 1px solid rgba(167, 139, 250, 0.18);
+  border-bottom: 1px solid rgba(167, 139, 250, 0.18);
+  background: rgba(12, 10, 22, 0.85);
+  padding: 0.75rem 0;
+}
+
+.preview-marquee-track {
+  display: flex;
+  width: max-content;
+  gap: 1rem;
+  padding: 0 0.5rem;
+  transform: translateX(-50%);
+  will-change: transform;
+}
+
+.preview-marquee-item {
+  flex: 0 0 auto;
+  width: min(72vw, 22rem);
+  cursor: zoom-in;
+  border-radius: 0.65rem;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: #0a0812;
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.preview-marquee-item:hover {
+  transform: scale(1.03);
+  border-color: rgba(167, 139, 250, 0.35);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+}
+
+.preview-marquee-img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+  pointer-events: none;
+}
+
+.preview-marquee-fade {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3rem;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.preview-marquee-fade--left {
+  left: 0;
+  background: linear-gradient(90deg, rgba(8, 6, 15, 0.95), transparent);
+}
+
+.preview-marquee-fade--right {
+  right: 0;
+  background: linear-gradient(270deg, rgba(8, 6, 15, 0.95), transparent);
+}
+
+.preview-lightbox {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  background: rgba(4, 2, 10, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  cursor: zoom-out;
+}
+
+.preview-lightbox-img {
+  max-width: min(96vw, 72rem);
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  border-radius: 0.75rem;
+  border: 1px solid rgba(167, 139, 250, 0.25);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.65);
+  cursor: default;
+}
+
+.preview-lightbox-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 101;
+  display: flex;
+  height: 2.75rem;
+  width: 2.75rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(20, 16, 31, 0.9);
+  color: white;
+  transition: background-color 0.2s ease;
+}
+
+.preview-lightbox-close:hover {
+  background: rgba(36, 28, 58, 0.95);
+}
+
+
+.hero-video-tint {
+  background:
+    linear-gradient(
+      180deg,
+      rgba(176, 64, 251, 0.18) 0%,
+      rgba(124, 58, 237, 0.1) 45%,
+      rgba(8, 6, 15, 0.45) 100%
+    ),
+    radial-gradient(ellipse 90% 70% at 50% 20%, rgba(167, 139, 250, 0.16), transparent 65%);
+  mix-blend-mode: soft-light;
+  opacity: 0.7;
+}
+
+.hero-video-tint-glow {
+  background:
+    radial-gradient(ellipse 80% 50% at 20% 30%, rgba(176, 64, 251, 0.18), transparent 55%),
+    radial-gradient(ellipse 60% 45% at 85% 60%, rgba(124, 58, 237, 0.14), transparent 50%);
+  mix-blend-mode: soft-light;
+  opacity: 0.55;
+}
+
+.hero-video-bg::-webkit-media-controls,
+.hero-video-bg::-webkit-media-controls-enclosure,
+.hero-video-bg::-webkit-media-controls-panel,
+.hero-video-bg::-webkit-media-controls-start-playback-button,
+.hero-video-bg::-webkit-media-controls-overlay-play-button,
+.hero-video-bg::-webkit-media-controls-play-button {
+  display: none !important;
+  -webkit-appearance: none;
+  opacity: 0;
+  pointer-events: none;
+  width: 0;
+  height: 0;
+}
+
+.page-body {
+  /* Opaque — never show hero video (or any fixed layer) through scrollable content */
+  background:
+    radial-gradient(ellipse 75% 45% at 8% -10%, rgba(167, 139, 250, 0.07), transparent 55%),
+    radial-gradient(ellipse 50% 30% at 94% 12%, rgba(124, 58, 237, 0.04), transparent 50%),
+    linear-gradient(180deg, #0c0a14 0%, #0a0812 55%, #08060f 100%);
+  color: var(--ink);
+  position: relative;
+  z-index: 1;
+}
+
+/* Shared content pages: dark purple (support / reviews / product) */
+.content-surface {
+  background:
+    radial-gradient(ellipse 75% 45% at 8% -10%, rgba(167, 139, 250, 0.07), transparent 55%),
+    radial-gradient(ellipse 50% 30% at 94% 12%, rgba(124, 58, 237, 0.04), transparent 50%),
+    linear-gradient(180deg, #0c0a14 0%, #0a0812 55%, #08060f 100%);
+  color: var(--ink);
+}
+
+/* Same surface as the page — no separate frosted bar */
+.content-surface-nav {
+  border-bottom: 1px solid rgba(167, 139, 250, 0.1);
+  background: transparent;
+}
+
+.content-surface .nav-chip {
+  background: rgba(255, 255, 255, 0.04);
+  border-color: rgba(167, 139, 250, 0.14);
+}
+
+.page-band {
+  background:
+    linear-gradient(180deg, rgba(176, 64, 251, 0.06), transparent 40%),
+    var(--bg-band);
+}
+
+.page-card {
+  background: linear-gradient(165deg, rgba(26, 21, 41, 0.95), rgba(20, 16, 31, 0.98));
+  border: 1px solid var(--border);
+  box-shadow: none;
+  transition: border-color 0.25s ease, background 0.25s ease;
+}
+
+.page-card:hover {
+  border-color: rgba(167, 139, 250, 0.22);
+  background: linear-gradient(165deg, rgba(30, 24, 50, 0.98), rgba(26, 21, 41, 0.99));
+  box-shadow: none;
+}
+
+.icon-well {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.85rem;
+  background: linear-gradient(145deg, rgba(176, 64, 251, 0.25), rgba(20, 16, 31, 0.9));
+  border: 1px solid rgba(167, 139, 250, 0.22);
+  color: #e9d5ff;
+  box-shadow: none;
+}
+
+.hero-to-body {
+  background: linear-gradient(to bottom, transparent, #08060f);
+  height: 6rem;
+  margin-top: -6rem;
+  position: relative;
+  z-index: 5;
+  pointer-events: none;
+}
+
+.game-cover-img {
+  filter: saturate(1.08) contrast(1.04) brightness(0.95);
+  transition: filter 0.35s ease, transform 0.5s ease;
+}
+
+.game-cover-img--color {
+  filter: saturate(1.12) contrast(1.05) brightness(1);
+}
+
+.group:hover .game-cover-img:not(.game-cover-img--color),
+a:hover .game-cover-img:not(.game-cover-img--color) {
+  filter: saturate(1.2) contrast(1.06) brightness(1.02);
+  transform: scale(1.03);
+}
+
+.status-pill {
+  color: #d8b4fe;
+}
+
+.accent-text {
+  color: var(--accent-soft);
+}
+
+.nav-chip {
+  background: rgba(20, 16, 36, 0.65);
+  border: 1px solid rgba(167, 139, 250, 0.14);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: none;
+}

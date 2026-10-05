@@ -1,0 +1,88 @@
+# Path aliases
+/refund/        /refunds       301
+/refund-policy  /refunds       301
+/refund-policy/ /refunds       301
+/privacy-policy /privacy       301
+/privacy-policy/ /privacy      301
+/terms-of-use   /terms         301
+/terms-of-use/  /terms         301
+/terms-of-service /terms       301
+/terms-of-service/ /terms      301
+
+# Primary SEO keyword variants → product or home
+# (Do not strip /apex-legends-cheats/ — Cloudflare 308s bare path back to trailing slash → loop)
+/buy-apex-legends-cheats  /   301
+/buy-apex-legends-cheats/ /   301
+/buy-apex-legends-cheat   /apex-legends-cheats   301
+/buy-apex-legends-cheat/  /apex-legends-cheats   301
+/get-apex-legends-cheats  /forums/complete-setup  301
+/get-apex-legends-cheats/ /forums/complete-setup  301
+/get-apex-legends-cheat   /forums/complete-setup  301
+/get-apex-legends-cheat/  /forums/complete-setup  301
+/apex-legends-esp     /forums/player-visuals-breakdown  301
+/apex-legends-esp/    /forums/player-visuals-breakdown  301
+/apex-legends-aimbot  /forums/apex-legends-aimbot-options  301
+/apex-legends-aimbot/ /forums/apex-legends-aimbot-options  301
+/buy-apex-legends-esp /apex-legends-cheats  301
+/buy-apex-legends-esp/ /apex-legends-cheats 301
+/buy-apex-legends-aimbot /apex-legends-cheats 301
+/buy-apex-legends-aimbot/ /apex-legends-cheats 301
+/apex-legends-cheats-lifetime /forums/apex-legends-cheats-lifetime 301
+/apex-legends-cheats-lifetime/ /forums/apex-legends-cheats-lifetime 301
+/apex-legends-cheat-discord /forums/apex-legends-cheat-discord 301
+/apex-legends-cheat-discord/ /forums/apex-legends-cheat-discord 301
+
+# Legacy template paths
+/abi-cheats    /apex-legends-cheats   301
+/abi-cheats/   /apex-legends-cheats   301
+/dayz-cheats    /apex-legends-cheats   301
+/dayz-cheats/   /apex-legends-cheats   301
+/arena-breakout-infinite-cheats  /apex-legends-cheats   301
+/arena-breakout-infinite-cheats/ /apex-legends-cheats   301
+
+/guides         /forums        301
+/guides/        /forums        301
+/features-list  /forums/features-list  301
+/setup          /forums/complete-setup 301
+
+# Forum short-slug aliases
+/forums/setup         /forums/complete-setup     301
+/forums/features      /forums/features-list      301
+/forums/aimbot        /forums/aimbot-settings    301
+/forums/esp           /forums/esp-wallhack-guide 301
+/forums/wallhack      /forums/esp-wallhack-guide 301
+/forums/vehicles      /forums/vehicle-esp-first  301
+/forums/radar         /forums/radar-recommended-config 301
+/forums/antivirus     /forums/disable-antivirus  301
+/forums/windows       /forums/windows-setup      301
+/forums/patch         /forums/game-patch-status  301
+/forums/status        /forums/load-status-checklist 301
+/forums/loader        /forums/loader-errors      301
+/forums/combat        /forums/combat-assist-settings 301
+/forums/buy           /forums/buy-apex-legends-cheats-safely 301
+/forums/lifetime      /forums/apex-legends-cheats-lifetime 301
+/forums/discord       /forums/apex-legends-cheat-discord 301
+
+# Legacy slugs → forums
+/articles       /forums        301
+/articles/      /forums        301
+/articles/*     /forums        301
+/blog/instructions       /forums/complete-setup#1-confirm-status-and-checkout  301
+/blog/how-to-load        /forums/complete-setup#3-load-order       301
+/forums/instructions     /forums/complete-setup#1-confirm-status-and-checkout  301
+/forums/instructions/    /forums/complete-setup#1-confirm-status-and-checkout  301
+/forums/how-to-load      /forums/complete-setup#3-load-order       301
+/forums/how-to-load/     /forums/complete-setup#3-load-order       301
+/blog/:slug/    /forums/:slug  301
+/blog/:slug     /forums/:slug  301
+
+# Alternate sitemap URLs
+/sitemap-pages.xml     /sitemap.xml  301
+/sitemap-products.xml  /sitemap.xml  301
+/sitemap-forums.xml    /sitemap.xml  301
+/sitemap-images.xml    /sitemap.xml  301
+/sitemap-blogs.xml     /sitemap.xml  301
+/sitemap-regions.xml   /sitemap.xml  301
+/sitemap-index.xml     /sitemap.xml  301
+/sitemap_index.xml     /sitemap.xml  301
+/sitemap.xml/          /sitemap.xml  301

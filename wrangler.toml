@@ -1,0 +1,15 @@
+﻿# Cloudflare Workers + Pages (optional deploy)
+name = "apexhacks"
+compatibility_date = "2024-09-23"
+main = "workers/site.js"
+
+[assets]
+directory = "./dist"
+
+[[routes]]
+pattern = "apexhacks.org"
+custom_domain = true
+
+[[routes]]
+pattern = "www.apexhacks.org"
+custom_domain = true

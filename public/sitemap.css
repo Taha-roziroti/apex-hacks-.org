@@ -1,0 +1,135 @@
+@namespace sitemap url("http://www.sitemaps.org/schemas/sitemap/0.9");
+@namespace image url("http://www.google.com/schemas/sitemap-image/1.1");
+@namespace video url("http://www.google.com/schemas/sitemap-video/1.1");
+
+:root {
+  color-scheme: dark;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+sitemap|urlset {
+  display: block;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 24px 20px 48px;
+}
+
+sitemap|urlset::before {
+  content: "Apex Legends Cheats — XML Sitemap\A Indexable pages for Google Search Console (apexhacks.org)\A\A Open the raw XML for crawlers; this styled view is for humans only.";
+  display: block;
+  white-space: pre-wrap;
+  margin-bottom: 24px;
+  padding: 16px 18px;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  background: #161b22;
+  color: #8b949e;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+sitemap|url {
+  display: block;
+  margin: 0 0 14px;
+  padding: 14px 16px;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  background: #161b22;
+}
+
+sitemap|loc {
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #58a6ff;
+  word-break: break-all;
+  margin-bottom: 8px;
+}
+
+sitemap|loc::before {
+  content: "URL ";
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #8b949e;
+  display: block;
+  margin-bottom: 4px;
+}
+
+sitemap|lastmod,
+sitemap|changefreq,
+sitemap|priority {
+  display: inline-block;
+  margin: 4px 10px 0 0;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: #21262d;
+  font-size: 12px;
+  color: #c9d1d9;
+}
+
+sitemap|lastmod::before {
+  content: "Updated ";
+  color: #8b949e;
+}
+
+sitemap|changefreq::before {
+  content: "Frequency ";
+  color: #8b949e;
+}
+
+sitemap|priority::before {
+  content: "Priority ";
+  color: #8b949e;
+}
+
+image|image,
+video|video {
+  display: block;
+  margin: 10px 0 0;
+  padding: 10px 12px;
+  border-left: 3px solid #388bfd;
+  background: #0d1117;
+  border-radius: 0 8px 8px 0;
+}
+
+image|loc,
+video|content_loc,
+video|thumbnail_loc {
+  display: block;
+  font-size: 13px;
+  color: #a5d6ff;
+  word-break: break-all;
+  margin-top: 4px;
+}
+
+image|title,
+video|title {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #e6edf3;
+  margin-top: 6px;
+}
+
+image|caption,
+video|description {
+  display: block;
+  font-size: 12px;
+  color: #8b949e;
+  margin-top: 4px;
+}
+
+video|family_friendly,
+video|live {
+  display: inline-block;
+  font-size: 11px;
+  color: #7ee787;
+  margin-right: 10px;
+  margin-top: 6px;
+}
