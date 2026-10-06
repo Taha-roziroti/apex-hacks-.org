@@ -22,7 +22,7 @@ const CONTROL = '/media/apex-control-art.jpg'
 const HOME_ART = '/media/apex-home-art.jpg'
 const TACTICAL_ART = '/media/apex-tactical-art.jpg'
 const VIDEO_THUMB = '/media/apex-video-thumb.jpg'
-const PREVIEW_VIDEO = '/videos/hero.webm'
+const PREVIEW_VIDEO = '/videos/catalyst-apex-legends-10mb.webp'
 const OG_DEFAULT = '/og/apex-legends-cheats.jpg'
 
 const ALL_SITE_IMAGES = [

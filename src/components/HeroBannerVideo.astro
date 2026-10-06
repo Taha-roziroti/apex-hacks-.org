@@ -1,8 +1,8 @@
 ---
-/** Native hero video — must stay opaque (no VP9 alpha) for Chrome background playback. */
-const webm = '/videos/hero.webm'
-const mp4 = '/videos/hero.mp4'
-const label = 'Apex Legends cheat gameplay preview with ESP and aimbot FOV'
+import { APEX_HERO, APEX_HOME_VIDEO } from '../data/media'
+
+const animated = APEX_HOME_VIDEO.src
+const poster = APEX_HOME_VIDEO.poster
 ---
 
 <div
@@ -10,19 +10,15 @@ const label = 'Apex Legends cheat gameplay preview with ESP and aimbot FOV'
   data-hero-video
   aria-hidden="true"
 >
-  <video
+  <img
     class="hero-video-bg absolute inset-0 z-[1] h-full w-full object-cover object-center"
-    autoplay
-    muted
-    loop
-    playsinline
-    webkit-playsinline="true"
-    preload="auto"
-    aria-label={label}
-  >
-    <source src={webm} type="video/webm" />
-    <source src={mp4} type="video/mp4" />
-  </video>
+    src={animated}
+    data-hero-animated={animated}
+    data-hero-poster={poster}
+    alt=""
+    decoding="async"
+    fetchpriority="high"
+  />
   <div class="hero-video-tint pointer-events-none absolute inset-0 z-[2]" aria-hidden="true"></div>
   <div class="hero-video-tint-glow pointer-events-none absolute inset-0 z-[2]" aria-hidden="true"></div>
   <div
@@ -34,3 +30,16 @@ const label = 'Apex Legends cheat gameplay preview with ESP and aimbot FOV'
     aria-hidden="true"
   ></div>
 </div>
+
+<script is:inline define:vars={{ staticFallback: APEX_HERO }}>
+  (function () {
+    const wrap = document.querySelector('[data-hero-video]')
+    const img = wrap?.querySelector('img.hero-video-bg')
+    if (!img || !(img instanceof HTMLImageElement)) return
+    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    const conn = navigator.connection
+    if (reduce || (conn && conn.saveData)) {
+      img.src = img.dataset.heroPoster || staticFallback
+    }
+  })()
+</script>

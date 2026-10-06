@@ -13,9 +13,13 @@ export const APEX_COVER = '/media/apex-cover.webp'
 export const APEX_MENU = '/media/apex-menu.webp'
 export const APEX_VIDEO_THUMB = '/media/apex-video-thumb.jpg'
 
+/** Self-hosted homepage hero loop (animated WebP). */
+export const APEX_HOME_HERO_ANIMATED = '/videos/catalyst-apex-legends-10mb.webp'
+
 export const APEX_HOME_VIDEO = {
-  src: '/videos/hero.webm',
+  src: APEX_HOME_HERO_ANIMATED,
   poster: APEX_VIDEO_THUMB,
+  mime: 'image/webp',
   title: 'Apex Legends cheat gameplay preview with ESP and aimbot FOV',
   caption:
     'Preview of Apex Legends ESP boxes, skeleton wallhacks, aimbot FOV circle, and distance tags on Olympus-style BR maps on PC.',

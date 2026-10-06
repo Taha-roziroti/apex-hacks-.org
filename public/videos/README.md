@@ -1,6 +1,6 @@
-﻿# Hero video
+﻿# Hero preview media
 
-- `/videos/hero.webm` — homepage hero loop (VP9, **opaque** yuv420p — no alpha channel)
-- `/videos/hero.mp4` — H.264 fallback (Safari / if WebM fails)
-- VP9 with alpha (`alpha_mode`) freezes on the first frame in Chrome when used as a CSS background `<video>` — always flatten before deploy.
-- Poster/thumb: `/media/apex-video-thumb.jpg`
+- `/videos/catalyst-apex-legends-10mb.webp` — homepage hero loop (animated WebP, self-hosted)
+- `/videos/hero.webm` and `/videos/hero.mp4` — legacy fallbacks (not used by the live hero; kept for reference)
+
+Run `npm run build` so `sitemap.xml` and SEO checks reference the animated WebP.
