@@ -237,7 +237,7 @@ body {
 
 .preview-marquee-item {
   flex: 0 0 auto;
-  width: min(72vw, 22rem);
+  width: min(72vw, 28rem);
   cursor: zoom-in;
   border-radius: 0.65rem;
   overflow: hidden;

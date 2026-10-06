@@ -87,7 +87,7 @@ async function writeOgJpeg(outPath, sourcePath, eyebrow, title, subtitle) {
       { input: await base.toBuffer(), top: 0, left: 0 },
       { input: await overlay.png().toBuffer(), top: 0, left: 0 },
     ])
-    .jpeg({ quality: 90, chromaSubsampling: '4:4:4', mozjpeg: true })
+    .jpeg({ quality: 95, chromaSubsampling: '4:4:4', mozjpeg: true })
     .toFile(outPath)
 }
 
@@ -260,7 +260,7 @@ for (const [name, eyebrow, title, subtitle] of [
   if (
     await writeIfMissing(path, (p) =>
       sharp(fillerSvg(1200, 675, eyebrow, title, subtitle))
-        .jpeg({ quality: 90, chromaSubsampling: '4:4:4' })
+        .jpeg({ quality: 95, chromaSubsampling: '4:4:4' })
         .toFile(p),
     )
   ) {

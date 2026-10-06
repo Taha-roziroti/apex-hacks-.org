@@ -10,7 +10,7 @@ See **[SEO-SUPER-BOOSTER.md](./SEO-SUPER-BOOSTER.md)** for the full SEO implemen
 
 - `npm run prepare:logo` — rebuild `logo.png`, `favicon.svg`, and touch icons from `public/brand/apex-logo-source.png`
 - `npm run prepare:hero-banner` — rebuild `public/media/apex-hero-banner.webp` from `assets/brand/apex-hero-banner-source.jpg`
-- `npm run prepare:media` — compress `assets/gameplay/images_*.png` into `public/media/apex-*`
+- `npm run prepare:media` — upscale `assets/gameplay/images_*.png` to 4K WebP in `public/media/apex-*` (use native 1080p+ captures when possible; low-res sources are sharpened but cannot recover real detail)
 - `npm run generate:forums` — regenerate forum posts from `scripts/generate-apex-forums.mjs`
 - `npm run build` — OG images, sitemap, Astro build, SEO verification
 - `npm run dev` — local dev on port 5174

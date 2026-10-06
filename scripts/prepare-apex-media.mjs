@@ -36,9 +36,9 @@ if (!nums.length) {
 
 for (let i = 0; i < Math.min(9, nums.length); i++) {
   const src = join(assetsDir, nums[i].f)
-  await resize4kWidth(sharp(src))
-    .webp(WEBP_EXPORT)
-    .toFile(join(mediaDir, `apex-screenshot-${i + 1}.webp`))
+  let pipeline = sharp(src).ensureAlpha()
+  pipeline = resize4kWidth(pipeline)
+  await pipeline.webp(WEBP_EXPORT).toFile(join(mediaDir, `apex-screenshot-${i + 1}.webp`))
 }
 
 const pick = (index) => join(assetsDir, nums[Math.min(index, nums.length - 1)].f)

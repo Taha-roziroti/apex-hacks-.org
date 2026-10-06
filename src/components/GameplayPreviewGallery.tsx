@@ -137,8 +137,8 @@ export function GameplayPreviewGallery({ className = '' }: GameplayPreviewGaller
               <img
                 src={item.src}
                 alt={item.alt}
-                width={640}
-                height={360}
+                width={3840}
+                height={2160}
                 loading={i < 4 ? 'eager' : 'lazy'}
                 decoding="async"
                 draggable={false}
