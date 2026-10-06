@@ -9,16 +9,18 @@ export type SeoMediaItem = {
 }
 
 export const APEX_HERO = '/media/apex-hero-full.webp'
+/** Homepage + forums hero background (Legends key art). */
+export const APEX_HERO_BANNER = '/media/apex-hero-banner.webp'
 export const APEX_COVER = '/media/apex-cover.webp'
 export const APEX_MENU = '/media/apex-menu.webp'
 export const APEX_VIDEO_THUMB = '/media/apex-video-thumb.jpg'
 
-/** Self-hosted homepage hero loop (animated WebP). */
+/** Product preview loop (animated WebP). */
 export const APEX_HOME_HERO_ANIMATED = '/videos/catalyst-apex-legends-30fps.webp'
 
 export const APEX_HOME_VIDEO = {
   src: APEX_HOME_HERO_ANIMATED,
-  poster: APEX_VIDEO_THUMB,
+  poster: APEX_HERO_BANNER,
   mime: 'image/webp',
   title: 'Apex Legends cheat gameplay preview with ESP and aimbot FOV',
   caption:

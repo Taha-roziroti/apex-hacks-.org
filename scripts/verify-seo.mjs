@@ -226,10 +226,7 @@ for (const [name, html] of [
   ['product', product],
   ['forums', forums],
 ]) {
-  if (
-    !html.includes('/media/apex-') &&
-    !html.includes('/videos/catalyst-apex-legends-30fps.webp')
-  ) {
+  if (!html.includes('/media/apex-') && !html.includes('/media/apex-hero-banner.webp')) {
     fail(`${name}: missing visible Apex Legends media in page body`)
   }
 }
@@ -371,6 +368,7 @@ for (const asset of [
   'public/og/faq.jpg',
   'public/og/support.jpg',
   'public/media/apex-hero-full.webp',
+  'public/media/apex-hero-banner.webp',
   'public/media/apex-cover.webp',
   'public/media/apex-menu.webp',
   'public/media/apex-video-thumb.jpg',

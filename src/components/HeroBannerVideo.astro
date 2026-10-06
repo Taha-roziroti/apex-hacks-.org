@@ -1,8 +1,5 @@
 ---
-import { APEX_HERO, APEX_HOME_VIDEO } from '../data/media'
-
-const animated = APEX_HOME_VIDEO.src
-const poster = APEX_HOME_VIDEO.poster
+import { APEX_HERO_BANNER } from '../data/media'
 ---
 
 <div
@@ -12,10 +9,10 @@ const poster = APEX_HOME_VIDEO.poster
 >
   <img
     class="hero-video-bg absolute inset-0 z-[1] h-full w-full object-cover object-center"
-    src={animated}
-    data-hero-animated={animated}
-    data-hero-poster={poster}
+    src={APEX_HERO_BANNER}
     alt=""
+    width="3840"
+    height="2160"
     decoding="async"
     fetchpriority="high"
   />
@@ -30,16 +27,3 @@ const poster = APEX_HOME_VIDEO.poster
     aria-hidden="true"
   ></div>
 </div>
-
-<script is:inline define:vars={{ staticFallback: APEX_HERO }}>
-  (function () {
-    const wrap = document.querySelector('[data-hero-video]')
-    const img = wrap?.querySelector('img.hero-video-bg')
-    if (!img || !(img instanceof HTMLImageElement)) return
-    const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches
-    const conn = navigator.connection
-    if (reduce || (conn && conn.saveData)) {
-      img.src = img.dataset.heroPoster || staticFallback
-    }
-  })()
-</script>

@@ -14,6 +14,7 @@
     "generate:forums": "node scripts/generate-apex-forums.mjs",
     "prepare:media": "node scripts/prepare-apex-media.mjs",
     "prepare:logo": "node scripts/build-logo-assets.mjs",
+    "prepare:hero-banner": "node scripts/prepare-hero-banner.mjs",
     "verify:seo": "node scripts/verify-seo.mjs",
     "verify:redirects": "node scripts/verify-redirects.mjs",
     "lint": "oxlint"

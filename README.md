@@ -9,9 +9,18 @@ See **[SEO-SUPER-BOOSTER.md](./SEO-SUPER-BOOSTER.md)** for the full SEO implemen
 ## Commands
 
 - `npm run prepare:logo` — rebuild `logo.png`, `favicon.svg`, and touch icons from `public/brand/apex-logo-source.png`
+- `npm run prepare:hero-banner` — rebuild `public/media/apex-hero-banner.webp` from `assets/brand/apex-hero-banner-source.jpg`
 - `npm run prepare:media` — compress `assets/gameplay/images_*.png` into `public/media/apex-*`
 - `npm run generate:forums` — regenerate forum posts from `scripts/generate-apex-forums.mjs`
 - `npm run build` — OG images, sitemap, Astro build, SEO verification
 - `npm run dev` — local dev on port 5174
 
 Set `SITE_URL=https://apexhacks.org` when generating sitemaps for production.
+
+## Deploy (Cloudflare)
+
+1. `npm ci`
+2. `npm run build` — output in `dist/` (sitemap, robots, `_routes.json`, static HTML)
+3. `npm run deploy` — Wrangler publishes `dist/` via `workers/site.js` to **apexhacks.org** (see `wrangler.toml`)
+
+Ensure Cloudflare Pages/Workers has the repo’s `functions/` middleware and `public/_redirects` copied into `dist/` by the build (Astro static + verify scripts).

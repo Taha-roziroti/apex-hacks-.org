@@ -1,28 +1,17 @@
-import { useEffect, useState } from 'react'
-import { APEX_HERO, APEX_HOME_VIDEO } from '../data/media'
-import { prefersStaticHero } from '../lib/hero-media'
+import { APEX_HERO_BANNER } from '../data/media'
 
 type HeroAnimatedBgProps = {
-  /** Static fallback when reduced motion / save-data */
-  image?: string
   imageAlt?: string
   showGradients?: boolean
   className?: string
 }
 
-/** Full-bleed hero animated WebP — cover fit with tint overlays. */
+/** Full-bleed hero banner — cover fit with tint overlays. */
 export function HeroAnimatedBg({
-  image = APEX_HERO,
   imageAlt = '',
   showGradients = true,
   className = '',
 }: HeroAnimatedBgProps) {
-  const [src, setSrc] = useState(APEX_HOME_VIDEO.src)
-
-  useEffect(() => {
-    if (prefersStaticHero()) setSrc(image)
-  }, [image])
-
   return (
     <div
       className={`hero-video-wrap pointer-events-none absolute inset-0 z-0 overflow-hidden select-none ${className}`}
@@ -30,11 +19,13 @@ export function HeroAnimatedBg({
       aria-hidden
     >
       <img
-        src={src}
+        src={APEX_HERO_BANNER}
         alt={imageAlt}
         className="hero-video-bg absolute inset-0 z-[1] h-full w-full object-cover object-center"
         decoding="async"
         fetchPriority="high"
+        width={3840}
+        height={2160}
       />
       <div className="hero-video-tint pointer-events-none absolute inset-0 z-[2]" />
       <div className="hero-video-tint-glow pointer-events-none absolute inset-0 z-[2]" />
