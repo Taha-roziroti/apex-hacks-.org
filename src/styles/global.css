@@ -206,7 +206,13 @@ body {
   min-width: 100%;
   min-height: 100%;
   opacity: 1;
-  /* Do not filter the <video> — GPU compositing can freeze on the first frame */
+  image-rendering: auto;
+  /* Do not filter the hero media — GPU compositing can freeze on the first frame */
+}
+
+.game-cover-img,
+.preview-marquee-img {
+  image-rendering: auto;
 }
 
 /* Product page — infinite gameplay preview marquee */

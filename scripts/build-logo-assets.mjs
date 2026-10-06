@@ -18,14 +18,14 @@ async function exportLogo(input, output, size) {
     .toFile(output)
 }
 
-await exportLogo(src, join(publicDir, 'logo.png'), 512)
+await exportLogo(src, join(publicDir, 'logo.png'), 1024)
 await exportLogo(src, join(publicDir, 'favicon-32.png'), 32)
 await exportLogo(src, join(publicDir, 'apple-touch-icon.png'), 180)
 
 const png = readFileSync(join(publicDir, 'logo.png'))
 const b64 = png.toString('base64')
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Apex Legends">
-  <image width="512" height="512" href="data:image/png;base64,${b64}"/>
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Apex Legends">
+  <image width="1024" height="1024" href="data:image/png;base64,${b64}"/>
 </svg>`
 writeFileSync(join(publicDir, 'favicon.svg'), svg)
 

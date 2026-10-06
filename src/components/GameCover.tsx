@@ -63,8 +63,8 @@ export function GameCover({
           src={src}
           alt={getImageAlt(slug, name, variant)}
           title={getImageTitle(slug, name, variant)}
-          width={variant === 'product' ? 1440 : 1000}
-          height={variant === 'product' ? 810 : 1000}
+          width={variant === 'product' ? 3840 : 3840}
+          height={variant === 'product' ? 2160 : 2160}
           loading={eager ? 'eager' : 'lazy'}
           decoding={eager ? 'sync' : 'async'}
           fetchPriority={eager ? 'high' : 'auto'}

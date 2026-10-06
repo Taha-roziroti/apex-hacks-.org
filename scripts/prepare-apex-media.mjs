@@ -1,5 +1,5 @@
 /**
- * Compress user-provided Apex Legends gameplay PNGs into public/media/apex-*.
+ * Export user-provided Apex Legends gameplay PNGs into public/media/apex-* at 4K.
  * Source folder (default): assets/gameplay/*.png — numbered images_1.png … images_11.png.
  * Override: APEX_MEDIA_ASSETS=/path/to/pngs
  */
@@ -7,6 +7,14 @@ import { mkdir, readdir } from 'node:fs/promises'
 import { join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 import sharp from 'sharp'
+import {
+  JPEG_EXPORT,
+  UHD_HEIGHT,
+  UHD_WIDTH,
+  WEBP_EXPORT,
+  resize4kCover,
+  resize4kWidth,
+} from './media-quality.mjs'
 
 const root = join(fileURLToPath(new URL('.', import.meta.url)), '..')
 const assetsDir = process.env.APEX_MEDIA_ASSETS ?? join(root, 'assets', 'gameplay')
@@ -28,27 +36,26 @@ if (!nums.length) {
 
 for (let i = 0; i < Math.min(9, nums.length); i++) {
   const src = join(assetsDir, nums[i].f)
-  await sharp(src).webp({ quality: 82 }).toFile(join(mediaDir, `apex-screenshot-${i + 1}.webp`))
+  await resize4kWidth(sharp(src))
+    .webp(WEBP_EXPORT)
+    .toFile(join(mediaDir, `apex-screenshot-${i + 1}.webp`))
 }
 
 const pick = (index) => join(assetsDir, nums[Math.min(index, nums.length - 1)].f)
 
-// Hero / cover: wide Olympus-style frame (default index 4 → images_5)
 const heroSrc = pick(4)
-await sharp(heroSrc)
-  .webp({ quality: 85 })
-  .resize(1920, 1080, { fit: 'cover', position: 'centre' })
-  .toFile(join(mediaDir, 'apex-hero-full.webp'))
-await sharp(heroSrc)
-  .webp({ quality: 85 })
-  .resize(1440, 810, { fit: 'cover', position: 'centre' })
-  .toFile(join(mediaDir, 'apex-cover.webp'))
-await sharp(heroSrc)
-  .jpeg({ quality: 88 })
-  .resize(1280, 720, { fit: 'cover', position: 'centre' })
+await resize4kCover(sharp(heroSrc)).webp(WEBP_EXPORT).toFile(join(mediaDir, 'apex-hero-full.webp'))
+await resize4kCover(sharp(heroSrc)).webp(WEBP_EXPORT).toFile(join(mediaDir, 'apex-cover.webp'))
+await resize4kCover(sharp(heroSrc))
+  .jpeg(JPEG_EXPORT)
   .toFile(join(mediaDir, 'apex-video-thumb.jpg'))
 
-// Menu art: dense ESP labels (default index 7 → images_8)
-await sharp(pick(7)).webp({ quality: 82 }).toFile(join(mediaDir, 'apex-menu.webp'))
+await resize4kWidth(sharp(pick(7))).webp(WEBP_EXPORT).toFile(join(mediaDir, 'apex-menu.webp'))
 
-console.log(`Prepared ${Math.min(9, nums.length)} screenshots + hero/cover/menu in public/media`)
+for (const name of ['apex-home-art.jpg', 'apex-tactical-art.jpg', 'apex-control-art.jpg']) {
+  await resize4kCover(sharp(heroSrc)).jpeg(JPEG_EXPORT).toFile(join(mediaDir, name))
+}
+
+console.log(
+  `Prepared ${Math.min(9, nums.length)} screenshots + hero/cover/menu at ${UHD_WIDTH}x${UHD_HEIGHT} in public/media`,
+)

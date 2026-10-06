@@ -12,7 +12,7 @@
     "generate:sitemaps": "node scripts/generate-sitemaps.mjs",
     "generate:seo-assets": "node scripts/generate-seo-assets.mjs",
     "generate:forums": "node scripts/generate-apex-forums.mjs",
-    "prepare:media": "node scripts/prepare-apex-media.mjs",
+    "prepare:media": "node scripts/prepare-apex-media.mjs && node scripts/upscale-hero-animated.mjs",
     "prepare:logo": "node scripts/build-logo-assets.mjs",
     "verify:seo": "node scripts/verify-seo.mjs",
     "verify:redirects": "node scripts/verify-redirects.mjs",
