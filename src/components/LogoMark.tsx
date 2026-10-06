@@ -1,3 +1,5 @@
+import { SITE_NAME } from '../data/site'
+
 type LogoMarkProps = {
   className?: string
   /** Above-the-fold brand mark (header). Footer should omit for lazy load. */
@@ -9,10 +11,10 @@ export function LogoMark({ className = '', priority = false }: LogoMarkProps) {
     <img
       src="/logo.png"
       srcSet="/logo.png 1x, /logo.png 2x"
-      width={82}
-      height={82}
-      alt=""
-      className={`h-[82px] w-[82px] shrink-0 object-contain ${className}`}
+      width={56}
+      height={56}
+      alt={`${SITE_NAME} logo`}
+      className={`h-14 w-14 shrink-0 rounded-full object-contain ${className}`}
       decoding="async"
       loading={priority ? 'eager' : 'lazy'}
       fetchPriority={priority ? 'high' : undefined}

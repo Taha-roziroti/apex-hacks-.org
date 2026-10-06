@@ -8,6 +8,7 @@ See **[SEO-SUPER-BOOSTER.md](./SEO-SUPER-BOOSTER.md)** for the full SEO implemen
 
 ## Commands
 
+- `npm run prepare:logo` — rebuild `logo.png`, `favicon.svg`, and touch icons from `public/brand/apex-logo-source.png`
 - `npm run prepare:media` — compress `assets/gameplay/images_*.png` into `public/media/apex-*`
 - `npm run generate:forums` — regenerate forum posts from `scripts/generate-apex-forums.mjs`
 - `npm run build` — OG images, sitemap, Astro build, SEO verification
