@@ -42,7 +42,7 @@ export const PAGE_IMAGES: Record<
     og: PAGE_OG.home,
     alt: 'Apex Legends cheats ESP and aimbot artwork for PC',
     title: 'Apex Legends Cheats',
-    caption: 'Apex Legends aimbot, ESP, vehicle radar, and wallhack-style overview.',
+    caption: 'Apex Legends aimbot, ESP, loot radar, and wallhack-style overview on Olympus gameplay.',
   },
   forums: {
     src: '/media/apex-screenshot-4.webp',

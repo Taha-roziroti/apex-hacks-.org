@@ -17,7 +17,8 @@ export const APEX_HOME_VIDEO = {
   src: '/videos/hero.webm',
   poster: APEX_VIDEO_THUMB,
   title: 'Apex Legends cheat gameplay preview with ESP and aimbot FOV',
-  caption: 'Preview of Apex Legends ESP skeleton overlays, aimbot FOV circle, and 2D radar during control-zone gameplay on PC.',
+  caption:
+    'Preview of Apex Legends ESP boxes, skeleton wallhacks, aimbot FOV circle, and distance tags on Olympus-style BR maps on PC.',
 } as const
 
 function shot(n: number) {
@@ -26,15 +27,42 @@ function shot(n: number) {
 
 /** Product page gameplay preview carousel (screenshots 1–9). */
 export const PRODUCT_PREVIEW_GALLERY = [
-  { src: shot(1), alt: 'Apex Legends aimbot FOV circle with skeleton ESP through cover on PC' },
-  { src: shot(2), alt: 'Apex Legends player ESP wallhack on industrial stairs gameplay' },
-  { src: shot(3), alt: 'Apex Legends ESP skeleton markers through metal structure' },
-  { src: shot(4), alt: 'Apex Legends aimbot FOV with green box ESP on enemy behind van' },
-  { src: shot(5), alt: 'Apex Legends skeleton ESP and purple player chams in control zone' },
-  { src: shot(6), alt: 'Apex Legends warehouse fight with skeleton ESP and health bar overlay' },
-  { src: shot(7), alt: 'Apex Legends autumn map player ESP and aimbot FOV circle' },
-  { src: shot(8), alt: 'Apex Legends alley ESP skeleton through brick wall gameplay' },
-  { src: shot(9), alt: 'Apex Legends open yard aimbot FOV with tactical HUD on PC' },
+  {
+    src: shot(1),
+    alt: 'Apex Legends R-99 ADS with aimbot FOV circle, elimination damage, and green ESP through cover on Olympus',
+  },
+  {
+    src: shot(2),
+    alt: 'Apex Legends player ESP wallhack with green boxes, name tags, and distance meters on a sunny plaza',
+  },
+  {
+    src: shot(3),
+    alt: 'Apex Legends skeleton ESP through a blue wall with aimbot FOV ring and off-screen enemy arrows',
+  },
+  {
+    src: shot(4),
+    alt: 'Apex Legends scoped aim with green box ESP, username tag, and ring-range reticle on Olympus skyline',
+  },
+  {
+    src: shot(5),
+    alt: 'Apex Legends wooden walkway fight with white aimbot FOV circle and multi-target green ESP labels',
+  },
+  {
+    src: shot(6),
+    alt: 'Apex Legends ESP through glass showing green player boxes and distance readouts inside a building',
+  },
+  {
+    src: shot(7),
+    alt: 'Apex Legends deck firefight with green bounding boxes, health bars, and distance tags on enemies',
+  },
+  {
+    src: shot(8),
+    alt: 'Apex Legends hostile skeleton wallhack through metal cover with 114m distance indicator',
+  },
+  {
+    src: shot(9),
+    alt: 'Apex Legends green skeleton ESP through a round structure with directional threat arrows on Olympus',
+  },
 ] as const
 
 export const PAGE_MEDIA = {
@@ -42,12 +70,12 @@ export const PAGE_MEDIA = {
     image: APEX_HERO,
     alt: 'Apex Legends ESP and aimbot gameplay banner on PC',
     title: 'Apex Legends Cheats',
-    caption: 'ESP, aimbot, vehicle radar, and wallhack-style visuals for control-zone fights.',
+    caption: 'ESP, aimbot, loot radar, and wallhack-style visuals for Apex Legends BR trios on PC.',
   },
   product: {
     image: APEX_COVER,
     video: APEX_HOME_VIDEO.src,
-    alt: 'Apex Legends cheats product — player ESP, vehicle ESP, and aimbot features',
+    alt: 'Apex Legends cheats product — player ESP, loot ESP, and aimbot features on Olympus gameplay',
     title: 'Apex Legends ESP, Aimbot & Wallhack',
     caption: 'Full module list for Apex Legends on Windows PC.',
     videoTitle: APEX_HOME_VIDEO.title,

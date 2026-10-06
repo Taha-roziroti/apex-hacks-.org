@@ -39,9 +39,12 @@ Use `SEO_ROUTE_INTENTS` in `src/data/site.ts` when writing copy. Primary queries
 
 ## 5. Media & thumbnails
 
+- Drop raw gameplay PNGs in `assets/gameplay/` as `images_1.png` … `images_11.png` (order = carousel 1–9).
+- Run `npm run prepare:media` → writes `public/media/apex-screenshot-*.webp`, `apex-hero-full.webp`, `apex-cover.webp`, `apex-menu.webp`, `apex-video-thumb.jpg`.
 - Self-hosted `/media/apex-*` and `/videos/hero.webm` on home, product, forums.
-- `npm run generate:seo-assets` builds all `/og/*.jpg` from first-party screenshots.
+- `npm run generate:seo-assets` builds all `/og/*.jpg` from those first-party screenshots (run after `prepare:media`).
 - Product page: gameplay carousel (`preview-marquee-track`, `apex-screenshot-1.webp`).
+- Alt text for each carousel frame lives in `src/data/media.ts` (`PRODUCT_PREVIEW_GALLERY`) — keep descriptions unique for image SEO.
 
 ## 6. Sitemap super-boost
 
