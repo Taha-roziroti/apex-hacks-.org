@@ -18,9 +18,11 @@ const NAV_LINKS = [
 
   { label: 'Forums', to: '/forums' },
 
+  { label: 'Buy', to: '/buy-apex-legends-cheats' },
+
   { label: 'Product', to: '/apex-legends-cheats' },
 
-  { label: 'Reviews', to: '/reviews' },
+  { label: 'Compare', to: '/best-apex-legends-cheats' },
 
   { label: 'FAQ', to: '/faq' },
 

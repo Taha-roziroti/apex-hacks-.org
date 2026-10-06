@@ -12,6 +12,7 @@ import {
   type Game,
 } from '../data/games'
 import { PRODUCT_PAGE_FAQS } from '../data/faqs'
+import { BUY_INTERNAL_LINKS, BUY_PAGE_FAQS } from '../data/seo-landings'
 import { PRODUCT_PRICE_USD, SITE_HOST, SITE_NAME } from '../data/site'
 import { FaqSection } from '../components/FaqSection'
 import { CheckoutLink } from '../components/CheckoutLink'
@@ -55,9 +56,13 @@ function ProductPurchaseCard({ game }: { game: Game }) {
 
 type GameProductPageProps = {
   guideSlug: string
+  variant?: 'features' | 'buy'
 }
 
-export function GameProductPage({ guideSlug }: GameProductPageProps) {
+export function GameProductPage({ guideSlug, variant = 'features' }: GameProductPageProps) {
+  const isBuy = variant === 'buy'
+  const navPath = isBuy ? '/buy-apex-legends-cheats' : '/apex-legends-cheats'
+  const pageFaqs = isBuy ? BUY_PAGE_FAQS : PRODUCT_PAGE_FAQS
   const slug = parseGuideSlug(guideSlug)
   const game = getGame(slug)
 
@@ -77,7 +82,7 @@ export function GameProductPage({ guideSlug }: GameProductPageProps) {
   return (
     <div className="content-surface min-h-screen overflow-x-hidden text-white">
       <div className="content-surface-nav">
-        <Navbar currentPath="/apex-legends-cheats" />
+        <Navbar currentPath={navPath} />
       </div>
 
       <main>
@@ -91,7 +96,7 @@ export function GameProductPage({ guideSlug }: GameProductPageProps) {
                 Home
               </a>
               <span className="shrink-0">/</span>
-              <span className="min-w-0 text-white/70">Product details</span>
+              <span className="min-w-0 text-white/70">{isBuy ? 'Buy' : 'Product details'}</span>
             </nav>
 
             <div className="mt-6 text-center lg:mt-8">
@@ -101,13 +106,27 @@ export function GameProductPage({ guideSlug }: GameProductPageProps) {
               </span>
 
               <h1 className="mx-auto mt-3 max-w-3xl text-2xl font-semibold leading-tight tracking-tight text-white sm:text-4xl lg:text-[2.75rem] lg:leading-[1.1]">
-                Apex Legends Cheats
+                {isBuy ? 'Buy Apex Legends Cheats' : 'Apex Legends Cheats'}
               </h1>
               <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-white/55 sm:mt-4 sm:text-base">
-                Full Apex Legends cheat menu — aimbot options, player ESP, vehicle ESP, 2D radar, and
-                misc weapon helpers. Buy apex legends cheats or get apex legends esp access when Active —
-                confirm loader status, then checkout for PC.
+                {isBuy
+                  ? 'Buy Apex Legends cheats for PC with flexible monthly or lifetime access. Review aimbot, ESP, loot radar, and Windows requirements below — then checkout when loader status is Active.'
+                  : 'Full Apex Legends cheat menu — aimbot options, player ESP, loot ESP, 2D radar, and misc weapon helpers. Compare plans on the buy page when Active — confirm loader status before checkout.'}
               </p>
+              {isBuy && (
+                <ul className="mx-auto mt-5 flex max-w-2xl flex-wrap justify-center gap-2 text-sm">
+                  {BUY_INTERNAL_LINKS.map((link) => (
+                    <li key={link.href}>
+                      <a
+                        href={link.href}
+                        className="rounded-full border border-z-soft/25 bg-white/5 px-3 py-1.5 text-white/85 hover:text-white"
+                      >
+                        {link.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
 
             <div className="mt-10 lg:hidden">
@@ -117,11 +136,34 @@ export function GameProductPage({ guideSlug }: GameProductPageProps) {
             <div className="mt-12 grid gap-8 lg:mt-14 lg:grid-cols-12 lg:items-start lg:gap-10">
               <div className="lg:col-span-7">
                 <div className="space-y-10">
+                  {isBuy && (
+                    <div>
+                      <h2 className="text-lg font-semibold tracking-tight text-white sm:text-xl">
+                        Apex Legends Cheat Pricing
+                      </h2>
+                      <p className="mt-3 text-sm leading-relaxed text-white/55">
+                        Plans start from ${PRODUCT_PRICE_USD} monthly with lifetime tiers for longer
+                        access. Pricing is shown at checkout — digital delivery only.
+                      </p>
+                      <h2 className="mt-8 text-lg font-semibold tracking-tight text-white sm:text-xl">
+                        Monthly and Lifetime Access
+                      </h2>
+                      <p className="mt-3 text-sm leading-relaxed text-white/55">
+                        Monthly is a good first test window after patches. Lifetime suits players who
+                        want longer horizons — still check Active status every season.
+                      </p>
+                    </div>
+                  )}
+                  <div>
+                    <h2 className="text-lg font-semibold tracking-tight text-white sm:text-xl">
+                      {isBuy ? 'Apex Legends Aimbot and ESP Features' : 'Module list'}
+                    </h2>
+                  </div>
                   {PRODUCT_FEATURE_GROUPS.map((group) => (
                     <div key={group.name}>
-                      <h2 className="text-lg font-semibold tracking-tight text-white sm:text-xl">
+                      <h3 className="text-base font-semibold tracking-tight text-white sm:text-lg">
                         {group.name}
-                      </h2>
+                      </h3>
                       <ul className="mt-4 grid gap-2 sm:grid-cols-2">
                         {group.items.map((item) => (
                           <li
@@ -139,7 +181,7 @@ export function GameProductPage({ guideSlug }: GameProductPageProps) {
 
                 <div className="mt-10">
                   <h2 className="text-lg font-semibold tracking-tight text-white sm:text-xl">
-                    Why players use these modules
+                    {isBuy ? 'Apex Legends Wallhack and Loot ESP' : 'Why players use these modules'}
                   </h2>
                   <ul className="mt-4 space-y-3">
                     {GUIDE_FEATURES.map((f) => (
@@ -159,10 +201,11 @@ export function GameProductPage({ guideSlug }: GameProductPageProps) {
                 <div className="mt-12 space-y-8 text-sm leading-relaxed text-white/55">
                   <div>
                     <h2 className="text-lg font-semibold tracking-tight text-white sm:text-xl">
-                      Platforms & patches
+                      {isBuy ? 'PC Requirements and Compatibility' : 'Platforms & patches'}
                     </h2>
                     <p className="mt-3">
-                      Runs on Apex Legends via Steam when loader status is Active. After a Apex Legends patch,
+                      Runs on Apex Legends via Steam or the EA app when loader status is Active. After a
+                      Apex Legends patch,
                       status may show Updating until tested —{' '}
                       {SITE_NAME} publishes Active labels so you are not loading a mismatched build.
                       Status first, raid second.
@@ -171,7 +214,7 @@ export function GameProductPage({ guideSlug }: GameProductPageProps) {
 
                   <div>
                     <h2 className="text-lg font-semibold tracking-tight text-white sm:text-xl">
-                      Checkout and delivery
+                      {isBuy ? 'What to Check Before Buying' : 'Checkout and delivery'}
                     </h2>
                     <ol className="mt-3 list-decimal space-y-2 pl-5">
                       <li>Confirm current status on {SITE_HOST}.</li>
@@ -224,11 +267,11 @@ export function GameProductPage({ guideSlug }: GameProductPageProps) {
         <FaqSection
           heading="Apex Legends cheats FAQ"
           intro="Status, features, platforms, delivery, and load questions before checkout."
-          items={PRODUCT_PAGE_FAQS}
+          items={pageFaqs}
         />
       </main>
 
-      <SiteFooter currentPath="/apex-legends-cheats" />
+      <SiteFooter currentPath={navPath} />
     </div>
   )
 }

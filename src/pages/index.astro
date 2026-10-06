@@ -2,13 +2,14 @@
 import BaseLayout from '../layouts/BaseLayout.astro'
 import HeroBannerVideo from '../components/HeroBannerVideo.astro'
 import { HomePage } from '../views/HomePage'
-import { SEO } from '../data/site'
-import { productCoreJsonLd } from '../lib/seo'
+import { SEO, SITE_URL } from '../data/site'
+import { HOME_FAQS } from '../data/faqs'
+import { faqPageJsonLd, productCoreJsonLd } from '../lib/seo'
 ---
 
 <BaseLayout
   seo={SEO.home}
-  jsonLdExtra={[productCoreJsonLd()]}
+  jsonLdExtra={[productCoreJsonLd(), faqPageJsonLd(HOME_FAQS, `${SITE_URL}/`)]}
 >
   <div class="overflow-x-hidden text-white">
     <section

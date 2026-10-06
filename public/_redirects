@@ -11,10 +11,11 @@
 
 # Primary SEO keyword variants → product or home
 # (Do not strip /apex-legends-cheats/ — Cloudflare 308s bare path back to trailing slash → loop)
-/buy-apex-legends-cheats  /   301
-/buy-apex-legends-cheats/ /   301
-/buy-apex-legends-cheat   /apex-legends-cheats   301
-/buy-apex-legends-cheat/  /apex-legends-cheats   301
+/buy-apex-legends-cheat   /buy-apex-legends-cheats   301
+/buy-apex-legends-cheat/  /buy-apex-legends-cheats   301
+/best-apex-legends-cheats/ /best-apex-legends-cheats 301
+/guides/apex-legends-cheats-pc/ /guides/apex-legends-cheats-pc 301
+/guides/apex-legends-cheats-undetected/ /guides/apex-legends-cheats-undetected 301
 /get-apex-legends-cheats  /forums/complete-setup  301
 /get-apex-legends-cheats/ /forums/complete-setup  301
 /get-apex-legends-cheat   /forums/complete-setup  301

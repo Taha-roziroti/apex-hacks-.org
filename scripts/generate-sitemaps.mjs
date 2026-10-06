@@ -63,6 +63,10 @@ const FORUM_IMAGES = {
 
 const PAGE_META = {
   '/': { priority: '1.0', changefreq: 'daily' },
+  '/buy-apex-legends-cheats': { priority: '0.95', changefreq: 'weekly' },
+  '/best-apex-legends-cheats': { priority: '0.9', changefreq: 'weekly' },
+  '/guides/apex-legends-cheats-pc': { priority: '0.85', changefreq: 'monthly' },
+  '/guides/apex-legends-cheats-undetected': { priority: '0.85', changefreq: 'monthly' },
   '/apex-legends-cheats': { priority: '0.9', changefreq: 'weekly' },
   '/forums': { priority: '0.85', changefreq: 'weekly' },
   '/reviews': { priority: '0.8', changefreq: 'weekly' },
@@ -124,9 +128,18 @@ function loadForums() {
 }
 
 function loadStaticRoutes() {
-  return readdirSync(pagesDir, { withFileTypes: true })
+  const routes = readdirSync(pagesDir, { withFileTypes: true })
     .filter((entry) => entry.isFile() && entry.name.endsWith('.astro') && entry.name !== '404.astro')
     .map((entry) => (entry.name === 'index.astro' ? '/' : `/${entry.name.slice(0, -6)}`))
+  const guidesDir = join(pagesDir, 'guides')
+  if (existsSync(guidesDir)) {
+    for (const entry of readdirSync(guidesDir, { withFileTypes: true })) {
+      if (entry.isFile() && entry.name.endsWith('.astro')) {
+        routes.push(`/guides/${entry.name.slice(0, -6)}`)
+      }
+    }
+  }
+  return routes
 }
 
 function imageBlock({ src, title, caption }) {

@@ -17,6 +17,7 @@ import type { GameStatus } from '../data/games'
 import { APEX_HOME_VIDEO, PAGE_MEDIA } from '../data/media'
 
 export const PRODUCT_ID = `${SITE_URL}/#product`
+export const BUY_PAGE_PATH = '/buy-apex-legends-cheats'
 
 function absoluteAsset(src: string) {
   return src.startsWith('http') ? src : `${SITE_URL}${src.startsWith('/') ? src : `/${src}`}`
@@ -84,7 +85,9 @@ export function webPageNode(seo: PageSeo) {
     inLanguage: 'en',
   } as Record<string, unknown>
   const hasVisibleImage =
-    ['/', '/apex-legends-cheats', '/forums'].includes(seo.path) || seo.path.startsWith('/forums/')
+    ['/', '/apex-legends-cheats', '/buy-apex-legends-cheats', '/forums'].includes(seo.path) ||
+    seo.path.startsWith('/forums/') ||
+    seo.path.startsWith('/guides/')
   const hasOgImage = Boolean(seo.image)
   if (hasVisibleImage || hasOgImage) {
     page.primaryImageOfPage = {
@@ -106,7 +109,7 @@ export function productCoreJsonLd() {
     name: 'Apex Legends Cheats',
     alternateName: ['Apex Legends Cheats', 'Apex Legends cheat'],
     description: PRODUCT_SCHEMA_DESCRIPTION,
-    url: `${SITE_URL}/apex-legends-cheats`,
+    url: `${SITE_URL}${BUY_PAGE_PATH}`,
     image: [
       absoluteAsset('/og/apex-legends-cheats.jpg'),
       absoluteAsset('/og/home.jpg'),
@@ -116,7 +119,7 @@ export function productCoreJsonLd() {
     brand: { '@type': 'Brand', name: SITE_NAME },
     manufacturer: { '@id': `${SITE_URL}/#organization` },
     category: 'PC game software',
-    offers: baseOffer(`${SITE_URL}/apex-legends-cheats`, 'https://schema.org/InStock'),
+    offers: baseOffer(`${SITE_URL}${BUY_PAGE_PATH}`, 'https://schema.org/InStock'),
     subjectOf: {
       '@type': 'VideoObject',
       name: APEX_HOME_VIDEO.title,
@@ -134,7 +137,7 @@ export function productDetailJsonLd(status: GameStatus) {
     status === 'Active' ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock'
   return {
     ...productCoreJsonLd(),
-    url: `${SITE_URL}/apex-legends-cheats`,
+    url: `${SITE_URL}${BUY_PAGE_PATH}`,
     image: absoluteAsset(PAGE_MEDIA.product.image),
     about: {
       '@type': 'VideoGame',
@@ -156,7 +159,7 @@ export function productDetailJsonLd(status: GameStatus) {
       },
       { '@type': 'PropertyValue', name: 'Status', value: status },
     ],
-    offers: baseOffer(`${SITE_URL}/apex-legends-cheats`, availability),
+    offers: baseOffer(`${SITE_URL}${BUY_PAGE_PATH}`, availability),
   }
 }
 
@@ -164,7 +167,7 @@ export function productReviewsJsonLd() {
   const aggregate = getReviewsAggregate()
   return {
     ...productCoreJsonLd(),
-    url: `${SITE_URL}/apex-legends-cheats`,
+    url: `${SITE_URL}${BUY_PAGE_PATH}`,
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: aggregate.ratingValue,
@@ -198,6 +201,37 @@ export function buildPageJsonLd(seo: PageSeo, extra: unknown[] = []) {
   return {
     '@context': 'https://schema.org',
     '@graph': [...siteIdentityGraph(), webPageNode(seo), ...cleaned],
+  }
+}
+
+export function articleJsonLd(params: {
+  headline: string
+  description: string
+  path: string
+}) {
+  const url = absoluteUrl(params.path)
+  return {
+    '@type': 'Article',
+    '@id': `${url}#article`,
+    headline: params.headline,
+    description: params.description,
+    url,
+    author: { '@id': `${SITE_URL}/#organization` },
+    publisher: { '@id': `${SITE_URL}/#organization` },
+    inLanguage: 'en',
+  }
+}
+
+export function itemListJsonLd(name: string, items: { name: string; url: string }[]) {
+  return {
+    '@type': 'ItemList',
+    name,
+    itemListElement: items.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.name,
+      url: item.url,
+    })),
   }
 }
 

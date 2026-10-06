@@ -2,8 +2,8 @@
 
 export const HOME_FAQS: FaqItem[] = [
   {
-    q: 'What are Apex Legends cheats?',
-    a: 'Apex Legends cheats on apexhacks.org are PC tools with aimbot options, player ESP, vehicle ESP, 2D radar, and misc weapon helpers — with Active or Updating loader status after game patches.',
+    q: 'What are Apex Legends hacks?',
+    a: 'Apex Legends hacks on apexhacks.org are Windows PC tools with player ESP, optional aimbot, loot ESP, 2D radar, and config profiles — with Active or Updating loader status after patches.',
   },
   {
     q: 'How much do Apex Legends cheats cost?',
@@ -15,7 +15,7 @@ export const HOME_FAQS: FaqItem[] = [
   },
   {
     q: 'Is aimbot required?',
-    a: 'Aimbot is optional. Many players lead with player ESP, vehicle markers, and radar, then enable combat assist only when they want it.',
+    a: 'Aimbot is optional. Many players lead with player ESP, loot highlights, and radar, then enable combat assist only when they want it.',
   },
   {
     q: 'How do you handle game patches?',
@@ -23,7 +23,7 @@ export const HOME_FAQS: FaqItem[] = [
   },
   {
     q: 'What is Apex Legends ESP / wallhack?',
-    a: 'Apex Legends ESP and wallhack-style visuals show players through cover with box, skeleton, health, distance, weapon, and team filters — plus vehicle type and occupied state on roads.',
+    a: 'Apex Legends ESP and wallhack-style visuals show players through cover with box, skeleton, health, distance, weapon, and team filters — plus loot and care package highlights.',
   },
 ]
 
@@ -39,7 +39,7 @@ export const PRODUCT_PAGE_FAQS: FaqItem[] = [
   },
   {
     q: 'How do I buy Apex Legends cheats?',
-    a: 'Start on the homepage, review features and Active status, open product details, then continue to checkout for digital delivery.',
+    a: 'Start on the homepage, review features and Active status, open buy Apex Legends cheats, then continue to checkout for digital delivery.',
   },
   {
     q: 'How do I load Apex Legends cheats?',

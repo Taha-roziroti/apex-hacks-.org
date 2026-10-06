@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro'
+import { GuideLandingPage } from '../views/GuideLandingPage'
+import { SEO, SITE_URL } from '../data/site'
+import { articleJsonLd, faqPageJsonLd, itemListJsonLd } from '../lib/seo'
+import {
+  BEST_GUIDE_SECTIONS,
+  BEST_INTERNAL_LINKS,
+  BEST_PAGE_FAQS,
+  BEST_COMPARISON_ROWS,
+} from '../data/seo-landings'
+
+const pageUrl = `${SITE_URL}/best-apex-legends-cheats`
+const jsonLdExtra = [
+  articleJsonLd({
+    headline: SEO.best.title,
+    description: SEO.best.description,
+    path: SEO.best.path,
+  }),
+  itemListJsonLd(
+    'Best Apex Legends cheats 2026',
+    BEST_COMPARISON_ROWS.map((row) => ({
+      name: row.name,
+      url: `${SITE_URL}${row.href}`,
+    })),
+  ),
+  faqPageJsonLd(BEST_PAGE_FAQS, pageUrl),
+  {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+      { '@type': 'ListItem', position: 2, name: 'Best Apex Legends Cheats', item: pageUrl },
+    ],
+  },
+]
+---
+
+<BaseLayout seo={SEO.best} jsonLdExtra={jsonLdExtra}>
+  <GuideLandingPage
+    client:idle
+    currentPath="/best-apex-legends-cheats"
+    breadcrumbLabel="Best Apex Legends Cheats"
+    h1="Best Apex Legends Cheats"
+    intro="Compare Apex Legends cheat options by features, PC support, pricing transparency, and honest loader status — then open the buy page when you are ready."
+    sections={BEST_GUIDE_SECTIONS}
+    internalLinks={BEST_INTERNAL_LINKS}
+    imageSrc="/media/apex-screenshot-2.webp"
+    imageAlt="Best Apex Legends cheats comparison table for 2026"
+    faqs={BEST_PAGE_FAQS}
+    faqHeading="Best Apex Legends cheats FAQ"
+    showComparison={true}
+  />
+</BaseLayout>

@@ -32,7 +32,7 @@ export const ORGANIZATION_ALTERNATE_NAMES = [
  * Used for docs, verification, and internal SEO discipline.
  */
 export const SEO_ROUTE_INTENTS = {
-  home: ['Apex Legends Cheats', 'Apex Legends cheats', 'Apex Legends', 'Apex Legends tools'],
+  home: ['Apex Legends hacks', 'Apex Legends cheats', 'Apex Legends ESP', 'Apex Legends aimbot'],
   product: ['Apex Legends Cheats', 'Apex Legends cheat', 'Apex Legends features', 'Apex Legends setup'],
   featuresHub: ['Apex Legends cheat features', 'Apex Legends tools', 'Apex Legends features', 'Apex Legends cheats'],
   reviews: ['Apex Legends Cheats reviews', 'Apex Legends cheat review', 'Apex Legends player feedback'],
@@ -69,13 +69,13 @@ const INDEX_ROBOTS =
 
 export const SEO = {
   home: {
-    title: 'Apex Legends Cheats | Features, Tools & Updates',
+    title: 'Apex Legends Hacks — ESP, Aimbot & More',
     description:
-      'Apex Legends Cheats for PC — feature overview, setup forums, player reviews, and loader status. Single-game site dedicated to Apex Legends only.',
+      'Explore Apex Legends hacks for PC with ESP, aimbot and other features. Compare access options and check current availability.',
     path: '/',
     ogType: 'website',
     image: PAGE_OG.home,
-    imageAlt: 'Apex Legends gameplay with ESP skeleton and aimbot FOV circle on PC',
+    imageAlt: 'Apex Legends hacks gameplay showing ESP and aimbot on PC',
     robots: INDEX_ROBOTS,
   },
   forums: {
@@ -121,19 +121,62 @@ export const SEO = {
   product: {
     title: 'Apex Legends Cheats | Features & Setup',
     description:
-      'Apex Legends cheat menu for PC — aimbot, player ESP, vehicle ESP, 2D radar, and config tools. System requirements, pricing from $35, and loader status.',
+      'Apex Legends cheat menu for PC — aimbot, player ESP, loot ESP, 2D radar, and config tools. System requirements, pricing from $35, and loader status.',
     path: '/apex-legends-cheats',
     ogType: 'product',
     image: PAGE_OG.product,
-    imageAlt: 'Apex Legends product page showing ESP skeleton and aimbot FOV gameplay',
+    imageAlt: 'Apex Legends hacks gameplay showing ESP skeleton and aimbot FOV on PC',
+    robots: INDEX_ROBOTS,
+  },
+  buy: {
+    title: 'Buy Apex Legends Cheats — Price & Plans',
+    description:
+      'Buy Apex Legends cheats for PC with flexible access options. Review features, pricing and requirements before choosing your plan.',
+    path: '/buy-apex-legends-cheats',
+    ogType: 'product',
+    image: PAGE_OG.product,
+    imageAlt: 'Apex Legends cheat pricing and feature overview',
+    robots: INDEX_ROBOTS,
+  },
+  best: {
+    title: 'Best Apex Legends Cheats — 2026 Comparison',
+    description:
+      'Compare the best Apex Legends cheats by features, pricing, PC support and current status. Find the option that fits your needs.',
+    path: '/best-apex-legends-cheats',
+    ogType: 'article',
+    image: PAGE_OG.home,
+    imageAlt: 'Best Apex Legends cheats comparison table for 2026',
+    robots: INDEX_ROBOTS,
+  },
+  guidePc: {
+    title: 'Apex Legends Cheats for PC — Requirements Guide',
+    description:
+      'Learn which Apex Legends cheats work on PC, supported Windows versions, requirements and key compatibility checks.',
+    path: '/guides/apex-legends-cheats-pc',
+    ogType: 'article',
+    image: PAGE_OG.home,
+    imageAlt: 'Apex Legends cheats running on Windows PC',
+    robots: INDEX_ROBOTS,
+  },
+  guideUndetected: {
+    title: 'Apex Legends Cheats Undetected — Status & Risk Guide',
+    description:
+      "Learn how Apex Legends cheat detection works, what EAC means, and how to check a cheat's current status before making a decision.",
+    path: '/guides/apex-legends-cheats-undetected',
+    ogType: 'article',
+    image: PAGE_OG.faq,
+    imageAlt: 'Apex Legends cheat detection and EAC status guide',
     robots: INDEX_ROBOTS,
   },
 } as const satisfies Record<string, PageSeo>
 
 export const HOME_HEADINGS = {
-  h1: 'Apex Legends Cheats',
-  h2Features: 'Apex Legends Cheats Features',
-  h2HowItWorks: 'How Apex Legends Cheats Works',
+  h1: 'Apex Legends Hacks',
+  h2Pc: 'Apex Legends Hacks for PC',
+  h2AimbotEsp: 'Apex Legends Aimbot and ESP Features',
+  h2WallhackLoot: 'Apex Legends Wallhack and Loot ESP',
+  h2Requirements: 'Apex Legends Cheat Requirements',
+  h2Ranked: 'Apex Legends Hacks for Ranked Play',
   h2Reviews: 'Apex Legends Cheats Reviews',
   h2Forums: 'Apex Legends Cheats Forum',
   h2Faq: 'Apex Legends Cheats FAQ',

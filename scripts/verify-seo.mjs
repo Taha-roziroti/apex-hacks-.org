@@ -80,8 +80,21 @@ const support = readFileSync(join(dist, 'support', 'index.html'), 'utf8')
 const forums = readFileSync(join(dist, 'forums', 'index.html'), 'utf8')
 const siteTs = readFileSync(join(root, 'src', 'data', 'site.ts'), 'utf8')
 
-if (!home.includes('<title>Apex Legends Cheats | Features, Tools &amp; Updates</title>')) {
+if (!home.includes('<title>Apex Legends Hacks — ESP, Aimbot &amp; More</title>')) {
   fail('Homepage does not own the exact title')
+}
+const buy = readFileSync(join(dist, 'buy-apex-legends-cheats', 'index.html'), 'utf8')
+const best = readFileSync(join(dist, 'best-apex-legends-cheats', 'index.html'), 'utf8')
+const guidePc = readFileSync(join(dist, 'guides', 'apex-legends-cheats-pc', 'index.html'), 'utf8')
+const guideUndetected = readFileSync(
+  join(dist, 'guides', 'apex-legends-cheats-undetected', 'index.html'),
+  'utf8',
+)
+if (!buy.includes('<title>Buy Apex Legends Cheats — Price &amp; Plans</title>')) {
+  fail('Buy page title must match SEO.buy')
+}
+if (!best.includes('<title>Best Apex Legends Cheats — 2026 Comparison</title>')) {
+  fail('Best comparison page title must match SEO.best')
 }
 if (!product.includes('<title>Apex Legends Cheats | Features &amp; Setup</title>')) {
   fail('Product page title must match SEO.product')
@@ -109,19 +122,41 @@ if ((siteTs.match(/SITE_ABOUT = \[[\s\S]*?\] as const/)?.[0].match(/'/g) || []).
 if (!home.includes(JSON.stringify(sitePurpose).slice(1, -1))) {
   fail('Homepage JSON-LD must include stable SITE_PURPOSE on Organization/WebSite')
 }
-if (product.includes('<title>Buy ')) fail('Product details page competes with homepage buy title')
-if ((faq.match(/"@type":"FAQPage"/g) || []).length !== 1) fail('/faq must own one FAQPage')
-for (const [name, html] of [
-  ['home', home],
-  ['product', product],
-  ['reviews', reviews],
-  ['support', support],
-]) {
-  if (html.includes('"@type":"FAQPage"')) fail(`${name}: duplicate FAQPage schema`)
+if (product.includes('<title>Buy ')) fail('Product details page competes with buy page title')
+const faqPageOwners = new Map([
+  ['/', 1],
+  ['/faq', 1],
+  ['/buy-apex-legends-cheats', 1],
+  ['/best-apex-legends-cheats', 1],
+  ['/guides/apex-legends-cheats-pc', 1],
+  ['/guides/apex-legends-cheats-undetected', 1],
+])
+const faqCounts = new Map()
+for (const file of files) {
+  const page = relative(dist, file).replaceAll('\\', '/')
+  if (page === '404.html') continue
+  const html = readFileSync(file, 'utf8')
+  const count = (html.match(/"@type":"FAQPage"/g) || []).length
+  if (!count) continue
+  const urlPath =
+    page === 'index.html'
+      ? '/'
+      : page.endsWith('/index.html')
+        ? `/${page.slice(0, -11)}`
+        : `/${page.slice(0, -5)}`
+  faqCounts.set(urlPath, count)
+}
+for (const [path, expected] of faqPageOwners) {
+  const got = faqCounts.get(path) ?? 0
+  if (got !== expected) fail(`${path} must expose exactly ${expected} FAQPage graph (found ${got})`)
+}
+for (const [path, count] of faqCounts) {
+  if (!faqPageOwners.has(path)) fail(`${path}: unexpected FAQPage schema (${count})`)
 }
 for (const [name, html] of [
   ['home', home],
   ['product', product],
+  ['buy', buy],
   ['reviews', reviews],
 ]) {
   if (!html.includes('"@id":"https://apexhacks.org/#product"')) {

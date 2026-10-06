@@ -21,6 +21,9 @@ export function forumOgImage(slug: string) {
 export function getOgImageForPath(path?: string): string {
   if (!path || path === '/') return OG_HOME
   if (path === '/apex-legends-cheats' || path === '/buy-apex-legends-cheats') return OG_PRODUCT
+  if (path === '/best-apex-legends-cheats') return OG_HOME
+  if (path === '/guides/apex-legends-cheats-pc') return OG_HOME
+  if (path === '/guides/apex-legends-cheats-undetected') return OG_FAQ
   if (path === '/forums') return OG_FORUMS
   if (path === '/reviews') return OG_REVIEWS
   if (path === '/faq') return OG_FAQ

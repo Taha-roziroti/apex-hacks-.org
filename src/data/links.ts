@@ -13,9 +13,24 @@ export const OFFICIAL_GAME_LINKS = [
 export const SITE_PAGE_LINKS = [
   { label: 'Home', to: '/', description: 'Overview, guides, and checkout' },
   {
+    label: 'Buy cheats',
+    to: '/buy-apex-legends-cheats',
+    description: 'Pricing, plans, and checkout for Apex Legends cheats',
+  },
+  {
     label: 'Product page',
     to: '/apex-legends-cheats',
-    description: 'Aimbot, ESP, vehicle radar and compatibility details',
+    description: 'Aimbot, ESP, loot radar and compatibility details',
+  },
+  {
+    label: 'Best cheats comparison',
+    to: '/best-apex-legends-cheats',
+    description: '2026 feature and pricing comparison',
+  },
+  {
+    label: 'PC requirements guide',
+    to: '/guides/apex-legends-cheats-pc',
+    description: 'Windows, Steam, and EA app compatibility',
   },
   {
     label: 'Forums index',

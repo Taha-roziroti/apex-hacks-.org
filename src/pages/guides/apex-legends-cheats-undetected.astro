@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro'
+import { GuideLandingPage } from '../../views/GuideLandingPage'
+import { SEO, SITE_URL } from '../../data/site'
+import { articleJsonLd, faqPageJsonLd } from '../../lib/seo'
+import {
+  UNDETECTED_GUIDE_FAQS,
+  UNDETECTED_GUIDE_INTERNAL_LINKS,
+  UNDETECTED_GUIDE_SECTIONS,
+} from '../../data/seo-landings'
+
+const pageUrl = `${SITE_URL}/guides/apex-legends-cheats-undetected`
+const jsonLdExtra = [
+  articleJsonLd({
+    headline: SEO.guideUndetected.title,
+    description: SEO.guideUndetected.description,
+    path: SEO.guideUndetected.path,
+  }),
+  faqPageJsonLd(UNDETECTED_GUIDE_FAQS, pageUrl),
+  {
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+      { '@type': 'ListItem', position: 2, name: 'Detection & status', item: pageUrl },
+    ],
+  },
+]
+---
+
+<BaseLayout seo={SEO.guideUndetected} jsonLdExtra={jsonLdExtra}>
+  <GuideLandingPage
+    client:idle
+    currentPath="/guides/apex-legends-cheats-undetected"
+    breadcrumbLabel="Apex Legends cheats undetected"
+    h1="Apex Legends Cheats Undetected"
+    intro="Easy Anti-Cheat, patch-day risk, and what Active or Updating status means — without unsupported undetected guarantees."
+    sections={UNDETECTED_GUIDE_SECTIONS}
+    internalLinks={UNDETECTED_GUIDE_INTERNAL_LINKS}
+    imageSrc="/media/apex-screenshot-8.webp"
+    imageAlt="Apex Legends cheat detection and EAC status guide"
+    faqs={UNDETECTED_GUIDE_FAQS}
+    faqHeading="Apex Legends detection FAQ"
+  />
+</BaseLayout>

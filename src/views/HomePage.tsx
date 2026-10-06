@@ -1,11 +1,11 @@
-import { ArrowRight, Crosshair, Eye, Radar, Truck, Sparkles, Star } from 'lucide-react'
+import { ArrowRight, Crosshair, Eye, Radar, Package, Sparkles, Star } from 'lucide-react'
 import { Navbar } from '../components/Navbar'
 import { SiteFooter } from '../components/SiteFooter'
 import { FaqSection } from '../components/FaqSection'
-import { guidePath } from '../data/games'
 import { CheckoutLink } from '../components/CheckoutLink'
 import { HOME_FAQS } from '../data/faqs'
 import { HOME_HEADINGS, SITE_NAME } from '../data/site'
+import { HOME_INTERNAL_LINKS } from '../data/seo-landings'
 import { blogPath } from '../data/blogs'
 import { FORUM_INDEX } from '../data/forum-index'
 import { REVIEWS } from '../data/reviews'
@@ -14,7 +14,7 @@ const FEATURES = [
   {
     icon: Crosshair,
     label: 'Aimbot options',
-    desc: 'FOV, smooth, bone selection, visible check, and draw overlays — tuned for control-zone fights when you enable assist.',
+    desc: 'FOV, smooth, bone selection, visible check, and draw overlays — tuned for Apex gunfights when you enable assist.',
     href: blogPath('aimbot-settings'),
   },
   {
@@ -24,15 +24,15 @@ const FEATURES = [
     href: blogPath('esp-wallhack-guide'),
   },
   {
-    icon: Truck,
-    label: 'Vehicle ESP',
-    desc: 'Type, distance, and occupied/empty state — track convoys and avoid bait trucks on open roads.',
-    href: blogPath('vehicle-esp-first'),
+    icon: Package,
+    label: 'Loot & care package ESP',
+    desc: 'Death boxes, care packages, and tier highlights — rotate after kills without guessing drops.',
+    href: blogPath('esp-wallhack-guide'),
   },
   {
     icon: Radar,
     label: '2D radar',
-    desc: 'Player and vehicle markers with adjustable range — pair with sound for third-party timing.',
+    desc: 'Squad markers with adjustable range — pair with audio for third-party timing in trios.',
     href: blogPath('radar-recommended-config'),
   },
 ] as const
@@ -51,7 +51,7 @@ const HOW_IT_WORKS = [
   {
     step: '03',
     title: 'Configure ESP-first',
-    text: 'Enable player ESP and 2D radar, save a config profile, then add aimbot only if you want combat assist in control-zone fights.',
+    text: 'Enable player ESP and 2D radar, save a config profile, then add aimbot only if you want combat assist in ranked or pubs.',
   },
 ] as const
 
@@ -72,23 +72,35 @@ export function HomePage({ part = 'full' }: HomePageProps) {
             <div className="flex flex-col gap-8 lg:flex-row lg:items-end lg:justify-between lg:gap-10">
               <div className="relative z-30 max-w-xl lg:max-w-2xl">
                 <p className="mb-2.5 text-[11px] font-medium uppercase tracking-[0.18em] text-z-soft/80 sm:mb-3 sm:text-xs sm:tracking-[0.2em]">
-                  Apex Legends · PC · Steam · Control zone
+                  Apex Legends · PC · Steam & EA app · BR trios
                 </p>
                 <h1 className="text-[1.75rem] font-semibold leading-[1.12] tracking-tight text-white sm:text-4xl lg:text-[2.65rem] lg:leading-[1.1]">
                   {HOME_HEADINGS.h1}
                 </h1>
                 <p className="mt-3 max-w-lg text-sm leading-relaxed text-white/70 sm:mt-3.5 sm:text-[0.95rem]">
-                  Tactical PC overlays for Apex Legends — player ESP, vehicle radar, optional aimbot, and
-                  wallhack-style visuals on Windows 10/11. Guides, forums, and loader status before
-                  you commit.
+                  Explore Apex Legends hacks for PC — ESP, aimbot, loot radar, and wallhack-style overlays
+                  on Windows 10/11. Compare access options and check loader status before you buy.
                 </p>
+
+                <ul className="relative z-50 mt-4 flex flex-wrap gap-2 text-xs sm:text-sm">
+                  {HOME_INTERNAL_LINKS.map((link) => (
+                    <li key={link.href}>
+                      <a
+                        href={link.href}
+                        className="rounded-full border border-white/15 bg-black/30 px-3 py-1.5 text-white/85 backdrop-blur hover:text-white"
+                      >
+                        {link.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
 
                 <div className="relative z-50 mt-5 flex flex-col gap-2.5 sm:flex-row sm:items-center">
                   <a
-                    href={guidePath('apex-legends')}
+                    href="/buy-apex-legends-cheats"
                     className="cta-gradient inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
                   >
-                    Explore features
+                    Buy Apex Legends cheats
                   </a>
                   <a
                     href="/forums"
@@ -114,7 +126,7 @@ export function HomePage({ part = 'full' }: HomePageProps) {
                 <div className="glass flex h-full min-h-[140px] flex-col rounded-2xl p-4 sm:min-h-[160px] sm:p-5">
                   <div className="mb-2.5 flex items-center gap-2 sm:mb-3">
                     <div className="flex h-5 w-5 items-center justify-center rounded bg-z-accent/30 text-[10px] font-bold text-z-soft sm:h-6 sm:w-6 sm:text-xs">
-                      WD
+                      AL
                     </div>
                     <span className="text-sm font-semibold text-white">From the forums</span>
                   </div>
@@ -150,11 +162,20 @@ export function HomePage({ part = 'full' }: HomePageProps) {
         <section className="page-band page-x border-t border-z-soft/15 py-14">
           <div className="mx-auto max-w-6xl">
             <h2 className="mb-3 text-xl font-semibold tracking-tight text-white sm:text-2xl">
-              {HOME_HEADINGS.h2Features}
+              {HOME_HEADINGS.h2Pc}
             </h2>
+            <p className="mb-4 max-w-2xl text-sm leading-relaxed text-white/55 sm:text-base">
+              Apex Legends hacks on Windows PC — single-game focus with forums, reviews, and honest
+              Active or Updating labels after patches.
+            </p>
+            <h3 className="mb-3 text-lg font-semibold text-white">{HOME_HEADINGS.h2AimbotEsp}</h3>
+            <p className="mb-6 max-w-2xl text-sm leading-relaxed text-white/55 sm:text-base">
+              Aimbot options, player ESP, and radar modules with setup threads so you can tune without
+              cluttering your HUD.
+            </p>
+            <h3 className="mb-3 text-lg font-semibold text-white">{HOME_HEADINGS.h2WallhackLoot}</h3>
             <p className="mb-8 max-w-2xl text-sm leading-relaxed text-white/55 sm:text-base">
-              Aimbot options, player ESP, vehicle radar, and config tools — forum threads cover tuning
-              and setup for apex legends cheats without cluttering your HUD.
+              Wallhack-style visuals plus loot and care package ESP for faster rotates after fights.
             </p>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {FEATURES.map(({ icon: Icon, label, desc, href }) => (
@@ -181,7 +202,7 @@ export function HomePage({ part = 'full' }: HomePageProps) {
         <section className="page-x py-16 sm:py-20">
           <div className="mx-auto max-w-6xl">
             <h2 className="text-2xl font-semibold tracking-tight text-white sm:text-3xl">
-              {HOME_HEADINGS.h2HowItWorks}
+              {HOME_HEADINGS.h2Requirements}
             </h2>
             <p className="mt-3 max-w-2xl text-sm leading-relaxed text-white/55 sm:text-base">
               Apex Legends cheats stay maintainable when you treat loader status and configs like part of
@@ -214,6 +235,22 @@ export function HomePage({ part = 'full' }: HomePageProps) {
                 after a game patch
               </a>
               .
+            </p>
+          </div>
+        </section>
+
+        <section className="page-x py-14 sm:py-16">
+          <div className="mx-auto max-w-6xl">
+            <h2 className="text-2xl font-semibold tracking-tight text-white sm:text-3xl">
+              {HOME_HEADINGS.h2Ranked}
+            </h2>
+            <p className="mt-3 max-w-2xl text-sm leading-relaxed text-white/55 sm:text-base">
+              Ranked trios reward information more than raw flick speed — ESP-first configs, radar
+              discipline, and conservative aimbot settings are what forum regulars recommend. Read the{' '}
+              <a href="/guides/apex-legends-cheats-undetected" className="text-white/80 underline-offset-2 hover:underline">
+                detection and status guide
+              </a>{' '}
+              before you queue with any menu loaded.
             </p>
           </div>
         </section>
@@ -346,10 +383,17 @@ export function HomePage({ part = 'full' }: HomePageProps) {
               >
                 full feature list
               </a>{' '}
-              first.
+              or{' '}
+              <a
+                href="/best-apex-legends-cheats"
+                className="text-white/80 underline-offset-2 hover:underline"
+              >
+                best Apex Legends cheats comparison
+              </a>
+              .
             </p>
             <CheckoutLink className="cta-gradient mt-8 inline-flex items-center justify-center rounded-full px-8 py-3.5 text-sm font-semibold text-white transition-opacity hover:opacity-90">
-              View plans & checkout
+              Buy Apex Legends cheats
             </CheckoutLink>
           </div>
         </section>

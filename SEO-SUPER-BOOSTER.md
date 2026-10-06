@@ -31,8 +31,12 @@ Use `SEO_ROUTE_INTENTS` in `src/data/site.ts` when writing copy. Primary queries
 
 | Route | Focus |
 |-------|--------|
-| `/` | apex legends cheats, features, loader status |
-| `/apex-legends-cheats` | product, aimbot, ESP, setup |
+| `/` | apex legends hacks, ESP, aimbot, availability |
+| `/buy-apex-legends-cheats` | buy apex legends cheats, pricing, plans |
+| `/best-apex-legends-cheats` | best apex legends cheats, 2026 comparison |
+| `/guides/apex-legends-cheats-pc` | apex legends cheats for PC, Windows requirements |
+| `/guides/apex-legends-cheats-undetected` | undetected status, EAC risk (no false guarantees) |
+| `/apex-legends-cheats` | product features, aimbot, ESP, setup |
 | `/forums` | setup, ESP, aimbot, EAC patch day |
 | `/reviews` | buyer feedback |
 | `/faq` | pricing, Windows, delivery |
