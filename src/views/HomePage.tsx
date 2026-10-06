@@ -131,8 +131,8 @@ export function HomePage({ part = 'full' }: HomePageProps) {
                     <span className="text-sm font-semibold text-white">From the forums</span>
                   </div>
                   <p className="flex-1 text-xs leading-relaxed text-white/80 sm:text-sm">
-                    “Vehicle occupied flag stopped us pushing a bait truck — radar + ESP combo actually
-                    saved the control-zone push.”
+                    “Care package ESP stopped us walking into a full squad on a purple swap — radar +
+                    loot tags actually saved the ring rotate.”
                   </p>
                   <div className="mt-3 flex items-center gap-2.5 sm:mt-4 sm:gap-3">
                     <div className="flex h-8 w-8 items-center justify-center rounded-full bg-z-accent/25 text-xs font-semibold text-z-ink sm:h-9 sm:w-9 sm:text-sm">
@@ -266,7 +266,7 @@ export function HomePage({ part = 'full' }: HomePageProps) {
                   {HOME_HEADINGS.h2Reviews}
                 </h2>
                 <p className="mt-3 max-w-xl text-sm leading-relaxed text-white/55 sm:text-base">
-                  Feedback from Apex Legends players on ESP clarity, aimbot tuning, vehicle radar, and
+                  Feedback from Apex Legends players on ESP clarity, aimbot tuning, loot radar, and
                   loader updates — no external review links.
                 </p>
               </div>
@@ -308,7 +308,7 @@ export function HomePage({ part = 'full' }: HomePageProps) {
                   {HOME_HEADINGS.h2Forums}
                 </h2>
                 <p className="mt-3 max-w-xl text-sm leading-relaxed text-white/55 sm:text-base">
-                  Aimbot tuning, ESP defaults, vehicle radar, and loader fixes — browse threads for
+                  Aimbot tuning, ESP defaults, loot radar, and loader fixes — browse threads for
                   full player replies on every guide.
                 </p>
               </div>

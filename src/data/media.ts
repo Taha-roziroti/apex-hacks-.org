@@ -14,7 +14,7 @@ export const APEX_MENU = '/media/apex-menu.webp'
 export const APEX_VIDEO_THUMB = '/media/apex-video-thumb.jpg'
 
 /** Self-hosted homepage hero loop (animated WebP). */
-export const APEX_HOME_HERO_ANIMATED = '/videos/catalyst-apex-legends-10mb.webp'
+export const APEX_HOME_HERO_ANIMATED = '/videos/catalyst-apex-legends-30fps.webp'
 
 export const APEX_HOME_VIDEO = {
   src: APEX_HOME_HERO_ANIMATED,
@@ -89,7 +89,7 @@ export const PAGE_MEDIA = {
     image: shot(4),
     alt: 'Apex Legends player ESP wallhack gameplay screenshot',
     title: 'Apex Legends Cheat Forums',
-    caption: 'Setup threads for aimbot, ESP, vehicle radar, and loader help.',
+    caption: 'Setup threads for aimbot, ESP, loot radar, and loader help.',
   },
   reviews: {
     image: shot(2),

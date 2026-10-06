@@ -24,8 +24,8 @@ export function SiteFooter({ currentPath }: SiteFooterProps) {
               <span className="font-semibold text-z-ink">{SITE_NAME}</span>
             </div>
             <p className="mt-3 text-sm leading-relaxed text-white/55">
-              Apex Legends cheats for PC — aimbot, player ESP, vehicle radar, and patch-synced loader
-              status for control-zone fights.
+              Apex Legends cheats for PC — aimbot, player ESP, loot radar, and patch-synced loader status
+              for ranked trios.
             </p>
           </div>
 

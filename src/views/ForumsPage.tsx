@@ -41,7 +41,7 @@ export function ForumsPage({ initialQuery = '' }: ForumsPageProps) {
                 Apex Legends Cheats Forum
               </h1>
               <p className="mt-4 max-w-2xl text-base leading-relaxed text-white/70">
-                Informational guides for apex legends esp, apex legends aimbot, vehicle radar, and loader help —
+                Informational guides for apex legends esp, apex legends aimbot, loot radar, and loader help —
                 plus commercial threads when you want to buy apex legends cheats safely.
               </p>
               <div className="relative z-50 mt-7">

@@ -72,7 +72,7 @@
       <video:thumbnail_loc>https://apexhacks.org/media/apex-video-thumb.jpg</video:thumbnail_loc>
       <video:title>Apex Legends Cheats Aimbot and ESP Preview</video:title>
       <video:description>Self-hosted Apex Legends Cheats preview showing Aimbot, ESP menu and survival gameplay visuals on PC.</video:description>
-      <video:content_loc>https://apexhacks.org/videos/catalyst-apex-legends-10mb.webp</video:content_loc>
+      <video:content_loc>https://apexhacks.org/videos/catalyst-apex-legends-30fps.webp</video:content_loc>
       <video:family_friendly>yes</video:family_friendly>
       <video:live>no</video:live>
     </video:video>
@@ -141,12 +141,12 @@
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-aimbot-settings.jpg</image:loc>
       <image:title>Aimbot Settings: What Level &amp; Why Won&apos;t I Get Banned? Open Graph</image:title>
-      <image:caption>Tune Apex Legends aimbot FOV, smooth, and visible check so tracking helps in control-zone fights without obvious kill-cam clips.</image:caption>
+      <image:caption>Tune Apex Legends aimbot FOV, smooth, and visible check so tracking helps in ring fights without obvious kill-cam clips.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
       <image:title>Aimbot Settings: What Level &amp; Why Won&apos;t I Get Banned? Artwork</image:title>
-      <image:caption>Tune Apex Legends aimbot FOV, smooth, and visible check so tracking helps in control-zone fights without obvious kill-cam clips.</image:caption>
+      <image:caption>Tune Apex Legends aimbot FOV, smooth, and visible check so tracking helps in ring fights without obvious kill-cam clips.</image:caption>
     </image:image>
   </url>
   <url>
@@ -205,12 +205,12 @@
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-apex-legends-cheats-lifetime.jpg</image:loc>
       <image:title>Apex Legends Cheats Lifetime License: Is Permanent Access Worth It? Open Graph</image:title>
-      <image:caption>Lifetime vs monthly Apex Legends cheat access - when permanent makes sense for regular control-zone players.</image:caption>
+      <image:caption>Lifetime vs monthly Apex Legends cheat access - when permanent makes sense for regular ring players.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
       <image:title>Apex Legends Cheats Lifetime License: Is Permanent Access Worth It? Artwork</image:title>
-      <image:caption>Lifetime vs monthly Apex Legends cheat access - when permanent makes sense for regular control-zone players.</image:caption>
+      <image:caption>Lifetime vs monthly Apex Legends cheat access - when permanent makes sense for regular ring players.</image:caption>
     </image:image>
   </url>
   <url>
@@ -221,12 +221,12 @@
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-best-apex-legends-cheats-review-2026.jpg</image:loc>
       <image:title>Best Apex Legends Cheats Review &amp; Comparison 2026: Features, Safety &amp; Value Open Graph</image:title>
-      <image:caption>2026 Apex Legends cheat comparison - ESP clarity, aimbot tuning, vehicle radar, pricing, and loader maintenance habits.</image:caption>
+      <image:caption>2026 Apex Legends cheat comparison - ESP clarity, aimbot tuning, loot radar, pricing, and loader maintenance habits.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
       <image:title>Best Apex Legends Cheats Review &amp; Comparison 2026: Features, Safety &amp; Value Artwork</image:title>
-      <image:caption>2026 Apex Legends cheat comparison - ESP clarity, aimbot tuning, vehicle radar, pricing, and loader maintenance habits.</image:caption>
+      <image:caption>2026 Apex Legends cheat comparison - ESP clarity, aimbot tuning, loot radar, pricing, and loader maintenance habits.</image:caption>
     </image:image>
   </url>
   <url>
@@ -269,12 +269,12 @@
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-bullet-prediction.jpg</image:loc>
       <image:title>Leading Your Shots: Bullet Prediction Mechanics Explained Open Graph</image:title>
-      <image:caption>Prediction for sprinting targets and vehicle exits in Apex Legends.</image:caption>
+      <image:caption>Prediction for sprinting targets and zipline fights in Apex Legends.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
       <image:title>Leading Your Shots: Bullet Prediction Mechanics Explained Artwork</image:title>
-      <image:caption>Prediction for sprinting targets and vehicle exits in Apex Legends.</image:caption>
+      <image:caption>Prediction for sprinting targets and zipline fights in Apex Legends.</image:caption>
     </image:image>
   </url>
   <url>
@@ -285,12 +285,28 @@
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-buy-apex-legends-cheats-safely.jpg</image:loc>
       <image:title>Where to Buy Apex Legends Cheats Safely: Full Access Options Open Graph</image:title>
-      <image:caption>How to buy Apex Legends cheats with clear pricing, digital delivery, and status labels before you load into a 100-player lobby.</image:caption>
+      <image:caption>How to buy Apex Legends cheats with clear pricing, digital delivery, and status labels before you load into a 60-player lobby.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
       <image:title>Where to Buy Apex Legends Cheats Safely: Full Access Options Artwork</image:title>
-      <image:caption>How to buy Apex Legends cheats with clear pricing, digital delivery, and status labels before you load into a 100-player lobby.</image:caption>
+      <image:caption>How to buy Apex Legends cheats with clear pricing, digital delivery, and status labels before you load into a 60-player lobby.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://apexhacks.org/forums/care-package-tracking</loc>
+    <lastmod>2026-09-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://apexhacks.org/og/forums-care-package-tracking.jpg</image:loc>
+      <image:title>Care Package Tracking: Contest High-Tier Drops Safely Open Graph</image:title>
+      <image:caption>Track care package landings and contest timing across ring rotations.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
+      <image:title>Care Package Tracking: Contest High-Tier Drops Safely Artwork</image:title>
+      <image:caption>Track care package landings and contest timing across ring rotations.</image:caption>
     </image:image>
   </url>
   <url>
@@ -333,12 +349,12 @@
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-config-save-load.jpg</image:loc>
       <image:title>Fast Setup: How to Save and Load Your Custom Config Settings Open Graph</image:title>
-      <image:caption>Config profiles for solo vs trio control-zone nights.</image:caption>
+      <image:caption>Config profiles for solo vs trio ring nights.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
       <image:title>Fast Setup: How to Save and Load Your Custom Config Settings Artwork</image:title>
-      <image:caption>Config profiles for solo vs trio control-zone nights.</image:caption>
+      <image:caption>Config profiles for solo vs trio ring nights.</image:caption>
     </image:image>
   </url>
   <url>
@@ -371,6 +387,22 @@
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
       <image:title>Custom Crosshair Overlays for Hipfire and Precision Shooting Artwork</image:title>
       <image:caption>Custom crosshair when iron sights clutter the screen.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://apexhacks.org/forums/death-box-esp-guide</loc>
+    <lastmod>2026-09-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://apexhacks.org/og/forums-death-box-esp-guide.jpg</image:loc>
+      <image:title>Death Box ESP: Spot Resboxes After Team Fights Open Graph</image:title>
+      <image:caption>Death box ESP tuning - colors, max distance, and when to hide distant boxes during endgame.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
+      <image:title>Death Box ESP: Spot Resboxes After Team Fights Artwork</image:title>
+      <image:caption>Death box ESP tuning - colors, max distance, and when to hide distant boxes during endgame.</image:caption>
     </image:image>
   </url>
   <url>
@@ -493,12 +525,12 @@
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-features-list.jpg</image:loc>
       <image:title>Apex Legends Cheats Features Open Graph</image:title>
-      <image:caption>Full module checklist for Apex Legends cheats on PC - aimbot, player ESP, vehicle overlays, 2D radar, and config tools before you open checkout.</image:caption>
+      <image:caption>Full module checklist for Apex Legends cheats on PC - aimbot, player ESP, loot &amp; supply overlays, 2D radar, and config tools before you open checkout.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-cover.webp</image:loc>
       <image:title>Apex Legends Cheats Features Artwork</image:title>
-      <image:caption>Full module checklist for Apex Legends cheats on PC - aimbot, player ESP, vehicle overlays, 2D radar, and config tools before you open checkout.</image:caption>
+      <image:caption>Full module checklist for Apex Legends cheats on PC - aimbot, player ESP, loot &amp; supply overlays, 2D radar, and config tools before you open checkout.</image:caption>
     </image:image>
   </url>
   <url>
@@ -525,12 +557,12 @@
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-game-patch-status.jpg</image:loc>
       <image:title>Apex Legends Cheats After a Game Patch - What to Do Open Graph</image:title>
-      <image:caption>What Active vs Updating means after Apex Legends patches - and why loading early wastes your control-zone session.</image:caption>
+      <image:caption>What Active vs Updating means after Apex Legends patches - and why loading early wastes your ring session.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-cover.webp</image:loc>
       <image:title>Apex Legends Cheats After a Game Patch - What to Do Artwork</image:title>
-      <image:caption>What Active vs Updating means after Apex Legends patches - and why loading early wastes your control-zone session.</image:caption>
+      <image:caption>What Active vs Updating means after Apex Legends patches - and why loading early wastes your ring session.</image:caption>
     </image:image>
   </url>
   <url>
@@ -557,12 +589,12 @@
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-health-bar-tracking.jpg</image:loc>
       <image:title>Enemy Health Bar Tracking: Prioritize Low-HP Targets Open Graph</image:title>
-      <image:caption>Health bars help focus fire in squad wipes during control-zone cash fights.</image:caption>
+      <image:caption>Health bars help focus fire in squad wipes during endgame fights.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
       <image:title>Enemy Health Bar Tracking: Prioritize Low-HP Targets Artwork</image:title>
-      <image:caption>Health bars help focus fire in squad wipes during control-zone cash fights.</image:caption>
+      <image:caption>Health bars help focus fire in squad wipes during endgame fights.</image:caption>
     </image:image>
   </url>
   <url>
@@ -630,6 +662,54 @@
     </image:image>
   </url>
   <url>
+    <loc>https://apexhacks.org/forums/loot-esp-first</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://apexhacks.org/og/forums-loot-esp-first.jpg</image:loc>
+      <image:title>Loot ESP Settings: What to Enable First Open Graph</image:title>
+      <image:caption>Death box, care package, and tier highlights for Apex Legends - loot faster after kills without guessing.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://apexhacks.org/media/apex-screenshot-8.webp</image:loc>
+      <image:title>Loot ESP Settings: What to Enable First Artwork</image:title>
+      <image:caption>Death box, care package, and tier highlights for Apex Legends - loot faster after kills without guessing.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://apexhacks.org/forums/loot-max-distance</loc>
+    <lastmod>2026-09-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://apexhacks.org/og/forums-loot-max-distance.jpg</image:loc>
+      <image:title>Loot Max Distance: Keep Your HUD Clean Open Graph</image:title>
+      <image:caption>Distance filters for ground loot and death boxes in stacked lobbies.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
+      <image:title>Loot Max Distance: Keep Your HUD Clean Artwork</image:title>
+      <image:caption>Distance filters for ground loot and death boxes in stacked lobbies.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://apexhacks.org/forums/loot-tier-highlights</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://apexhacks.org/og/forums-loot-tier-highlights.jpg</image:loc>
+      <image:title>Loot Tier Highlights: Purple Armor and Attachments Open Graph</image:title>
+      <image:caption>Tier colors distinguish purple armor, gold knockdown shields, and attachment tiers.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
+      <image:title>Loot Tier Highlights: Purple Armor and Attachments Artwork</image:title>
+      <image:caption>Tier colors distinguish purple armor, gold knockdown shields, and attachment tiers.</image:caption>
+    </image:image>
+  </url>
+  <url>
     <loc>https://apexhacks.org/forums/max-distance-filters</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
@@ -637,12 +717,12 @@
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-max-distance-filters.jpg</image:loc>
       <image:title>Optimizing Max Distance Filters to Clean Up Your Screen Open Graph</image:title>
-      <image:caption>Max distance caps for 100-player lobbies without losing close threats.</image:caption>
+      <image:caption>Max distance caps for 60-player lobbies without losing close threats.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
       <image:title>Optimizing Max Distance Filters to Clean Up Your Screen Artwork</image:title>
-      <image:caption>Max distance caps for 100-player lobbies without losing close threats.</image:caption>
+      <image:caption>Max distance caps for 60-player lobbies without losing close threats.</image:caption>
     </image:image>
   </url>
   <url>
@@ -694,22 +774,6 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/occupied-empty-vehicles</loc>
-    <lastmod>2026-09-21</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://apexhacks.org/og/forums-occupied-empty-vehicles.jpg</image:loc>
-      <image:title>Occupied vs Empty Vehicle Indicators: Ambush Prevention Open Graph</image:title>
-      <image:caption>Empty truck bait vs occupied convoy - indicator saves pushes.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
-      <image:title>Occupied vs Empty Vehicle Indicators: Ambush Prevention Artwork</image:title>
-      <image:caption>Empty truck bait vs occupied convoy - indicator saves pushes.</image:caption>
-    </image:image>
-  </url>
-  <url>
     <loc>https://apexhacks.org/forums/oof-arrows-guide</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
@@ -717,12 +781,12 @@
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-oof-arrows-guide.jpg</image:loc>
       <image:title>Out of Field Arrows: Off-Screen Threat Alerts Explained Open Graph</image:title>
-      <image:caption>OOF arrows for sound-only contacts during control-zone rotates.</image:caption>
+      <image:caption>OOF arrows for sound-only contacts during ring rotates.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
       <image:title>Out of Field Arrows: Off-Screen Threat Alerts Explained Artwork</image:title>
-      <image:caption>OOF arrows for sound-only contacts during control-zone rotates.</image:caption>
+      <image:caption>OOF arrows for sound-only contacts during ring rotates.</image:caption>
     </image:image>
   </url>
   <url>
@@ -812,13 +876,45 @@
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-radar-recommended-config.jpg</image:loc>
-      <image:title>2D Radar &amp; Control Zone: Recommended Configurations Open Graph</image:title>
-      <image:caption>2D radar range, player markers, and vehicle markers tuned for Apex Legends control-zone rotations and third-party sound.</image:caption>
+      <image:title>2D Radar &amp; Ring Rotations: Recommended Configurations Open Graph</image:title>
+      <image:caption>2D radar range, player markers, and ring timer overlay tuned for Apex Legends rotations and third-party audio.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
-      <image:title>2D Radar &amp; Control Zone: Recommended Configurations Artwork</image:title>
-      <image:caption>2D radar range, player markers, and vehicle markers tuned for Apex Legends control-zone rotations and third-party sound.</image:caption>
+      <image:title>2D Radar &amp; Ring Rotations: Recommended Configurations Artwork</image:title>
+      <image:caption>2D radar range, player markers, and ring timer overlay tuned for Apex Legends rotations and third-party audio.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://apexhacks.org/forums/ring-timer-radar</loc>
+    <lastmod>2026-09-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://apexhacks.org/og/forums-ring-timer-radar.jpg</image:loc>
+      <image:title>Ring Timer on Radar: Rotate Before the Zone Closes Open Graph</image:title>
+      <image:caption>Ring timer overlay on radar - rotate before third parties catch you looting.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
+      <image:title>Ring Timer on Radar: Rotate Before the Zone Closes Artwork</image:title>
+      <image:caption>Ring timer overlay on radar - rotate before third parties catch you looting.</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://apexhacks.org/forums/shield-helmet-highlight</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://apexhacks.org/og/forums-shield-helmet-highlight.jpg</image:loc>
+      <image:title>Shield and Helmet ESP: Swap Armor Faster Open Graph</image:title>
+      <image:caption>Helmet and shield highlights - spot upgrade swaps without opening every bin.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
+      <image:title>Shield and Helmet ESP: Swap Armor Faster Artwork</image:title>
+      <image:caption>Helmet and shield highlights - spot upgrade swaps without opening every bin.</image:caption>
     </image:image>
   </url>
   <url>
@@ -861,108 +957,12 @@
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-ultimate-apex-legends-cheats-guide.jpg</image:loc>
       <image:title>Ultimate Apex Legends Cheats Guide: Setup &amp; Features Open Graph</image:title>
-      <image:caption>Overview of Apex Legends cheat modules, loader status, and first-night config for control-zone and vehicle fights on PC.</image:caption>
+      <image:caption>Overview of Apex Legends cheat modules, loader status, and first-night config for ranked trios on PC.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
       <image:title>Ultimate Apex Legends Cheats Guide: Setup &amp; Features Artwork</image:title>
-      <image:caption>Overview of Apex Legends cheat modules, loader status, and first-night config for control-zone and vehicle fights on PC.</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://apexhacks.org/forums/vehicle-distance-measure</loc>
-    <lastmod>2026-09-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://apexhacks.org/og/forums-vehicle-distance-measure.jpg</image:loc>
-      <image:title>Measuring Vehicle Distance for Strategic Encounters Open Graph</image:title>
-      <image:caption>Vehicle distance for AT vs small arms decisions.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
-      <image:title>Measuring Vehicle Distance for Strategic Encounters Artwork</image:title>
-      <image:caption>Vehicle distance for AT vs small arms decisions.</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://apexhacks.org/forums/vehicle-esp-first</loc>
-    <lastmod>2026-09-16</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://apexhacks.org/og/forums-vehicle-esp-first.jpg</image:loc>
-      <image:title>Vehicle ESP Settings: What to Enable First Open Graph</image:title>
-      <image:caption>Vehicle ESP type, distance, and occupied/empty indicators for Apex Legends - spot transports before you cross open ground.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://apexhacks.org/media/apex-screenshot-8.webp</image:loc>
-      <image:title>Vehicle ESP Settings: What to Enable First Artwork</image:title>
-      <image:caption>Vehicle ESP type, distance, and occupied/empty indicators for Apex Legends - spot transports before you cross open ground.</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://apexhacks.org/forums/vehicle-esp-tracking</loc>
-    <lastmod>2026-09-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://apexhacks.org/og/forums-vehicle-esp-tracking.jpg</image:loc>
-      <image:title>Full Vehicle ESP Tracking: Map Mobility Control Guide Open Graph</image:title>
-      <image:caption>Track trucks and transports across control-zone rotations.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
-      <image:title>Full Vehicle ESP Tracking: Map Mobility Control Guide Artwork</image:title>
-      <image:caption>Track trucks and transports across control-zone rotations.</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://apexhacks.org/forums/vehicle-markers-radar</loc>
-    <lastmod>2026-09-15</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://apexhacks.org/og/forums-vehicle-markers-radar.jpg</image:loc>
-      <image:title>Vehicle Radar Markers: High-Speed Threat Detection Open Graph</image:title>
-      <image:caption>Fast blips on radar for road pushes and flanking trucks.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
-      <image:title>Vehicle Radar Markers: High-Speed Threat Detection Artwork</image:title>
-      <image:caption>Fast blips on radar for road pushes and flanking trucks.</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://apexhacks.org/forums/vehicle-type-identification</loc>
-    <lastmod>2026-09-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://apexhacks.org/og/forums-vehicle-type-identification.jpg</image:loc>
-      <image:title>Vehicle Type Identification Overlays: Heavy Armor vs Transport Open Graph</image:title>
-      <image:caption>Type labels distinguish fast transports from heavier platforms.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
-      <image:title>Vehicle Type Identification Overlays: Heavy Armor vs Transport Artwork</image:title>
-      <image:caption>Type labels distinguish fast transports from heavier platforms.</image:caption>
-    </image:image>
-  </url>
-  <url>
-    <loc>https://apexhacks.org/forums/vehicle-visuals-setup</loc>
-    <lastmod>2026-09-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <image:image>
-      <image:loc>https://apexhacks.org/og/forums-vehicle-visuals-setup.jpg</image:loc>
-      <image:title>Vehicle Visuals Setup: Locating All In-Game Transport Open Graph</image:title>
-      <image:caption>Map-wide vehicle overlay tuning - silhouette colors, convoy spacing, and when to hide distant blips on road-heavy maps.</image:caption>
-    </image:image>
-    <image:image>
-      <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
-      <image:title>Vehicle Visuals Setup: Locating All In-Game Transport Artwork</image:title>
-      <image:caption>Map-wide vehicle overlay tuning - silhouette colors, convoy spacing, and when to hide distant blips on road-heavy maps.</image:caption>
+      <image:caption>Overview of Apex Legends cheat modules, loader status, and first-night config for ranked trios on PC.</image:caption>
     </image:image>
   </url>
   <url>
@@ -989,12 +989,12 @@
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-visible-check-guide.jpg</image:loc>
       <image:title>Preventing Wall Tracking: Why Visible Check Is Essential Open Graph</image:title>
-      <image:caption>Visible check stops locks through metal walls - use it in urban control zones.</image:caption>
+      <image:caption>Visible check stops locks through metal walls - use it in urban rings.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
       <image:title>Preventing Wall Tracking: Why Visible Check Is Essential Artwork</image:title>
-      <image:caption>Visible check stops locks through metal walls - use it in urban control zones.</image:caption>
+      <image:caption>Visible check stops locks through metal walls - use it in urban rings.</image:caption>
     </image:image>
   </url>
   <url>

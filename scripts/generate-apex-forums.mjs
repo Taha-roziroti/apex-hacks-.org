@@ -17,13 +17,13 @@ const POSTS = [
     intentTerms: ['Apex Legends cheat features', 'Apex Legends tools', 'Apex Legends features', 'Apex Legends cheats'],
     kw: 'apex legends cheats, apex legends cheat',
     excerpt:
-      'Full module checklist for Apex Legends cheats on PC — aimbot, player ESP, vehicle overlays, 2D radar, and config tools before you open checkout.',
+      'Full module checklist for Apex Legends cheats on PC — aimbot, player ESP, loot & supply overlays, 2D radar, and config tools before you open checkout.',
     sections: [
       {
         heading: 'What the menu includes',
         body: [
-          `This thread mirrors the live module list on ${HOST}. Use it to compare aimbot, ESP, vehicle, radar, and misc toggles against what you need in control-zone fights.`,
-          'Apex Legends runs large lobbies with vehicles and three-team pressure — the feature set focuses on player awareness, transport intel, and optional combat assist rather than loot simulators.',
+          `This thread mirrors the live module list on ${HOST}. Use it to compare aimbot, ESP, loot radar, and misc toggles against what you need in ring fights.`,
+          'Apex Legends trios and ranked lobbies reward fast looting and third-party timing — the module list focuses on player ESP, care package intel, death box highlights, and optional combat assist.',
         ],
       },
       {
@@ -31,7 +31,7 @@ const POSTS = [
         body: [
           'Aimbot options cover enable, FOV, smooth, bone selection, visible check, prediction, draw FOV, and draw target line.',
           'Player visuals include box, skeleton, head circle, health bar, distance, name, team/squad, weapon, view direction, OOF arrows, and max distance.',
-          'Vehicle visuals, 2D radar markers, and misc no recoil / no spread / full bright / custom crosshair / config save-load round out the stack.',
+          'Loot & world ESP, 2D radar markers, and misc no recoil / no spread / full bright / custom crosshair / config save-load round out the stack.',
         ],
       },
     ],
@@ -75,12 +75,12 @@ const POSTS = [
     howTo: true,
     kw: 'apex legends aimbot, buy apex legends aimbot, apex legends aimbot lifetime',
     excerpt:
-      'Tune Apex Legends aimbot FOV, smooth, and visible check so tracking helps in control-zone fights without obvious kill-cam clips.',
+      'Tune Apex Legends aimbot FOV, smooth, and visible check so tracking helps in ring fights without obvious kill-cam clips.',
     sections: [
       {
         heading: 'Start conservative',
         body: [
-          'Wide FOV and zero smooth get reported fast — players review deaths in a 100-player lobby. Start small FOV, higher smooth, body bones first.',
+          'Wide FOV and zero smooth get reported fast — players review deaths in a 60-player lobby. Start small FOV, higher smooth, body bones first.',
           'Visible check stops tracking through solid cover; keep it on unless you accept more reports.',
         ],
       },
@@ -100,44 +100,44 @@ const POSTS = [
         heading: 'Recommended first toggles',
         body: [
           'Enable box, distance, and name. Add weapon ESP when you rotate solo — DMR vs SMG changes peek timing at 40m.',
-          'Cap max distance around 150–200m so tags stay readable during control-zone pushes.',
+          'Cap max distance around 150–200m so tags stay readable during ring pushes.',
         ],
       },
     ],
   },
   {
-    slug: 'vehicle-esp-first',
-    title: 'Vehicle ESP Settings: What to Enable First',
-    tag: 'Vehicles',
+    slug: 'loot-esp-first',
+    title: 'Loot ESP Settings: What to Enable First',
+    tag: 'Loot ESP',
     intent: 'informative',
     howTo: true,
     kw: 'apex legends esp',
     excerpt:
-      'Vehicle ESP type, distance, and occupied/empty indicators for Apex Legends — spot transports before you cross open ground.',
+      'Death box, care package, and tier highlights for Apex Legends — loot faster after kills without guessing.',
     sections: [
       {
         heading: 'Priority toggles',
         body: [
-          'Turn on vehicle ESP with type labels and occupied/empty state. Distance under 300m keeps the overlay clean.',
-          'Pair with 2D radar vehicle markers when your squad splits — one player on foot still sees convoy movement.',
+          'Enable death box ESP and care package markers first. Cap ground-loot distance around 80m so your HUD stays readable in endgame.',
+          'Pair with squad markers on 2D radar when your team splits — one player can still see package pulls on the minimap.',
         ],
       },
     ],
   },
   {
     slug: 'radar-recommended-config',
-    title: '2D Radar & Control Zone: Recommended Configurations',
+    title: '2D Radar & Ring Rotations: Recommended Configurations',
     tag: 'Radar',
     intent: 'informative',
     howTo: true,
     kw: 'apex legends esp',
     excerpt:
-      '2D radar range, player markers, and vehicle markers tuned for Apex Legends control-zone rotations and third-party sound.',
+      '2D radar range, player markers, and ring timer overlay tuned for Apex Legends rotations and third-party audio.',
     sections: [
       {
         heading: 'Radar defaults',
         body: [
-          'Start radar range medium — too wide floods the minimap in dense fights. Player markers on, vehicle markers on for hill rotations.',
+          'Start radar range medium — too wide floods the minimap in dense fights. Player markers on; tighten range when the ring closes.',
           'Drop range when pushing buildings so arrows match audible footsteps.',
         ],
       },
@@ -167,7 +167,7 @@ const POSTS = [
     intent: 'informative',
     kw: 'apex legends cheats, apex legends anti-cheat',
     excerpt:
-      'What Active vs Updating means after Apex Legends patches — and why loading early wastes your control-zone session.',
+      'What Active vs Updating means after Apex Legends patches — and why loading early wastes your ring session.',
     sections: [
       {
         heading: 'Status labels',
@@ -184,12 +184,12 @@ const POSTS = [
     intent: 'commercial',
     kw: 'apex legends cheats, apex legends esp, apex legends aimbot, apex legends anti-cheat',
     excerpt:
-      'Overview of Apex Legends cheat modules, loader status, and first-night config for control-zone and vehicle fights on PC.',
+      'Overview of Apex Legends cheat modules, loader status, and first-night config for ranked trios on PC.',
     sections: [
       {
         heading: 'Feature map',
         body: [
-          'Aimbot, player ESP, vehicle ESP, 2D radar, and misc weapon helpers — match toggles to how your trio rotates hills and roads.',
+          'Aimbot, player ESP, loot & supply ESP, 2D radar, and misc weapon helpers — match toggles to how your trio rotates zones.',
         ],
       },
     ],
@@ -201,7 +201,7 @@ const POSTS = [
     intent: 'transactional',
     kw: 'buy apex legends cheats, buy apex legends cheat, buy apex legends esp, buy apex legends aimbot',
     excerpt:
-      'How to buy Apex Legends cheats with clear pricing, digital delivery, and status labels before you load into a 100-player lobby.',
+      'How to buy Apex Legends cheats with clear pricing, digital delivery, and status labels before you load into a 60-player lobby.',
     sections: [
       {
         heading: 'Before checkout',
@@ -218,7 +218,7 @@ const POSTS = [
     intent: 'transactional',
     kw: 'apex legends cheats lifetime, apex legends cheat lifetime, apex legends aimbot lifetime, apex legends esp lifetime',
     excerpt:
-      'Lifetime vs monthly Apex Legends cheat access — when permanent makes sense for regular control-zone players.',
+      'Lifetime vs monthly Apex Legends cheat access — when permanent makes sense for regular ring players.',
     sections: [
       {
         heading: 'Who lifetime fits',
@@ -252,7 +252,7 @@ const POSTS = [
     intent: 'commercial',
     kw: 'apex legends cheats, buy apex legends cheats, apex legends cheats lifetime',
     excerpt:
-      '2026 Apex Legends cheat comparison — ESP clarity, aimbot tuning, vehicle radar, pricing, and loader maintenance habits.',
+      '2026 Apex Legends cheat comparison — ESP clarity, aimbot tuning, loot radar, pricing, and loader maintenance habits.',
     sections: [
       {
         heading: 'What we compared',
@@ -286,7 +286,7 @@ const POSTS = [
     intent: 'informative',
     kw: 'apex legends aimbot',
     excerpt: 'Deep dive on Apex Legends aimbot enable, FOV, smooth, bones, visible check, and prediction.',
-    sections: [{ heading: 'Core toggles', body: ['Work FOV down before touching prediction — leading targets matters most on moving vehicles.'] }],
+    sections: [{ heading: 'Core toggles', body: ['Work FOV down before touching prediction — leading targets matters most on sliding and zipline fights.'] }],
   },
   {
     slug: 'enable-aimbot-safely',
@@ -326,7 +326,7 @@ const POSTS = [
     title: 'Preventing Wall Tracking: Why Visible Check Is Essential',
     tag: 'Aimbot',
     intent: 'informative',
-    excerpt: 'Visible check stops locks through metal walls — use it in urban control zones.',
+    excerpt: 'Visible check stops locks through metal walls — use it in urban rings.',
     sections: [{ heading: 'Visible check', body: ['Without it, kill cams show pre-fire through cover — reports stack fast.'] }],
   },
   {
@@ -334,7 +334,7 @@ const POSTS = [
     title: 'Leading Your Shots: Bullet Prediction Mechanics Explained',
     tag: 'Aimbot',
     intent: 'informative',
-    excerpt: 'Prediction for sprinting targets and vehicle exits in Apex Legends.',
+    excerpt: 'Prediction for sprinting targets and zipline fights in Apex Legends.',
     sections: [{ heading: 'Prediction', body: ['Tune after FOV/smooth — prediction magnifies mistakes if base aim is too aggressive.'] }],
   },
   {
@@ -393,7 +393,7 @@ const POSTS = [
     title: 'Enemy Health Bar Tracking: Prioritize Low-HP Targets',
     tag: 'ESP',
     intent: 'informative',
-    excerpt: 'Health bars help focus fire in squad wipes during control-zone cash fights.',
+    excerpt: 'Health bars help focus fire in squad wipes during endgame fights.',
     sections: [{ heading: 'Health bars', body: ['Vertical bars beside boxes — disable on max distance tags to save clutter.'] }],
   },
   {
@@ -441,7 +441,7 @@ const POSTS = [
     title: 'Out of Field Arrows: Off-Screen Threat Alerts Explained',
     tag: 'ESP',
     intent: 'informative',
-    excerpt: 'OOF arrows for sound-only contacts during control-zone rotates.',
+    excerpt: 'OOF arrows for sound-only contacts during ring rotates.',
     sections: [{ heading: 'OOF arrows', body: ['Combine with radar — arrow color matches threat bearing.'] }],
   },
   {
@@ -449,59 +449,59 @@ const POSTS = [
     title: 'Optimizing Max Distance Filters to Clean Up Your Screen',
     tag: 'ESP',
     intent: 'informative',
-    excerpt: 'Max distance caps for 100-player lobbies without losing close threats.',
+    excerpt: 'Max distance caps for 60-player lobbies without losing close threats.',
     sections: [{ heading: 'Max distance', body: ['150m baseline; drop to 100m in final circle style fights.'] }],
   },
   {
-    slug: 'vehicle-visuals-setup',
-    title: 'Vehicle Visuals Setup: Locating All In-Game Transport',
-    tag: 'Vehicles',
+    slug: 'death-box-esp-guide',
+    title: 'Death Box ESP: Spot Resboxes After Team Fights',
+    tag: 'Loot ESP',
     intent: 'informative',
     kw: 'apex legends esp',
     excerpt:
-      'Map-wide vehicle overlay tuning — silhouette colors, convoy spacing, and when to hide distant blips on road-heavy maps.',
+      'Death box ESP tuning — colors, max distance, and when to hide distant boxes during endgame.',
     sections: [
       {
-        heading: 'Map-wide vehicle overlays',
+        heading: 'Death box overlays',
         body: [
-          'Color-code transports vs heavier platforms before you touch occupied/empty — silhouette recognition beats toggling everything at once.',
-          'On road-heavy rotations, hide vehicles beyond 350m so your HUD stays readable while your squad holds a hill.',
+          'Use a distinct color for death boxes vs care packages so you do not third-party the wrong fight.',
+          'Past ring 4, drop death box distance to ~60m so only nearby swaps show during chaos.',
         ],
       },
     ],
   },
   {
-    slug: 'vehicle-esp-tracking',
-    title: 'Full Vehicle ESP Tracking: Map Mobility Control Guide',
-    tag: 'Vehicles',
+    slug: 'care-package-tracking',
+    title: 'Care Package Tracking: Contest High-Tier Drops Safely',
+    tag: 'Loot ESP',
     intent: 'informative',
     kw: 'apex legends esp',
-    excerpt: 'Track trucks and transports across control-zone rotations.',
-    sections: [{ heading: 'Tracking', body: ['Mark vehicles on radar and ESP — dual cue prevents surprise road pushes.'] }],
+    excerpt: 'Track care package landings and contest timing across ring rotations.',
+    sections: [{ heading: 'Tracking', body: ['Mark packages on radar and ESP — dual cue prevents walking into a full squad on armor.'] }],
   },
   {
-    slug: 'vehicle-type-identification',
-    title: 'Vehicle Type Identification Overlays: Heavy Armor vs Transport',
-    tag: 'Vehicles',
+    slug: 'loot-tier-highlights',
+    title: 'Loot Tier Highlights: Purple Armor and Attachments',
+    tag: 'Loot ESP',
     intent: 'informative',
-    excerpt: 'Type labels distinguish fast transports from heavier platforms.',
-    sections: [{ heading: 'Types', body: ['Do not mag-dump light vehicles — type tag saves ammo for player tags inside.'] }],
+    excerpt: 'Tier colors distinguish purple armor, gold knockdown shields, and attachment tiers.',
+    sections: [{ heading: 'Types', body: ['Do not sprint blindly on purple tags — confirm with player ESP before you commit.'] }],
   },
   {
-    slug: 'vehicle-distance-measure',
-    title: 'Measuring Vehicle Distance for Strategic Encounters',
-    tag: 'Vehicles',
+    slug: 'loot-max-distance',
+    title: 'Loot Max Distance: Keep Your HUD Clean',
+    tag: 'Loot ESP',
     intent: 'informative',
-    excerpt: 'Vehicle distance for AT vs small arms decisions.',
-    sections: [{ heading: 'Distance', body: ['Hide vehicles beyond 400m if you only care about immediate road threats.'] }],
+    excerpt: 'Distance filters for ground loot and death boxes in stacked lobbies.',
+    sections: [{ heading: 'Distance', body: ['Hide ground loot beyond 50m in final rings if you only care about immediate swaps.'] }],
   },
   {
-    slug: 'occupied-empty-vehicles',
-    title: 'Occupied vs Empty Vehicle Indicators: Ambush Prevention',
-    tag: 'Vehicles',
+    slug: 'shield-helmet-highlight',
+    title: 'Shield and Helmet ESP: Swap Armor Faster',
+    tag: 'Loot ESP',
     intent: 'informative',
-    excerpt: 'Empty truck bait vs occupied convoy — indicator saves pushes.',
-    sections: [{ heading: 'Occupied state', body: ['Slow peek empty markers — players hide beside hull.'] }],
+    excerpt: 'Helmet and shield highlights — spot upgrade swaps without opening every bin.',
+    sections: [{ heading: 'Armor highlights', body: ['Slow peek care packages — teams often hold nearby cover.'] }],
   },
   {
     slug: 'radar-options-guide',
@@ -509,7 +509,7 @@ const POSTS = [
     tag: 'Radar',
     intent: 'informative',
     excerpt: 'Radar module overview for Apex Legends minimap power users.',
-    sections: [{ heading: 'Radar options', body: ['Player + vehicle markers together — toggle one off in final fights.'] }],
+    sections: [{ heading: 'Radar options', body: ['Player markers plus ring timer — toggle loot ESP off in final 1v1s if the HUD feels busy.'] }],
   },
   {
     slug: 'custom-2d-radar-hud',
@@ -517,7 +517,7 @@ const POSTS = [
     tag: 'Radar',
     intent: 'informative',
     excerpt: 'Radar size and corner placement on ultrawide vs 1080p.',
-    sections: [{ heading: 'HUD placement', body: ['Bottom-left stack above native minimap — avoid covering cash UI.'] }],
+    sections: [{ heading: 'HUD placement', body: ['Bottom-left stack above native minimap — avoid covering ring countdown UI.'] }],
   },
   {
     slug: 'player-markers-radar',
@@ -525,15 +525,15 @@ const POSTS = [
     tag: 'Radar',
     intent: 'informative',
     excerpt: 'Read rotation arcs on 2D radar before third party sound.',
-    sections: [{ heading: 'Player markers', body: ['Watch marker velocity — sprinting tags toward control zone = rotate early.'] }],
+    sections: [{ heading: 'Player markers', body: ['Watch marker velocity — sprinting tags toward ring = rotate early.'] }],
   },
   {
-    slug: 'vehicle-markers-radar',
-    title: 'Vehicle Radar Markers: High-Speed Threat Detection',
+    slug: 'ring-timer-radar',
+    title: 'Ring Timer on Radar: Rotate Before the Zone Closes',
     tag: 'Radar',
     intent: 'informative',
-    excerpt: 'Fast blips on radar for road pushes and flanking trucks.',
-    sections: [{ heading: 'Vehicle markers', body: ['Pair with occupied ESP — empty blip still might have infantry nearby.'] }],
+    excerpt: 'Ring timer overlay on radar — rotate before third parties catch you looting.',
+    sections: [{ heading: 'Ring timer', body: ['Pair with player ESP — a quiet package lane can still have teams holding ridge.'] }],
   },
   {
     slug: 'radar-range-calibration',
@@ -588,8 +588,8 @@ const POSTS = [
     title: 'Fast Setup: How to Save and Load Your Custom Config Settings',
     tag: 'Misc',
     intent: 'informative',
-    excerpt: 'Config profiles for solo vs trio control-zone nights.',
-    sections: [{ heading: 'Configs', body: ['Save "esp-only", "vehicles", and "full assist" — load before queue.'] }],
+    excerpt: 'Config profiles for solo vs trio ring nights.',
+    sections: [{ heading: 'Configs', body: ['Save "esp-only", "loot", and "full assist" — load before queue.'] }],
   },
   {
     slug: 'windows-setup',
@@ -644,26 +644,26 @@ const AUTHORS = [
   'softpeek',
   'ViktorNorth',
   'ghostloot',
-  'PMC_walker',
+  'loot_lurker',
   'duo_six',
-  'LenaWD',
+  'LenaAL',
   'impatient_one',
-  'patch_day_survivor',
+  'patch_day_legend',
   'filterking',
-  'twitch_wd',
-  'solo_q_wd',
+  'twitch_apex',
+  'solo_q_al',
   'MoneyKing',
   'irritated_panda',
   'capslock_warrior',
-  'newbie_wd',
+  'newbie_al',
   'IT_guy_gaming',
   'defender_hater',
 ]
 
 const HAPPY = [
-  'Followed this thread before cranking every toggle — first control zone night actually went smooth.',
+  'Followed this thread before cranking every toggle — first ranked night actually went smooth.',
   'Visible check + low FOV like you said. Nobody typed a word in post-match chat.',
-  'Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything.',
+  'Care package ESP saved us from walking into a full squad on a purple armor swap.',
   'Saved config after first run — second login was two clicks. Wish I did that day one.',
   'Status page said Active, loader matched, ESP came up first try on Win11.',
   'Radar range tip fixed my cluttered minimap. Trios rotate cleaner now.',
@@ -674,7 +674,7 @@ const UNHAPPY = [
   'Expected magic — still died to a sound flank. ESP does not replace headphones.',
   'Skipped antivirus step, menu never opened. My fault but frustrating hour wasted.',
   'Wide FOV got me roasted in squad Discord kill cam. Dialed back per guide.',
-  'Thought vehicle ESP would show loot inside — it does not, just the truck.',
+  'Thought loot ESP would auto-open death boxes — it only highlights them in world space.',
   'Forced loader while Updating — instant kick. Read status next time lol.',
   'Skeleton on max brightness looks ridiculous on stream. Muted colors helped.',
   'Prices on lifetime vs monthly confused me until support replied — doc could be clearer.',
@@ -783,8 +783,8 @@ function modSolutionTemplates(author) {
       text: `@${author} — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the aimbot section in this thread has sane starting numbers.`,
     },
     {
-      test: /vehicle ESP would show loot|just the truck/i,
-      text: `@${author} — vehicle ESP shows transports and occupied state, not crate loot inside. Use player ESP and radar for pushes; treat empty vehicle markers as bait until you line-of-sight the hull.`,
+      test: /loot ESP would auto-open|death boxes/i,
+      text: `@${author} — loot ESP highlights death boxes, care packages, and tiered ground loot; it does not open containers for you. Pair with player ESP before you commit to a third party.`,
     },
     {
       test: /sound flank|headphones/i,
@@ -819,8 +819,8 @@ function modSolutionTemplates(author) {
       text: `@${author} — Active on the site plus a clean inject path is the baseline. If anything breaks after a game update, recheck status before you change ESP toggles.`,
     },
     {
-      test: /Vehicle occupied|bait truck/i,
-      text: `@${author} — occupied/empty flags are hints, not guarantees. Slow peek or have a teammate hard cover before you commit to a truck push.`,
+      test: /Care package|bait push|purple armor/i,
+      text: `@${author} — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap.`,
     },
     {
       test: /Monthly sub updates|patch Tuesday/i,

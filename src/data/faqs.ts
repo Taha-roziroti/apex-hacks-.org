@@ -31,7 +31,7 @@ export const PRODUCT_PAGE_FAQS: FaqItem[] = [
   ...HOME_FAQS,
   {
     q: 'Which features are included?',
-    a: 'Aimbot options (FOV, smooth, bone selection, visible check, prediction, draw overlays), player visual options, vehicle ESP, 2D radar, and misc no recoil / no spread / full bright / crosshair / configs — Apex Legends on Windows PC. See the features checklist forum for the full list.',
+    a: 'Aimbot options (FOV, smooth, bone selection, visible check, prediction, draw overlays), player visual options, loot & world ESP, 2D radar, and misc no recoil / no spread / full bright / crosshair / configs — Apex Legends on Windows PC. See the features checklist forum for the full list.',
   },
   {
     q: 'Do Apex Legends cheats work on Steam?',
@@ -51,7 +51,7 @@ export const PRODUCT_PAGE_FAQS: FaqItem[] = [
   },
   {
     q: 'Where can I read reviews?',
-    a: 'Visit the Reviews page for buyer feedback on ESP, aimbot, vehicle radar, and loader updates.',
+    a: 'Visit the Reviews page for buyer feedback on ESP, aimbot, loot radar, and loader updates.',
   },
   {
     q: 'Is this the official Apex Legends site?',

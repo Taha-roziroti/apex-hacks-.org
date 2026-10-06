@@ -81,7 +81,7 @@ export const SEO = {
   forums: {
     title: 'Apex Legends Cheats Forum | Community Discussions',
     description:
-      'Community guides and discussions for Apex Legends cheats — setup, ESP, aimbot tuning, vehicle radar, loader help, and patch-day checklists.',
+      'Community guides and discussions for Apex Legends cheats — setup, ESP, aimbot tuning, loot radar, loader help, and patch-day checklists.',
     path: '/forums',
     ogType: 'website',
     image: PAGE_OG.forums,
@@ -91,7 +91,7 @@ export const SEO = {
   reviews: {
     title: 'Apex Legends Cheats Reviews | Player Feedback',
     description:
-      'Player feedback on Apex Legends cheats — ESP clarity, aimbot smoothing, vehicle radar, and loader updates after game patches.',
+      'Player feedback on Apex Legends cheats — ESP clarity, aimbot smoothing, loot radar, and loader updates after game patches.',
     path: '/reviews',
     ogType: 'website',
     image: PAGE_OG.reviews,

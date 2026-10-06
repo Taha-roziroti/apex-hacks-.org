@@ -10,7 +10,7 @@ export const FORUM_INDEX: ForumIndexEntry[] = [
   {
     "slug": "features-list",
     "title": "Apex Legends Cheats Features",
-    "excerpt": "Full module checklist for Apex Legends cheats on PC — aimbot, player ESP, vehicle overlays, 2D radar, and config tools before you open checkout.",
+    "excerpt": "Full module checklist for Apex Legends cheats on PC — aimbot, player ESP, loot & supply overlays, 2D radar, and config tools before you open checkout.",
     "tag": "Features"
   },
   {
@@ -22,7 +22,7 @@ export const FORUM_INDEX: ForumIndexEntry[] = [
   {
     "slug": "aimbot-settings",
     "title": "Aimbot Settings: What Level & Why Won’t I Get Banned?",
-    "excerpt": "Tune Apex Legends aimbot FOV, smooth, and visible check so tracking helps in control-zone fights without obvious kill-cam clips.",
+    "excerpt": "Tune Apex Legends aimbot FOV, smooth, and visible check so tracking helps in ring fights without obvious kill-cam clips.",
     "tag": "Aimbot"
   },
   {
@@ -32,15 +32,15 @@ export const FORUM_INDEX: ForumIndexEntry[] = [
     "tag": "ESP"
   },
   {
-    "slug": "vehicle-esp-first",
-    "title": "Vehicle ESP Settings: What to Enable First",
-    "excerpt": "Vehicle ESP type, distance, and occupied/empty indicators for Apex Legends — spot transports before you cross open ground.",
-    "tag": "Vehicles"
+    "slug": "loot-esp-first",
+    "title": "Loot ESP Settings: What to Enable First",
+    "excerpt": "Death box, care package, and tier highlights for Apex Legends — loot faster after kills without guessing.",
+    "tag": "Loot ESP"
   },
   {
     "slug": "radar-recommended-config",
-    "title": "2D Radar & Control Zone: Recommended Configurations",
-    "excerpt": "2D radar range, player markers, and vehicle markers tuned for Apex Legends control-zone rotations and third-party sound.",
+    "title": "2D Radar & Ring Rotations: Recommended Configurations",
+    "excerpt": "2D radar range, player markers, and ring timer overlay tuned for Apex Legends rotations and third-party audio.",
     "tag": "Radar"
   },
   {
@@ -52,25 +52,25 @@ export const FORUM_INDEX: ForumIndexEntry[] = [
   {
     "slug": "game-patch-status",
     "title": "Apex Legends Cheats After a Game Patch — What to Do",
-    "excerpt": "What Active vs Updating means after Apex Legends patches — and why loading early wastes your control-zone session.",
+    "excerpt": "What Active vs Updating means after Apex Legends patches — and why loading early wastes your ring session.",
     "tag": "Status"
   },
   {
     "slug": "ultimate-apex-legends-cheats-guide",
     "title": "Ultimate Apex Legends Cheats Guide: Setup & Features",
-    "excerpt": "Overview of Apex Legends cheat modules, loader status, and first-night config for control-zone and vehicle fights on PC.",
+    "excerpt": "Overview of Apex Legends cheat modules, loader status, and first-night config for ranked trios on PC.",
     "tag": "Guide"
   },
   {
     "slug": "buy-apex-legends-cheats-safely",
     "title": "Where to Buy Apex Legends Cheats Safely: Full Access Options",
-    "excerpt": "How to buy Apex Legends cheats with clear pricing, digital delivery, and status labels before you load into a 100-player lobby.",
+    "excerpt": "How to buy Apex Legends cheats with clear pricing, digital delivery, and status labels before you load into a 60-player lobby.",
     "tag": "Buying"
   },
   {
     "slug": "apex-legends-cheats-lifetime",
     "title": "Apex Legends Cheats Lifetime License: Is Permanent Access Worth It?",
-    "excerpt": "Lifetime vs monthly Apex Legends cheat access — when permanent makes sense for regular control-zone players.",
+    "excerpt": "Lifetime vs monthly Apex Legends cheat access — when permanent makes sense for regular ring players.",
     "tag": "Pricing"
   },
   {
@@ -82,7 +82,7 @@ export const FORUM_INDEX: ForumIndexEntry[] = [
   {
     "slug": "best-apex-legends-cheats-review-2026",
     "title": "Best Apex Legends Cheats Review & Comparison 2026: Features, Safety & Value",
-    "excerpt": "2026 Apex Legends cheat comparison — ESP clarity, aimbot tuning, vehicle radar, pricing, and loader maintenance habits.",
+    "excerpt": "2026 Apex Legends cheat comparison — ESP clarity, aimbot tuning, loot radar, pricing, and loader maintenance habits.",
     "tag": "Review"
   },
   {
@@ -124,13 +124,13 @@ export const FORUM_INDEX: ForumIndexEntry[] = [
   {
     "slug": "visible-check-guide",
     "title": "Preventing Wall Tracking: Why Visible Check Is Essential",
-    "excerpt": "Visible check stops locks through metal walls — use it in urban control zones.",
+    "excerpt": "Visible check stops locks through metal walls — use it in urban rings.",
     "tag": "Aimbot"
   },
   {
     "slug": "bullet-prediction",
     "title": "Leading Your Shots: Bullet Prediction Mechanics Explained",
-    "excerpt": "Prediction for sprinting targets and vehicle exits in Apex Legends.",
+    "excerpt": "Prediction for sprinting targets and zipline fights in Apex Legends.",
     "tag": "Aimbot"
   },
   {
@@ -172,7 +172,7 @@ export const FORUM_INDEX: ForumIndexEntry[] = [
   {
     "slug": "health-bar-tracking",
     "title": "Enemy Health Bar Tracking: Prioritize Low-HP Targets",
-    "excerpt": "Health bars help focus fire in squad wipes during control-zone cash fights.",
+    "excerpt": "Health bars help focus fire in squad wipes during endgame fights.",
     "tag": "ESP"
   },
   {
@@ -208,44 +208,44 @@ export const FORUM_INDEX: ForumIndexEntry[] = [
   {
     "slug": "oof-arrows-guide",
     "title": "Out of Field Arrows: Off-Screen Threat Alerts Explained",
-    "excerpt": "OOF arrows for sound-only contacts during control-zone rotates.",
+    "excerpt": "OOF arrows for sound-only contacts during ring rotates.",
     "tag": "ESP"
   },
   {
     "slug": "max-distance-filters",
     "title": "Optimizing Max Distance Filters to Clean Up Your Screen",
-    "excerpt": "Max distance caps for 100-player lobbies without losing close threats.",
+    "excerpt": "Max distance caps for 60-player lobbies without losing close threats.",
     "tag": "ESP"
   },
   {
-    "slug": "vehicle-visuals-setup",
-    "title": "Vehicle Visuals Setup: Locating All In-Game Transport",
-    "excerpt": "Map-wide vehicle overlay tuning — silhouette colors, convoy spacing, and when to hide distant blips on road-heavy maps.",
-    "tag": "Vehicles"
+    "slug": "death-box-esp-guide",
+    "title": "Death Box ESP: Spot Resboxes After Team Fights",
+    "excerpt": "Death box ESP tuning — colors, max distance, and when to hide distant boxes during endgame.",
+    "tag": "Loot ESP"
   },
   {
-    "slug": "vehicle-esp-tracking",
-    "title": "Full Vehicle ESP Tracking: Map Mobility Control Guide",
-    "excerpt": "Track trucks and transports across control-zone rotations.",
-    "tag": "Vehicles"
+    "slug": "care-package-tracking",
+    "title": "Care Package Tracking: Contest High-Tier Drops Safely",
+    "excerpt": "Track care package landings and contest timing across ring rotations.",
+    "tag": "Loot ESP"
   },
   {
-    "slug": "vehicle-type-identification",
-    "title": "Vehicle Type Identification Overlays: Heavy Armor vs Transport",
-    "excerpt": "Type labels distinguish fast transports from heavier platforms.",
-    "tag": "Vehicles"
+    "slug": "loot-tier-highlights",
+    "title": "Loot Tier Highlights: Purple Armor and Attachments",
+    "excerpt": "Tier colors distinguish purple armor, gold knockdown shields, and attachment tiers.",
+    "tag": "Loot ESP"
   },
   {
-    "slug": "vehicle-distance-measure",
-    "title": "Measuring Vehicle Distance for Strategic Encounters",
-    "excerpt": "Vehicle distance for AT vs small arms decisions.",
-    "tag": "Vehicles"
+    "slug": "loot-max-distance",
+    "title": "Loot Max Distance: Keep Your HUD Clean",
+    "excerpt": "Distance filters for ground loot and death boxes in stacked lobbies.",
+    "tag": "Loot ESP"
   },
   {
-    "slug": "occupied-empty-vehicles",
-    "title": "Occupied vs Empty Vehicle Indicators: Ambush Prevention",
-    "excerpt": "Empty truck bait vs occupied convoy — indicator saves pushes.",
-    "tag": "Vehicles"
+    "slug": "shield-helmet-highlight",
+    "title": "Shield and Helmet ESP: Swap Armor Faster",
+    "excerpt": "Helmet and shield highlights — spot upgrade swaps without opening every bin.",
+    "tag": "Loot ESP"
   },
   {
     "slug": "radar-options-guide",
@@ -266,9 +266,9 @@ export const FORUM_INDEX: ForumIndexEntry[] = [
     "tag": "Radar"
   },
   {
-    "slug": "vehicle-markers-radar",
-    "title": "Vehicle Radar Markers: High-Speed Threat Detection",
-    "excerpt": "Fast blips on radar for road pushes and flanking trucks.",
+    "slug": "ring-timer-radar",
+    "title": "Ring Timer on Radar: Rotate Before the Zone Closes",
+    "excerpt": "Ring timer overlay on radar — rotate before third parties catch you looting.",
     "tag": "Radar"
   },
   {
@@ -310,7 +310,7 @@ export const FORUM_INDEX: ForumIndexEntry[] = [
   {
     "slug": "config-save-load",
     "title": "Fast Setup: How to Save and Load Your Custom Config Settings",
-    "excerpt": "Config profiles for solo vs trio control-zone nights.",
+    "excerpt": "Config profiles for solo vs trio ring nights.",
     "tag": "Misc"
   },
   {

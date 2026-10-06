@@ -38,7 +38,7 @@ export function ReviewsPage() {
               Apex Legends Cheat Reviews
             </h1>
             <p className="mt-4 text-base leading-relaxed text-white/60">
-              Feedback from players who use Apex Legends cheats — ESP clarity, vehicle radar, aimbot tuning,
+              Feedback from players who use Apex Legends cheats — ESP clarity, loot radar, aimbot tuning,
               and whether builds held after the last game patch.
             </p>
             <p className="mt-4 text-sm text-white/45" aria-label="Aggregate rating">

@@ -73,7 +73,7 @@ export const SITE_GUIDE_LINKS = [
   { label: 'Features checklist', to: blogPath('features-list') },
   { label: 'Aimbot settings', to: blogPath('aimbot-settings') },
   { label: 'Player ESP setup', to: blogPath('esp-wallhack-guide') },
-  { label: 'Vehicle ESP setup', to: blogPath('vehicle-esp-first') },
+  { label: 'Loot ESP setup', to: blogPath('loot-esp-first') },
   { label: '2D radar config', to: blogPath('radar-recommended-config') },
   { label: 'Hotkeys', to: blogPath('hotkeys') },
   { label: 'Complete setup', to: blogPath('complete-setup') },

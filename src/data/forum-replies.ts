@@ -77,7 +77,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Moderator reminder: if status shows Updating on apexhacks.org, settings changes here will not fix inject failures — wait for Active."
     },
     {
-      "author": "newbie_wd",
+      "author": "newbie_al",
       "role": "member",
       "date": "2026-09-13",
       "body": "Forced loader while Updating — instant kick. Read status next time lol."
@@ -86,8 +86,8 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-14",
-      "body": "@newbie_wd — loading while status shows Updating will fail every time. Wait until apexhacks.org lists Active, fully exit the game, then run the loader once. No menu toggles fix a mismatched build.",
-      "replyToAuthor": "newbie_wd"
+      "body": "@newbie_al — loading while status shows Updating will fail every time. Wait until apexhacks.org lists Active, fully exit the game, then run the loader once. No menu toggles fix a mismatched build.",
+      "replyToAuthor": "newbie_al"
     },
     {
       "author": "IT_guy_gaming",
@@ -123,7 +123,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Editor: this Aimbot thread is locked read-only. Steps match the live Apex Legends menu on apexhacks.org — confirm Active before you queue."
     },
     {
-      "author": "patch_day_survivor",
+      "author": "patch_day_legend",
       "role": "member",
       "date": "2026-09-16",
       "body": "Forced loader while Updating — instant kick. Read status next time lol."
@@ -132,8 +132,8 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-17",
-      "body": "@patch_day_survivor — loading while status shows Updating will fail every time. Wait until apexhacks.org lists Active, fully exit the game, then run the loader once. No menu toggles fix a mismatched build.",
-      "replyToAuthor": "patch_day_survivor"
+      "body": "@patch_day_legend — loading while status shows Updating will fail every time. Wait until apexhacks.org lists Active, fully exit the game, then run the loader once. No menu toggles fix a mismatched build.",
+      "replyToAuthor": "patch_day_legend"
     },
     {
       "author": "filterking",
@@ -163,17 +163,17 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Mod note — keep ESP configs conservative in large lobbies. Visible check and distance caps are strongly recommended."
     },
     {
-      "author": "newbie_wd",
+      "author": "newbie_al",
       "role": "member",
       "date": "2026-09-27",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
     },
     {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-28",
-      "body": "@newbie_wd — occupied/empty flags are hints, not guarantees. Slow peek or have a teammate hard cover before you commit to a truck push. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "newbie_wd"
+      "body": "@newbie_al — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "newbie_al"
     },
     {
       "author": "IT_guy_gaming",
@@ -201,50 +201,62 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Status page said Active, loader matched, ESP came up first try on Win11."
     }
   ],
-  "vehicle-esp-first": [
+  "loot-esp-first": [
     {
       "author": "Apex Legends Editor",
       "role": "editor",
-      "date": "2026-09-08",
-      "body": "Editor: this Vehicles thread is locked read-only. Steps match the live Apex Legends menu on apexhacks.org — confirm Active before you queue."
+      "date": "2026-09-12",
+      "body": "Editor update: \"Loot ESP Settings: What to Enable First\" was refreshed after the latest patch. Archive only — billing and loader keys go through Support."
     },
     {
-      "author": "twitch_wd",
+      "author": "ViktorNorth",
       "role": "member",
-      "date": "2026-09-22",
-      "body": "Expected magic — still died to a sound flank. ESP does not replace headphones."
+      "date": "2026-09-26",
+      "body": "Status page said Active, loader matched, ESP came up first try on Win11."
+    },
+    {
+      "author": "ghostloot",
+      "role": "member",
+      "date": "2026-09-27",
+      "body": "Radar range tip fixed my cluttered minimap. Trios rotate cleaner now."
+    },
+    {
+      "author": "loot_lurker",
+      "role": "member",
+      "date": "2026-09-10",
+      "body": "Forced loader while Updating — instant kick. Read status next time lol."
     },
     {
       "author": "Forum Moderator",
       "role": "moderator",
-      "date": "2026-09-23",
-      "body": "@twitch_wd — ESP does not replace audio. Keep radar range moderate and OOF arrows on so you still rotate when someone sprints your blind side.",
-      "replyToAuthor": "twitch_wd"
+      "date": "2026-09-11",
+      "body": "@loot_lurker — loading while status shows Updating will fail every time. Wait until apexhacks.org lists Active, fully exit the game, then run the loader once. No menu toggles fix a mismatched build.",
+      "replyToAuthor": "loot_lurker"
     },
     {
-      "author": "solo_q_wd",
+      "author": "duo_six",
       "role": "member",
-      "date": "2026-09-23",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "date": "2026-09-11",
+      "body": "Monthly sub updates included so far — patch Tuesday to Thursday Active again."
     },
     {
       "author": "Apex Legends Support",
       "role": "moderator",
-      "date": "2026-09-25",
-      "body": "@solo_q_wd — walk through the Vehicles checklist in the opening post, confirm Active on apexhacks.org, then retry with a saved config. If the loader still closes instantly, open Support with a screenshot of your status page. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "solo_q_wd"
+      "date": "2026-09-13",
+      "body": "@duo_six — subscription builds track patch days; when status flips Updating, pause ranked-style queues until Active returns instead of forcing the loader. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "duo_six"
     },
     {
-      "author": "MoneyKing",
+      "author": "LenaAL",
       "role": "member",
-      "date": "2026-09-24",
-      "body": "Visible check + low FOV like you said. Nobody typed a word in post-match chat."
+      "date": "2026-09-12",
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     },
     {
-      "author": "irritated_panda",
+      "author": "impatient_one",
       "role": "member",
-      "date": "2026-09-25",
-      "body": "Skipped antivirus step, menu never opened. My fault but frustrating hour wasted."
+      "date": "2026-09-13",
+      "body": "Skeleton on max brightness looks ridiculous on stream. Muted colors helped."
     }
   ],
   "radar-recommended-config": [
@@ -296,7 +308,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "m4rtin.l",
       "role": "member",
       "date": "2026-09-24",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     },
     {
       "author": "softpeek",
@@ -319,7 +331,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Editor update: \"Combat Assist Settings: What Level & Ban Risk Explained\" was refreshed after the latest patch. Archive only — billing and loader keys go through Support."
     },
     {
-      "author": "patch_day_survivor",
+      "author": "patch_day_legend",
       "role": "member",
       "date": "2026-09-14",
       "body": "Monthly sub updates included so far — patch Tuesday to Thursday Active again."
@@ -328,14 +340,14 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-16",
-      "body": "@patch_day_survivor — subscription builds track patch days; when status flips Updating, pause ranked-style queues until Active returns instead of forcing the loader. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "patch_day_survivor"
+      "body": "@patch_day_legend — subscription builds track patch days; when status flips Updating, pause ranked-style queues until Active returns instead of forcing the loader. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "patch_day_legend"
     },
     {
       "author": "filterking",
       "role": "member",
       "date": "2026-09-15",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     },
     {
       "author": "Forum Moderator",
@@ -353,7 +365,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Editor: this Status thread is locked read-only. Steps match the live Apex Legends menu on apexhacks.org — confirm Active before you queue."
     },
     {
-      "author": "patch_day_survivor",
+      "author": "patch_day_legend",
       "role": "member",
       "date": "2026-09-10",
       "body": "Expected magic — still died to a sound flank. ESP does not replace headphones."
@@ -362,14 +374,14 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-11",
-      "body": "@patch_day_survivor — ESP does not replace audio. Keep radar range moderate and OOF arrows on so you still rotate when someone sprints your blind side.",
-      "replyToAuthor": "patch_day_survivor"
+      "body": "@patch_day_legend — ESP does not replace audio. Keep radar range moderate and OOF arrows on so you still rotate when someone sprints your blind side.",
+      "replyToAuthor": "patch_day_legend"
     },
     {
       "author": "filterking",
       "role": "member",
       "date": "2026-09-11",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     },
     {
       "author": "Apex Legends Support",
@@ -393,17 +405,17 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Moderator: replies are disabled on archive threads. Share loader logs in Support, not in locked forums."
     },
     {
-      "author": "solo_q_wd",
+      "author": "solo_q_al",
       "role": "member",
       "date": "2026-09-23",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     },
     {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-25",
-      "body": "@solo_q_wd — walk through the Guide checklist in the opening post, confirm Active on apexhacks.org, then retry with a saved config. If the loader still closes instantly, open Support with a screenshot of your status page. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "solo_q_wd"
+      "body": "@solo_q_al — walk through the Guide checklist in the opening post, confirm Active on apexhacks.org, then retry with a saved config. If the loader still closes instantly, open Support with a screenshot of your status page. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "solo_q_al"
     },
     {
       "author": "MoneyKing",
@@ -428,10 +440,10 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "capslock_warrior",
       "role": "member",
       "date": "2026-09-26",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
     },
     {
-      "author": "newbie_wd",
+      "author": "newbie_al",
       "role": "member",
       "date": "2026-09-27",
       "body": "Saved config after first run — second login was two clicks. Wish I did that day one."
@@ -451,17 +463,17 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Monthly sub updates included so far — patch Tuesday to Thursday Active again."
     },
     {
-      "author": "newbie_wd",
+      "author": "newbie_al",
       "role": "member",
       "date": "2026-09-15",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     },
     {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-17",
-      "body": "@newbie_wd — walk through the Buying checklist in the opening post, confirm Active on apexhacks.org, then retry with a saved config. If the loader still closes instantly, open Support with a screenshot of your status page. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "newbie_wd"
+      "body": "@newbie_al — walk through the Buying checklist in the opening post, confirm Active on apexhacks.org, then retry with a saved config. If the loader still closes instantly, open Support with a screenshot of your status page. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "newbie_al"
     },
     {
       "author": "IT_guy_gaming",
@@ -485,7 +497,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Editor update: \"Apex Legends Cheats Lifetime License: Is Permanent Access Worth It?\" was refreshed after the latest patch. Archive only — billing and loader keys go through Support."
     },
     {
-      "author": "LenaWD",
+      "author": "LenaAL",
       "role": "member",
       "date": "2026-09-14",
       "body": "Radar range tip fixed my cluttered minimap. Trios rotate cleaner now."
@@ -494,8 +506,8 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-16",
-      "body": "@LenaWD — if the minimap still feels busy, shorten radar range for urban pushes and widen it only when you hold open ground between zones. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "LenaWD"
+      "body": "@LenaAL — if the minimap still feels busy, shorten radar range for urban pushes and widen it only when you hold open ground between zones. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "LenaAL"
     },
     {
       "author": "impatient_one",
@@ -504,7 +516,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Monthly sub updates included so far — patch Tuesday to Thursday Active again."
     },
     {
-      "author": "patch_day_survivor",
+      "author": "patch_day_legend",
       "role": "member",
       "date": "2026-09-16",
       "body": "Skeleton on max brightness looks ridiculous on stream. Muted colors helped."
@@ -513,17 +525,17 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-17",
-      "body": "@patch_day_survivor — drop skeleton opacity and switch to a muted color. Box + distance alone are enough for most trios; neon skeletons are what teammates notice on clips.",
-      "replyToAuthor": "patch_day_survivor"
+      "body": "@patch_day_legend — drop skeleton opacity and switch to a muted color. Box + distance alone are enough for most trios; neon skeletons are what teammates notice on clips.",
+      "replyToAuthor": "patch_day_legend"
     },
     {
       "author": "filterking",
       "role": "member",
       "date": "2026-09-17",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     },
     {
-      "author": "twitch_wd",
+      "author": "twitch_apex",
       "role": "member",
       "date": "2026-09-18",
       "body": "Visible check + low FOV like you said. Nobody typed a word in post-match chat."
@@ -540,13 +552,13 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "ridge_runner",
       "role": "member",
       "date": "2026-09-20",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
     },
     {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-21",
-      "body": "@ridge_runner — occupied/empty flags are hints, not guarantees. Slow peek or have a teammate hard cover before you commit to a truck push.",
+      "body": "@ridge_runner — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap.",
       "replyToAuthor": "ridge_runner"
     },
     {
@@ -586,7 +598,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "ViktorNorth",
       "role": "member",
       "date": "2026-09-18",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     },
     {
       "author": "ghostloot",
@@ -602,7 +614,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "replyToAuthor": "ghostloot"
     },
     {
-      "author": "PMC_walker",
+      "author": "loot_lurker",
       "role": "member",
       "date": "2026-09-20",
       "body": "Visible check + low FOV like you said. Nobody typed a word in post-match chat."
@@ -611,14 +623,14 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-22",
-      "body": "@PMC_walker — visible check plus tighter FOV is the usual fix for quiet kill cams. Screenshot your menu once so you can restore the same numbers after patches. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "PMC_walker"
+      "body": "@loot_lurker — visible check plus tighter FOV is the usual fix for quiet kill cams. Screenshot your menu once so you can restore the same numbers after patches. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "loot_lurker"
     },
     {
       "author": "duo_six",
       "role": "member",
       "date": "2026-09-21",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
     }
   ],
   "hwid-spoofer-safety": [
@@ -635,7 +647,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Radar range tip fixed my cluttered minimap. Trios rotate cleaner now."
     },
     {
-      "author": "newbie_wd",
+      "author": "newbie_al",
       "role": "member",
       "date": "2026-09-27",
       "body": "Monthly sub updates included so far — patch Tuesday to Thursday Active again."
@@ -644,8 +656,8 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-28",
-      "body": "@newbie_wd — subscription builds track patch days; when status flips Updating, pause ranked-style queues until Active returns instead of forcing the loader. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "newbie_wd"
+      "body": "@newbie_al — subscription builds track patch days; when status flips Updating, pause ranked-style queues until Active returns instead of forcing the loader. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "newbie_al"
     },
     {
       "author": "IT_guy_gaming",
@@ -675,7 +687,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Moderator reminder: if status shows Updating on apexhacks.org, settings changes here will not fix inject failures — wait for Active."
     },
     {
-      "author": "solo_q_wd",
+      "author": "solo_q_al",
       "role": "member",
       "date": "2026-09-13",
       "body": "Expected magic — still died to a sound flank. ESP does not replace headphones."
@@ -684,14 +696,14 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-14",
-      "body": "@solo_q_wd — ESP does not replace audio. Keep radar range moderate and OOF arrows on so you still rotate when someone sprints your blind side.",
-      "replyToAuthor": "solo_q_wd"
+      "body": "@solo_q_al — ESP does not replace audio. Keep radar range moderate and OOF arrows on so you still rotate when someone sprints your blind side.",
+      "replyToAuthor": "solo_q_al"
     },
     {
       "author": "MoneyKing",
       "role": "member",
       "date": "2026-09-14",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     },
     {
       "author": "irritated_panda",
@@ -713,10 +725,10 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "replyToAuthor": "capslock_warrior"
     },
     {
-      "author": "newbie_wd",
+      "author": "newbie_al",
       "role": "member",
       "date": "2026-09-17",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
     }
   ],
   "enable-aimbot-safely": [
@@ -755,10 +767,10 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "ghostloot",
       "role": "member",
       "date": "2026-09-15",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
     },
     {
-      "author": "PMC_walker",
+      "author": "loot_lurker",
       "role": "member",
       "date": "2026-09-16",
       "body": "Wide FOV got me roasted in squad Discord kill cam. Dialed back per guide."
@@ -794,13 +806,13 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "softpeek",
       "role": "member",
       "date": "2026-09-19",
-      "body": "Thought vehicle ESP would show loot inside — it does not, just the truck."
+      "body": "Thought loot ESP would auto-open death boxes — it only highlights them in world space."
     },
     {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-20",
-      "body": "@softpeek — vehicle ESP shows transports and occupied state, not crate loot inside. Use player ESP and radar for pushes; treat empty vehicle markers as bait until you line-of-sight the hull.",
+      "body": "@softpeek — loot ESP highlights death boxes, care packages, and tiered ground loot; it does not open containers for you. Pair with player ESP before you commit to a third party.",
       "replyToAuthor": "softpeek"
     },
     {
@@ -840,17 +852,17 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "ghostloot",
       "role": "member",
       "date": "2026-09-19",
-      "body": "Thought vehicle ESP would show loot inside — it does not, just the truck."
+      "body": "Thought loot ESP would auto-open death boxes — it only highlights them in world space."
     },
     {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-20",
-      "body": "@ghostloot — vehicle ESP shows transports and occupied state, not crate loot inside. Use player ESP and radar for pushes; treat empty vehicle markers as bait until you line-of-sight the hull.",
+      "body": "@ghostloot — loot ESP highlights death boxes, care packages, and tiered ground loot; it does not open containers for you. Pair with player ESP before you commit to a third party.",
       "replyToAuthor": "ghostloot"
     },
     {
-      "author": "PMC_walker",
+      "author": "loot_lurker",
       "role": "member",
       "date": "2026-09-20",
       "body": "Status page said Active, loader matched, ESP came up first try on Win11."
@@ -869,7 +881,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "replyToAuthor": "duo_six"
     },
     {
-      "author": "LenaWD",
+      "author": "LenaAL",
       "role": "member",
       "date": "2026-09-22",
       "body": "Forced loader while Updating — instant kick. Read status next time lol."
@@ -944,7 +956,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "ridge_runner",
       "role": "member",
       "date": "2026-09-14",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     },
     {
       "author": "Forum Moderator",
@@ -975,7 +987,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Editor: this Aimbot thread is locked read-only. Steps match the live Apex Legends menu on apexhacks.org — confirm Active before you queue."
     },
     {
-      "author": "PMC_walker",
+      "author": "loot_lurker",
       "role": "member",
       "date": "2026-09-22",
       "body": "Expected magic — still died to a sound flank. ESP does not replace headphones."
@@ -984,17 +996,17 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-23",
-      "body": "@PMC_walker — ESP does not replace audio. Keep radar range moderate and OOF arrows on so you still rotate when someone sprints your blind side.",
-      "replyToAuthor": "PMC_walker"
+      "body": "@loot_lurker — ESP does not replace audio. Keep radar range moderate and OOF arrows on so you still rotate when someone sprints your blind side.",
+      "replyToAuthor": "loot_lurker"
     },
     {
       "author": "duo_six",
       "role": "member",
       "date": "2026-09-23",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     },
     {
-      "author": "LenaWD",
+      "author": "LenaAL",
       "role": "member",
       "date": "2026-09-24",
       "body": "Visible check + low FOV like you said. Nobody typed a word in post-match chat."
@@ -1003,8 +1015,8 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-26",
-      "body": "@LenaWD — visible check plus tighter FOV is the usual fix for quiet kill cams. Screenshot your menu once so you can restore the same numbers after patches. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "LenaWD"
+      "body": "@LenaAL — visible check plus tighter FOV is the usual fix for quiet kill cams. Screenshot your menu once so you can restore the same numbers after patches. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "LenaAL"
     }
   ],
   "draw-fov-overlays": [
@@ -1021,7 +1033,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Status page said Active, loader matched, ESP came up first try on Win11."
     },
     {
-      "author": "newbie_wd",
+      "author": "newbie_al",
       "role": "member",
       "date": "2026-09-19",
       "body": "Forced loader while Updating — instant kick. Read status next time lol."
@@ -1030,8 +1042,8 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-20",
-      "body": "@newbie_wd — loading while status shows Updating will fail every time. Wait until apexhacks.org lists Active, fully exit the game, then run the loader once. No menu toggles fix a mismatched build.",
-      "replyToAuthor": "newbie_wd"
+      "body": "@newbie_al — loading while status shows Updating will fail every time. Wait until apexhacks.org lists Active, fully exit the game, then run the loader once. No menu toggles fix a mismatched build.",
+      "replyToAuthor": "newbie_al"
     },
     {
       "author": "IT_guy_gaming",
@@ -1074,7 +1086,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "replyToAuthor": "filterking"
     },
     {
-      "author": "twitch_wd",
+      "author": "twitch_apex",
       "role": "member",
       "date": "2026-09-22",
       "body": "Skeleton on max brightness looks ridiculous on stream. Muted colors helped."
@@ -1083,11 +1095,11 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-23",
-      "body": "@twitch_wd — drop skeleton opacity and switch to a muted color. Box + distance alone are enough for most trios; neon skeletons are what teammates notice on clips.",
-      "replyToAuthor": "twitch_wd"
+      "body": "@twitch_apex — drop skeleton opacity and switch to a muted color. Box + distance alone are enough for most trios; neon skeletons are what teammates notice on clips.",
+      "replyToAuthor": "twitch_apex"
     },
     {
-      "author": "solo_q_wd",
+      "author": "solo_q_al",
       "role": "member",
       "date": "2026-09-23",
       "body": "Monthly sub updates included so far — patch Tuesday to Thursday Active again."
@@ -1113,7 +1125,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Monthly sub updates included so far — patch Tuesday to Thursday Active again."
     },
     {
-      "author": "LenaWD",
+      "author": "LenaAL",
       "role": "member",
       "date": "2026-09-10",
       "body": "Prices on lifetime vs monthly confused me until support replied — doc could be clearer."
@@ -1122,14 +1134,14 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-11",
-      "body": "@LenaWD — start monthly if you play casually; lifetime makes sense when you queue multiple nights a week. Billing questions go to Support with your order email, not this locked thread.",
-      "replyToAuthor": "LenaWD"
+      "body": "@LenaAL — start monthly if you play casually; lifetime makes sense when you queue multiple nights a week. Billing questions go to Support with your order email, not this locked thread.",
+      "replyToAuthor": "LenaAL"
     },
     {
       "author": "impatient_one",
       "role": "member",
       "date": "2026-09-11",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     },
     {
       "author": "Apex Legends Support",
@@ -1139,7 +1151,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "replyToAuthor": "impatient_one"
     },
     {
-      "author": "patch_day_survivor",
+      "author": "patch_day_legend",
       "role": "member",
       "date": "2026-09-12",
       "body": "Visible check + low FOV like you said. Nobody typed a word in post-match chat."
@@ -1166,7 +1178,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "replyToAuthor": "capslock_warrior"
     },
     {
-      "author": "newbie_wd",
+      "author": "newbie_al",
       "role": "member",
       "date": "2026-09-27",
       "body": "Status page said Active, loader matched, ESP came up first try on Win11."
@@ -1175,13 +1187,13 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "IT_guy_gaming",
       "role": "member",
       "date": "2026-09-10",
-      "body": "Thought vehicle ESP would show loot inside — it does not, just the truck."
+      "body": "Thought loot ESP would auto-open death boxes — it only highlights them in world space."
     },
     {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-11",
-      "body": "@IT_guy_gaming — vehicle ESP shows transports and occupied state, not crate loot inside. Use player ESP and radar for pushes; treat empty vehicle markers as bait until you line-of-sight the hull.",
+      "body": "@IT_guy_gaming — loot ESP highlights death boxes, care packages, and tiered ground loot; it does not open containers for you. Pair with player ESP before you commit to a third party.",
       "replyToAuthor": "IT_guy_gaming"
     }
   ],
@@ -1215,13 +1227,13 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "m4rtin.l",
       "role": "member",
       "date": "2026-09-22",
-      "body": "Thought vehicle ESP would show loot inside — it does not, just the truck."
+      "body": "Thought loot ESP would auto-open death boxes — it only highlights them in world space."
     },
     {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-23",
-      "body": "@m4rtin.l — vehicle ESP shows transports and occupied state, not crate loot inside. Use player ESP and radar for pushes; treat empty vehicle markers as bait until you line-of-sight the hull.",
+      "body": "@m4rtin.l — loot ESP highlights death boxes, care packages, and tiered ground loot; it does not open containers for you. Pair with player ESP before you commit to a third party.",
       "replyToAuthor": "m4rtin.l"
     },
     {
@@ -1279,17 +1291,17 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Pinned reference for health bar tracking. Do not copy old FOV screenshots from Discord; use the checklist in the opening post."
     },
     {
-      "author": "PMC_walker",
+      "author": "loot_lurker",
       "role": "member",
       "date": "2026-09-12",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
     },
     {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-14",
-      "body": "@PMC_walker — occupied/empty flags are hints, not guarantees. Slow peek or have a teammate hard cover before you commit to a truck push. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "PMC_walker"
+      "body": "@loot_lurker — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "loot_lurker"
     },
     {
       "author": "duo_six",
@@ -1305,7 +1317,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "replyToAuthor": "duo_six"
     },
     {
-      "author": "LenaWD",
+      "author": "LenaAL",
       "role": "member",
       "date": "2026-09-14",
       "body": "Saved config after first run — second login was two clicks. Wish I did that day one."
@@ -1365,7 +1377,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "ViktorNorth",
       "role": "member",
       "date": "2026-09-18",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     },
     {
       "author": "Apex Legends Support",
@@ -1395,7 +1407,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Visible check + low FOV like you said. Nobody typed a word in post-match chat."
     },
     {
-      "author": "twitch_wd",
+      "author": "twitch_apex",
       "role": "member",
       "date": "2026-09-22",
       "body": "Skipped antivirus step, menu never opened. My fault but frustrating hour wasted."
@@ -1404,21 +1416,21 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-23",
-      "body": "@twitch_wd — add the delivery folder to Windows Defender exclusions before the first inject, reboot once, and launch from the Apex Legends main menu only. If Defender quarantined files, restore them from protection history, then retry.",
-      "replyToAuthor": "twitch_wd"
+      "body": "@twitch_apex — add the delivery folder to Windows Defender exclusions before the first inject, reboot once, and launch from the Apex Legends main menu only. If Defender quarantined files, restore them from protection history, then retry.",
+      "replyToAuthor": "twitch_apex"
     },
     {
-      "author": "solo_q_wd",
+      "author": "solo_q_al",
       "role": "member",
       "date": "2026-09-23",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
     },
     {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-25",
-      "body": "@solo_q_wd — occupied/empty flags are hints, not guarantees. Slow peek or have a teammate hard cover before you commit to a truck push. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "solo_q_wd"
+      "body": "@solo_q_al — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "solo_q_al"
     }
   ],
   "team-squad-filtering": [
@@ -1469,17 +1481,17 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Pinned reference for enemy weapon esp. Do not copy old FOV screenshots from Discord; use the checklist in the opening post."
     },
     {
-      "author": "patch_day_survivor",
+      "author": "patch_day_legend",
       "role": "member",
       "date": "2026-09-18",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
     },
     {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-20",
-      "body": "@patch_day_survivor — occupied/empty flags are hints, not guarantees. Slow peek or have a teammate hard cover before you commit to a truck push. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "patch_day_survivor"
+      "body": "@patch_day_legend — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "patch_day_legend"
     },
     {
       "author": "filterking",
@@ -1509,10 +1521,10 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Moderator: replies are disabled on archive threads. Share loader logs in Support, not in locked forums."
     },
     {
-      "author": "solo_q_wd",
+      "author": "solo_q_al",
       "role": "member",
       "date": "2026-09-23",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
     },
     {
       "author": "MoneyKing",
@@ -1547,7 +1559,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Status page said Active, loader matched, ESP came up first try on Win11."
     },
     {
-      "author": "newbie_wd",
+      "author": "newbie_al",
       "role": "member",
       "date": "2026-09-27",
       "body": "Radar range tip fixed my cluttered minimap. Trios rotate cleaner now."
@@ -1574,17 +1586,17 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "replyToAuthor": "capslock_warrior"
     },
     {
-      "author": "newbie_wd",
+      "author": "newbie_al",
       "role": "member",
       "date": "2026-09-11",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
     },
     {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-13",
-      "body": "@newbie_wd — occupied/empty flags are hints, not guarantees. Slow peek or have a teammate hard cover before you commit to a truck push. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "newbie_wd"
+      "body": "@newbie_al — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "newbie_al"
     },
     {
       "author": "IT_guy_gaming",
@@ -1601,7 +1613,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Editor update: \"Optimizing Max Distance Filters to Clean Up Your Screen\" was refreshed after the latest patch. Archive only — billing and loader keys go through Support."
     },
     {
-      "author": "twitch_wd",
+      "author": "twitch_apex",
       "role": "member",
       "date": "2026-09-14",
       "body": "Visible check + low FOV like you said. Nobody typed a word in post-match chat."
@@ -1610,14 +1622,14 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-16",
-      "body": "@twitch_wd — visible check plus tighter FOV is the usual fix for quiet kill cams. Screenshot your menu once so you can restore the same numbers after patches. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "twitch_wd"
+      "body": "@twitch_apex — visible check plus tighter FOV is the usual fix for quiet kill cams. Screenshot your menu once so you can restore the same numbers after patches. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "twitch_apex"
     },
     {
-      "author": "solo_q_wd",
+      "author": "solo_q_al",
       "role": "member",
       "date": "2026-09-15",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
     },
     {
       "author": "MoneyKing",
@@ -1639,282 +1651,228 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Saved config after first run — second login was two clicks. Wish I did that day one."
     }
   ],
-  "vehicle-visuals-setup": [
+  "death-box-esp-guide": [
     {
       "author": "Apex Legends Editor",
       "role": "editor",
       "date": "2026-09-12",
-      "body": "Editor update: \"Vehicle Visuals Setup: Locating All In-Game Transport\" was refreshed after the latest patch. Archive only — billing and loader keys go through Support."
+      "body": "Editor update: \"Death Box ESP: Spot Resboxes After Team Fights\" was refreshed after the latest patch. Archive only — billing and loader keys go through Support."
     },
     {
       "author": "m4rtin.l",
       "role": "member",
-      "date": "2026-09-20",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "date": "2026-09-14",
+      "body": "Saved config after first run — second login was two clicks. Wish I did that day one."
     },
     {
       "author": "softpeek",
       "role": "member",
-      "date": "2026-09-21",
-      "body": "Saved config after first run — second login was two clicks. Wish I did that day one."
-    },
-    {
-      "author": "Apex Legends Support",
-      "role": "moderator",
-      "date": "2026-09-23",
-      "body": "@softpeek — good call saving a profile. Name configs by mode (ESP-only vs full assist) so you are not re-toggling mid-queue when your squad swaps roles. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "softpeek"
+      "date": "2026-09-15",
+      "body": "Status page said Active, loader matched, ESP came up first try on Win11."
     },
     {
       "author": "ViktorNorth",
       "role": "member",
-      "date": "2026-09-22",
-      "body": "Wide FOV got me roasted in squad Discord kill cam. Dialed back per guide."
+      "date": "2026-09-16",
+      "body": "Thought loot ESP would auto-open death boxes — it only highlights them in world space."
     },
     {
       "author": "Forum Moderator",
       "role": "moderator",
-      "date": "2026-09-23",
-      "body": "@ViktorNorth — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the aimbot section in this thread has sane starting numbers.",
+      "date": "2026-09-17",
+      "body": "@ViktorNorth — loot ESP highlights death boxes, care packages, and tiered ground loot; it does not open containers for you. Pair with player ESP before you commit to a third party.",
       "replyToAuthor": "ViktorNorth"
     },
     {
       "author": "ghostloot",
       "role": "member",
-      "date": "2026-09-23",
-      "body": "Status page said Active, loader matched, ESP came up first try on Win11."
-    }
-  ],
-  "vehicle-esp-tracking": [
-    {
-      "author": "Apex Legends Editor",
-      "role": "editor",
-      "date": "2026-09-09",
-      "body": "Editor update: \"Full Vehicle ESP Tracking: Map Mobility Control Guide\" was refreshed after the latest patch. Archive only — billing and loader keys go through Support."
-    },
-    {
-      "author": "Forum Moderator",
-      "role": "moderator",
-      "date": "2026-09-15",
-      "body": "Mod note — keep Vehicles configs conservative in large lobbies. Visible check and distance caps are strongly recommended."
-    },
-    {
-      "author": "defender_hater",
-      "role": "member",
-      "date": "2026-09-23",
-      "body": "Status page said Active, loader matched, ESP came up first try on Win11."
-    },
-    {
-      "author": "ridge_runner",
-      "role": "member",
-      "date": "2026-09-24",
+      "date": "2026-09-17",
       "body": "Radar range tip fixed my cluttered minimap. Trios rotate cleaner now."
     },
     {
       "author": "Apex Legends Support",
       "role": "moderator",
-      "date": "2026-09-26",
-      "body": "@ridge_runner — if the minimap still feels busy, shorten radar range for urban pushes and widen it only when you hold open ground between zones. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "date": "2026-09-19",
+      "body": "@ghostloot — if the minimap still feels busy, shorten radar range for urban pushes and widen it only when you hold open ground between zones. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "ghostloot"
+    }
+  ],
+  "care-package-tracking": [
+    {
+      "author": "Apex Legends Editor",
+      "role": "editor",
+      "date": "2026-09-12",
+      "body": "Editor update: \"Care Package Tracking: Contest High-Tier Drops Safely\" was refreshed after the latest patch. Archive only — billing and loader keys go through Support."
+    },
+    {
+      "author": "IT_guy_gaming",
+      "role": "member",
+      "date": "2026-09-20",
+      "body": "Radar range tip fixed my cluttered minimap. Trios rotate cleaner now."
+    },
+    {
+      "author": "defender_hater",
+      "role": "member",
+      "date": "2026-09-21",
+      "body": "Monthly sub updates included so far — patch Tuesday to Thursday Active again."
+    },
+    {
+      "author": "ridge_runner",
+      "role": "member",
+      "date": "2026-09-22",
+      "body": "Skeleton on max brightness looks ridiculous on stream. Muted colors helped."
+    },
+    {
+      "author": "Forum Moderator",
+      "role": "moderator",
+      "date": "2026-09-23",
+      "body": "@ridge_runner — drop skeleton opacity and switch to a muted color. Box + distance alone are enough for most trios; neon skeletons are what teammates notice on clips.",
       "replyToAuthor": "ridge_runner"
     },
     {
       "author": "Kestrel_09",
       "role": "member",
-      "date": "2026-09-25",
-      "body": "Forced loader while Updating — instant kick. Read status next time lol."
-    },
-    {
-      "author": "Forum Moderator",
-      "role": "moderator",
-      "date": "2026-09-26",
-      "body": "@Kestrel_09 — loading while status shows Updating will fail every time. Wait until apexhacks.org lists Active, fully exit the game, then run the loader once. No menu toggles fix a mismatched build.",
-      "replyToAuthor": "Kestrel_09"
+      "date": "2026-09-23",
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     },
     {
       "author": "m4rtin.l",
       "role": "member",
-      "date": "2026-09-26",
-      "body": "Monthly sub updates included so far — patch Tuesday to Thursday Active again."
-    },
-    {
-      "author": "softpeek",
-      "role": "member",
-      "date": "2026-09-27",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
-    },
-    {
-      "author": "ViktorNorth",
-      "role": "member",
-      "date": "2026-09-10",
-      "body": "Skeleton on max brightness looks ridiculous on stream. Muted colors helped."
-    }
-  ],
-  "vehicle-type-identification": [
-    {
-      "author": "Apex Legends Editor",
-      "role": "editor",
-      "date": "2026-09-08",
-      "body": "Editor: this Vehicles thread is locked read-only. Steps match the live Apex Legends menu on apexhacks.org — confirm Active before you queue."
-    },
-    {
-      "author": "LenaWD",
-      "role": "member",
-      "date": "2026-09-22",
-      "body": "Forced loader while Updating — instant kick. Read status next time lol."
-    },
-    {
-      "author": "Forum Moderator",
-      "role": "moderator",
-      "date": "2026-09-23",
-      "body": "@LenaWD — loading while status shows Updating will fail every time. Wait until apexhacks.org lists Active, fully exit the game, then run the loader once. No menu toggles fix a mismatched build.",
-      "replyToAuthor": "LenaWD"
-    },
-    {
-      "author": "impatient_one",
-      "role": "member",
-      "date": "2026-09-23",
-      "body": "Status page said Active, loader matched, ESP came up first try on Win11."
-    },
-    {
-      "author": "patch_day_survivor",
-      "role": "member",
       "date": "2026-09-24",
-      "body": "Radar range tip fixed my cluttered minimap. Trios rotate cleaner now."
-    },
-    {
-      "author": "filterking",
-      "role": "member",
-      "date": "2026-09-25",
-      "body": "Skeleton on max brightness looks ridiculous on stream. Muted colors helped."
+      "body": "Visible check + low FOV like you said. Nobody typed a word in post-match chat."
     },
     {
       "author": "Apex Legends Support",
       "role": "moderator",
-      "date": "2026-09-27",
-      "body": "@filterking — drop skeleton opacity and switch to a muted color. Box + distance alone are enough for most trios; neon skeletons are what teammates notice on clips. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "filterking"
-    },
-    {
-      "author": "twitch_wd",
-      "role": "member",
       "date": "2026-09-26",
-      "body": "Monthly sub updates included so far — patch Tuesday to Thursday Active again."
+      "body": "@m4rtin.l — visible check plus tighter FOV is the usual fix for quiet kill cams. Screenshot your menu once so you can restore the same numbers after patches. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "m4rtin.l"
     }
   ],
-  "vehicle-distance-measure": [
+  "loot-tier-highlights": [
     {
       "author": "Apex Legends Editor",
       "role": "editor",
-      "date": "2026-09-13",
-      "body": "Pinned reference for vehicle distance measure. Do not copy old FOV screenshots from Discord; use the checklist in the opening post."
+      "date": "2026-09-11",
+      "body": "Editor: this Loot ESP thread is locked read-only. Steps match the live Apex Legends menu on apexhacks.org — confirm Active before you queue."
     },
     {
       "author": "Forum Moderator",
       "role": "moderator",
-      "date": "2026-09-19",
+      "date": "2026-09-17",
       "body": "Moderator reminder: if status shows Updating on apexhacks.org, settings changes here will not fix inject failures — wait for Active."
+    },
+    {
+      "author": "newbie_al",
+      "role": "member",
+      "date": "2026-09-13",
+      "body": "Thought loot ESP would auto-open death boxes — it only highlights them in world space."
+    },
+    {
+      "author": "Forum Moderator",
+      "role": "moderator",
+      "date": "2026-09-14",
+      "body": "@newbie_al — loot ESP highlights death boxes, care packages, and tiered ground loot; it does not open containers for you. Pair with player ESP before you commit to a third party.",
+      "replyToAuthor": "newbie_al"
+    },
+    {
+      "author": "IT_guy_gaming",
+      "role": "member",
+      "date": "2026-09-14",
+      "body": "Saved config after first run — second login was two clicks. Wish I did that day one."
     },
     {
       "author": "defender_hater",
       "role": "member",
       "date": "2026-09-15",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "body": "Status page said Active, loader matched, ESP came up first try on Win11."
+    },
+    {
+      "author": "Apex Legends Support",
+      "role": "moderator",
+      "date": "2026-09-17",
+      "body": "@defender_hater — Active on the site plus a clean inject path is the baseline. If anything breaks after a game update, recheck status before you change ESP toggles. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "defender_hater"
     },
     {
       "author": "ridge_runner",
       "role": "member",
       "date": "2026-09-16",
+      "body": "Forced loader while Updating — instant kick. Read status next time lol."
+    }
+  ],
+  "loot-max-distance": [
+    {
+      "author": "Apex Legends Editor",
+      "role": "editor",
+      "date": "2026-09-13",
+      "body": "Pinned reference for loot max distance. Do not copy old FOV screenshots from Discord; use the checklist in the opening post."
+    },
+    {
+      "author": "Forum Moderator",
+      "role": "moderator",
+      "date": "2026-09-15",
+      "body": "Moderator reminder: if status shows Updating on apexhacks.org, settings changes here will not fix inject failures — wait for Active."
+    },
+    {
+      "author": "irritated_panda",
+      "role": "member",
+      "date": "2026-09-15",
+      "body": "Saved config after first run — second login was two clicks. Wish I did that day one."
+    },
+    {
+      "author": "Apex Legends Support",
+      "role": "moderator",
+      "date": "2026-09-17",
+      "body": "@irritated_panda — good call saving a profile. Name configs by mode (ESP-only vs full assist) so you are not re-toggling mid-queue when your squad swaps roles. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "irritated_panda"
+    },
+    {
+      "author": "capslock_warrior",
+      "role": "member",
+      "date": "2026-09-16",
+      "body": "Thought loot ESP would auto-open death boxes — it only highlights them in world space."
+    },
+    {
+      "author": "Forum Moderator",
+      "role": "moderator",
+      "date": "2026-09-17",
+      "body": "@capslock_warrior — loot ESP highlights death boxes, care packages, and tiered ground loot; it does not open containers for you. Pair with player ESP before you commit to a third party.",
+      "replyToAuthor": "capslock_warrior"
+    }
+  ],
+  "shield-helmet-highlight": [
+    {
+      "author": "Apex Legends Editor",
+      "role": "editor",
+      "date": "2026-09-10",
+      "body": "Pinned reference for shield helmet highlight. Do not copy old FOV screenshots from Discord; use the checklist in the opening post."
+    },
+    {
+      "author": "ridge_runner",
+      "role": "member",
+      "date": "2026-09-12",
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
+    },
+    {
+      "author": "Apex Legends Support",
+      "role": "moderator",
+      "date": "2026-09-14",
+      "body": "@ridge_runner — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "ridge_runner"
+    },
+    {
+      "author": "Kestrel_09",
+      "role": "member",
+      "date": "2026-09-13",
       "body": "Wide FOV got me roasted in squad Discord kill cam. Dialed back per guide."
     },
     {
       "author": "Forum Moderator",
       "role": "moderator",
-      "date": "2026-09-17",
-      "body": "@ridge_runner — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the aimbot section in this thread has sane starting numbers.",
-      "replyToAuthor": "ridge_runner"
-    },
-    {
-      "author": "Kestrel_09",
-      "role": "member",
-      "date": "2026-09-17",
-      "body": "Saved config after first run — second login was two clicks. Wish I did that day one."
-    },
-    {
-      "author": "m4rtin.l",
-      "role": "member",
-      "date": "2026-09-18",
-      "body": "Status page said Active, loader matched, ESP came up first try on Win11."
-    },
-    {
-      "author": "softpeek",
-      "role": "member",
-      "date": "2026-09-19",
-      "body": "Thought vehicle ESP would show loot inside — it does not, just the truck."
-    },
-    {
-      "author": "ViktorNorth",
-      "role": "member",
-      "date": "2026-09-20",
-      "body": "Radar range tip fixed my cluttered minimap. Trios rotate cleaner now."
-    },
-    {
-      "author": "Apex Legends Support",
-      "role": "moderator",
-      "date": "2026-09-22",
-      "body": "@ViktorNorth — if the minimap still feels busy, shorten radar range for urban pushes and widen it only when you hold open ground between zones. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "ViktorNorth"
-    }
-  ],
-  "occupied-empty-vehicles": [
-    {
-      "author": "Apex Legends Editor",
-      "role": "editor",
-      "date": "2026-09-08",
-      "body": "Editor: this Vehicles thread is locked read-only. Steps match the live Apex Legends menu on apexhacks.org — confirm Active before you queue."
-    },
-    {
-      "author": "IT_guy_gaming",
-      "role": "member",
-      "date": "2026-09-16",
-      "body": "Skeleton on max brightness looks ridiculous on stream. Muted colors helped."
-    },
-    {
-      "author": "Forum Moderator",
-      "role": "moderator",
-      "date": "2026-09-17",
-      "body": "@IT_guy_gaming — drop skeleton opacity and switch to a muted color. Box + distance alone are enough for most trios; neon skeletons are what teammates notice on clips.",
-      "replyToAuthor": "IT_guy_gaming"
-    },
-    {
-      "author": "defender_hater",
-      "role": "member",
-      "date": "2026-09-17",
-      "body": "Radar range tip fixed my cluttered minimap. Trios rotate cleaner now."
-    },
-    {
-      "author": "ridge_runner",
-      "role": "member",
-      "date": "2026-09-18",
-      "body": "Monthly sub updates included so far — patch Tuesday to Thursday Active again."
-    },
-    {
-      "author": "Apex Legends Support",
-      "role": "moderator",
-      "date": "2026-09-20",
-      "body": "@ridge_runner — subscription builds track patch days; when status flips Updating, pause ranked-style queues until Active returns instead of forcing the loader. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "ridge_runner"
-    },
-    {
-      "author": "Kestrel_09",
-      "role": "member",
-      "date": "2026-09-19",
-      "body": "Prices on lifetime vs monthly confused me until support replied — doc could be clearer."
-    },
-    {
-      "author": "m4rtin.l",
-      "role": "member",
-      "date": "2026-09-20",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "date": "2026-09-14",
+      "body": "@Kestrel_09 — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the aimbot section in this thread has sane starting numbers.",
+      "replyToAuthor": "Kestrel_09"
     }
   ],
   "radar-options-guide": [
@@ -1947,7 +1905,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "ridge_runner",
       "role": "member",
       "date": "2026-09-14",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
     },
     {
       "author": "Kestrel_09",
@@ -1983,7 +1941,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Mod note — keep Radar configs conservative in large lobbies. Visible check and distance caps are strongly recommended."
     },
     {
-      "author": "solo_q_wd",
+      "author": "solo_q_al",
       "role": "member",
       "date": "2026-09-15",
       "body": "Saved config after first run — second login was two clicks. Wish I did that day one."
@@ -1992,13 +1950,13 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "MoneyKing",
       "role": "member",
       "date": "2026-09-16",
-      "body": "Thought vehicle ESP would show loot inside — it does not, just the truck."
+      "body": "Thought loot ESP would auto-open death boxes — it only highlights them in world space."
     },
     {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-17",
-      "body": "@MoneyKing — vehicle ESP shows transports and occupied state, not crate loot inside. Use player ESP and radar for pushes; treat empty vehicle markers as bait until you line-of-sight the hull.",
+      "body": "@MoneyKing — loot ESP highlights death boxes, care packages, and tiered ground loot; it does not open containers for you. Pair with player ESP before you commit to a third party.",
       "replyToAuthor": "MoneyKing"
     },
     {
@@ -2021,7 +1979,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Radar range tip fixed my cluttered minimap. Trios rotate cleaner now."
     },
     {
-      "author": "newbie_wd",
+      "author": "newbie_al",
       "role": "member",
       "date": "2026-09-19",
       "body": "Forced loader while Updating — instant kick. Read status next time lol."
@@ -2051,7 +2009,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "defender_hater",
       "role": "member",
       "date": "2026-09-17",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
     },
     {
       "author": "ridge_runner",
@@ -2063,13 +2021,13 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Kestrel_09",
       "role": "member",
       "date": "2026-09-19",
-      "body": "Thought vehicle ESP would show loot inside — it does not, just the truck."
+      "body": "Thought loot ESP would auto-open death boxes — it only highlights them in world space."
     },
     {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-21",
-      "body": "@Kestrel_09 — vehicle ESP shows transports and occupied state, not crate loot inside. Use player ESP and radar for pushes; treat empty vehicle markers as bait until you line-of-sight the hull. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "body": "@Kestrel_09 — loot ESP highlights death boxes, care packages, and tiered ground loot; it does not open containers for you. Pair with player ESP before you commit to a third party. (Follow-up #2 — still locked; use Support for account-specific issues.)",
       "replyToAuthor": "Kestrel_09"
     },
     {
@@ -2079,68 +2037,50 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Status page said Active, loader matched, ESP came up first try on Win11."
     }
   ],
-  "vehicle-markers-radar": [
+  "ring-timer-radar": [
     {
       "author": "Apex Legends Editor",
       "role": "editor",
-      "date": "2026-09-13",
-      "body": "Pinned reference for vehicle markers radar. Do not copy old FOV screenshots from Discord; use the checklist in the opening post."
+      "date": "2026-09-09",
+      "body": "Editor update: \"Ring Timer on Radar: Rotate Before the Zone Closes\" was refreshed after the latest patch. Archive only — billing and loader keys go through Support."
     },
     {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-13",
-      "body": "Mod note — keep Radar configs conservative in large lobbies. Visible check and distance caps are strongly recommended."
+      "body": "Moderator: replies are disabled on archive threads. Share loader logs in Support, not in locked forums."
     },
     {
-      "author": "impatient_one",
+      "author": "Kestrel_09",
       "role": "member",
-      "date": "2026-09-15",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "date": "2026-09-23",
+      "body": "Visible check + low FOV like you said. Nobody typed a word in post-match chat."
     },
     {
       "author": "Apex Legends Support",
       "role": "moderator",
-      "date": "2026-09-17",
-      "body": "@impatient_one — occupied/empty flags are hints, not guarantees. Slow peek or have a teammate hard cover before you commit to a truck push. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "impatient_one"
+      "date": "2026-09-25",
+      "body": "@Kestrel_09 — visible check plus tighter FOV is the usual fix for quiet kill cams. Screenshot your menu once so you can restore the same numbers after patches. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "Kestrel_09"
     },
     {
-      "author": "patch_day_survivor",
+      "author": "m4rtin.l",
       "role": "member",
-      "date": "2026-09-16",
-      "body": "Wide FOV got me roasted in squad Discord kill cam. Dialed back per guide."
+      "date": "2026-09-24",
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
+    },
+    {
+      "author": "softpeek",
+      "role": "member",
+      "date": "2026-09-25",
+      "body": "Skipped antivirus step, menu never opened. My fault but frustrating hour wasted."
     },
     {
       "author": "Forum Moderator",
       "role": "moderator",
-      "date": "2026-09-17",
-      "body": "@patch_day_survivor — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the aimbot section in this thread has sane starting numbers.",
-      "replyToAuthor": "patch_day_survivor"
-    },
-    {
-      "author": "filterking",
-      "role": "member",
-      "date": "2026-09-17",
-      "body": "Saved config after first run — second login was two clicks. Wish I did that day one."
-    },
-    {
-      "author": "twitch_wd",
-      "role": "member",
-      "date": "2026-09-18",
-      "body": "Status page said Active, loader matched, ESP came up first try on Win11."
-    },
-    {
-      "author": "solo_q_wd",
-      "role": "member",
-      "date": "2026-09-19",
-      "body": "Thought vehicle ESP would show loot inside — it does not, just the truck."
-    },
-    {
-      "author": "MoneyKing",
-      "role": "member",
-      "date": "2026-09-20",
-      "body": "Radar range tip fixed my cluttered minimap. Trios rotate cleaner now."
+      "date": "2026-09-26",
+      "body": "@softpeek — add the delivery folder to Windows Defender exclusions before the first inject, reboot once, and launch from the Apex Legends main menu only. If Defender quarantined files, restore them from protection history, then retry.",
+      "replyToAuthor": "softpeek"
     }
   ],
   "radar-range-calibration": [
@@ -2189,7 +2129,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "replyToAuthor": "ghostloot"
     },
     {
-      "author": "PMC_walker",
+      "author": "loot_lurker",
       "role": "member",
       "date": "2026-09-10",
       "body": "Skeleton on max brightness looks ridiculous on stream. Muted colors helped."
@@ -2218,17 +2158,17 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "duo_six",
       "role": "member",
       "date": "2026-09-17",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
     },
     {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-19",
-      "body": "@duo_six — occupied/empty flags are hints, not guarantees. Slow peek or have a teammate hard cover before you commit to a truck push. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "body": "@duo_six — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
       "replyToAuthor": "duo_six"
     },
     {
-      "author": "LenaWD",
+      "author": "LenaAL",
       "role": "member",
       "date": "2026-09-18",
       "body": "Saved config after first run — second login was two clicks. Wish I did that day one."
@@ -2247,7 +2187,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "replyToAuthor": "impatient_one"
     },
     {
-      "author": "patch_day_survivor",
+      "author": "patch_day_legend",
       "role": "member",
       "date": "2026-09-20",
       "body": "Status page said Active, loader matched, ESP came up first try on Win11."
@@ -2276,13 +2216,13 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "m4rtin.l",
       "role": "member",
       "date": "2026-09-10",
-      "body": "Thought vehicle ESP would show loot inside — it does not, just the truck."
+      "body": "Thought loot ESP would auto-open death boxes — it only highlights them in world space."
     },
     {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-11",
-      "body": "@m4rtin.l — vehicle ESP shows transports and occupied state, not crate loot inside. Use player ESP and radar for pushes; treat empty vehicle markers as bait until you line-of-sight the hull.",
+      "body": "@m4rtin.l — loot ESP highlights death boxes, care packages, and tiered ground loot; it does not open containers for you. Pair with player ESP before you commit to a third party.",
       "replyToAuthor": "m4rtin.l"
     },
     {
@@ -2326,7 +2266,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "replyToAuthor": "filterking"
     },
     {
-      "author": "twitch_wd",
+      "author": "twitch_apex",
       "role": "member",
       "date": "2026-09-20",
       "body": "Monthly sub updates included so far — patch Tuesday to Thursday Active again."
@@ -2335,14 +2275,14 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-22",
-      "body": "@twitch_wd — subscription builds track patch days; when status flips Updating, pause ranked-style queues until Active returns instead of forcing the loader. (Follow-up #2 — still locked; use Support for account-specific issues.)",
-      "replyToAuthor": "twitch_wd"
+      "body": "@twitch_apex — subscription builds track patch days; when status flips Updating, pause ranked-style queues until Active returns instead of forcing the loader. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "replyToAuthor": "twitch_apex"
     },
     {
-      "author": "solo_q_wd",
+      "author": "solo_q_al",
       "role": "member",
       "date": "2026-09-21",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     }
   ],
   "full-bright-toggles": [
@@ -2388,7 +2328,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "ghostloot",
       "role": "member",
       "date": "2026-09-23",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     }
   ],
   "custom-crosshair-overlays": [
@@ -2399,7 +2339,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Editor: this Misc thread is locked read-only. Steps match the live Apex Legends menu on apexhacks.org — confirm Active before you queue."
     },
     {
-      "author": "patch_day_survivor",
+      "author": "patch_day_legend",
       "role": "member",
       "date": "2026-09-22",
       "body": "Skeleton on max brightness looks ridiculous on stream. Muted colors helped."
@@ -2408,8 +2348,8 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-23",
-      "body": "@patch_day_survivor — drop skeleton opacity and switch to a muted color. Box + distance alone are enough for most trios; neon skeletons are what teammates notice on clips.",
-      "replyToAuthor": "patch_day_survivor"
+      "body": "@patch_day_legend — drop skeleton opacity and switch to a muted color. Box + distance alone are enough for most trios; neon skeletons are what teammates notice on clips.",
+      "replyToAuthor": "patch_day_legend"
     },
     {
       "author": "filterking",
@@ -2461,13 +2401,13 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Kestrel_09",
       "role": "member",
       "date": "2026-09-23",
-      "body": "Vehicle occupied flag saved us from a bait truck. Worth reading before enabling everything."
+      "body": "Care package ESP saved us from walking into a full squad on a purple armor swap."
     },
     {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-25",
-      "body": "@Kestrel_09 — occupied/empty flags are hints, not guarantees. Slow peek or have a teammate hard cover before you commit to a truck push. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "body": "@Kestrel_09 — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
       "replyToAuthor": "Kestrel_09"
     },
     {
@@ -2519,7 +2459,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "capslock_warrior",
       "role": "member",
       "date": "2026-09-14",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     },
     {
       "author": "Apex Legends Support",
@@ -2559,7 +2499,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "ridge_runner",
       "role": "member",
       "date": "2026-09-26",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     },
     {
       "author": "Apex Legends Support",
@@ -2595,7 +2535,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Moderator reminder: if status shows Updating on apexhacks.org, settings changes here will not fix inject failures — wait for Active."
     },
     {
-      "author": "solo_q_wd",
+      "author": "solo_q_al",
       "role": "member",
       "date": "2026-09-25",
       "body": "Skeleton on max brightness looks ridiculous on stream. Muted colors helped."
@@ -2604,8 +2544,8 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-26",
-      "body": "@solo_q_wd — drop skeleton opacity and switch to a muted color. Box + distance alone are enough for most trios; neon skeletons are what teammates notice on clips.",
-      "replyToAuthor": "solo_q_wd"
+      "body": "@solo_q_al — drop skeleton opacity and switch to a muted color. Box + distance alone are enough for most trios; neon skeletons are what teammates notice on clips.",
+      "replyToAuthor": "solo_q_al"
     },
     {
       "author": "MoneyKing",
@@ -2633,10 +2573,10 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "replyToAuthor": "capslock_warrior"
     },
     {
-      "author": "newbie_wd",
+      "author": "newbie_al",
       "role": "member",
       "date": "2026-09-11",
-      "body": "Followed this thread before cranking every toggle — first control zone night actually went smooth."
+      "body": "Followed this thread before cranking every toggle — first ranked night actually went smooth."
     }
   ],
   "loader-errors": [
@@ -2653,7 +2593,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "body": "Moderator reminder: if status shows Updating on apexhacks.org, settings changes here will not fix inject failures — wait for Active."
     },
     {
-      "author": "newbie_wd",
+      "author": "newbie_al",
       "role": "member",
       "date": "2026-09-13",
       "body": "Skeleton on max brightness looks ridiculous on stream. Muted colors helped."
@@ -2662,8 +2602,8 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-14",
-      "body": "@newbie_wd — drop skeleton opacity and switch to a muted color. Box + distance alone are enough for most trios; neon skeletons are what teammates notice on clips.",
-      "replyToAuthor": "newbie_wd"
+      "body": "@newbie_al — drop skeleton opacity and switch to a muted color. Box + distance alone are enough for most trios; neon skeletons are what teammates notice on clips.",
+      "replyToAuthor": "newbie_al"
     },
     {
       "author": "IT_guy_gaming",

@@ -228,7 +228,7 @@ for (const [name, html] of [
 ]) {
   if (
     !html.includes('/media/apex-') &&
-    !html.includes('/videos/catalyst-apex-legends-10mb.webp')
+    !html.includes('/videos/catalyst-apex-legends-30fps.webp')
   ) {
     fail(`${name}: missing visible Apex Legends media in page body`)
   }
@@ -262,7 +262,7 @@ if (/forums\/(instructions|how-to-load)/.test(sitemap)) fail('Retired forum rema
 if (!sitemap.includes('https://apexhacks.org/')) {
   fail('sitemap.xml must use https://apexhacks.org URLs')
 }
-if (!sitemap.includes('/videos/catalyst-apex-legends-10mb.webp')) {
+if (!sitemap.includes('/videos/catalyst-apex-legends-30fps.webp')) {
   fail('sitemap.xml missing Apex Legends preview video entry')
 }
 if (!sitemap.includes('xmlns:video=')) {
@@ -375,7 +375,7 @@ for (const asset of [
   'public/media/apex-menu.webp',
   'public/media/apex-video-thumb.jpg',
   'public/media/apex-screenshot-1.webp',
-  'public/videos/catalyst-apex-legends-10mb.webp',
+  'public/videos/catalyst-apex-legends-30fps.webp',
   'public/sitemap.css',
   'public/_routes.json',
   'functions/_middleware.js',

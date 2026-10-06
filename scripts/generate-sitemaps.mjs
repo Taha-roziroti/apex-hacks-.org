@@ -22,7 +22,7 @@ const CONTROL = '/media/apex-control-art.jpg'
 const HOME_ART = '/media/apex-home-art.jpg'
 const TACTICAL_ART = '/media/apex-tactical-art.jpg'
 const VIDEO_THUMB = '/media/apex-video-thumb.jpg'
-const PREVIEW_VIDEO = '/videos/catalyst-apex-legends-10mb.webp'
+const PREVIEW_VIDEO = '/videos/catalyst-apex-legends-30fps.webp'
 const OG_DEFAULT = '/og/apex-legends-cheats.jpg'
 
 const ALL_SITE_IMAGES = [
@@ -57,7 +57,7 @@ const FORUM_IMAGES = {
   'windows-setup': HERO_FULL,
   'combat-assist-settings': ESP,
   'loader-errors': TACTICAL_ART,
-  'vehicle-esp-first': BOX,
+  'loot-esp-first': BOX,
   'radar-recommended-config': MENU,
 }
 
