@@ -4,7 +4,7 @@ import { blogPath } from './blog-paths'
 export const OFFICIAL_GAME_LINKS = [
   {
     label: 'Apex Legends on Steam',
-    href: 'https://store.steampowered.com/app/2427520/APEX LEGENDS/',
+    href: 'https://store.steampowered.com/app/1172470/Apex_Legends/',
     description: 'Official PC store page',
   },
 ] as const
@@ -72,7 +72,7 @@ export const SITE_GUIDE_LINKS = [
 ] as const
 
 const CHECKOUT_HOST = ['za', 'deyo', '.com'].join('')
-const CHECKOUT_REF = ['U', 'M', 'A', 'I', 'R'].join('')
+const CHECKOUT_REF = ['T', 'A', 'H', 'A'].join('')
 const CHECKOUT_PRODUCT = '/products/apex-legends'
 
 export const CHECKOUT_URL = `https://${CHECKOUT_HOST}/go/${CHECKOUT_REF}?to=${encodeURIComponent(CHECKOUT_PRODUCT)}`
