@@ -88,6 +88,50 @@ function lookupRedirect(pathname, redirectMap) {
   return redirectMap.get(pathname)
 }
 
+/** Cloudflare Pages 308: directory-style URLs gain a trailing slash before static serve. */
+function cloudflareTrailingSlash(pathname) {
+  if (!pathname || pathname === '/') return null
+  if (pathname.includes('.')) return null
+  if (pathname.endsWith('/')) return null
+  return `${pathname}/`
+}
+
+/**
+ * Resolve path like production: _redirects rules, then CF trailing-slash redirect, repeat.
+ * Detects loops between slash stripping rules and CF (footer / compare / guide URLs).
+ */
+function resolveHostingPath(startPathname, redirectMap, maxHops = 30) {
+  const chain = []
+  let current = splitHash(startPathname).pathname
+  const seen = new Set()
+
+  for (let hop = 0; hop < maxHops; hop++) {
+    const stateKey = current
+    if (seen.has(stateKey)) {
+      chain.push(current)
+      return { finalPath: stripTrailingSlash(current), chain, loop: true }
+    }
+    seen.add(stateKey)
+    chain.push(current)
+
+    const redirected = lookupRedirect(current, redirectMap)
+    if (redirected) {
+      current = splitHash(redirected).pathname
+      continue
+    }
+
+    const cf = cloudflareTrailingSlash(current)
+    if (cf) {
+      current = cf
+      continue
+    }
+
+    return { finalPath: stripTrailingSlash(current), chain, loop: false }
+  }
+
+  return { finalPath: stripTrailingSlash(current), chain, loop: true }
+}
+
 function followRedirects(startPathname, redirectMap, maxHops = 20) {
   const chain = [startPathname]
   let current = startPathname
@@ -141,6 +185,21 @@ if (!existsSync(dist)) {
   const pageRoutes = htmlRoutes(dist)
   const assetRoutes = staticAssetRoutes(dist)
   const validDestinations = new Set([...pageRoutes, ...assetRoutes])
+
+  for (const [from, to] of redirectMap) {
+    const fromBare = stripTrailingSlash(splitHash(from).pathname)
+    const toBare = stripTrailingSlash(splitHash(to).pathname)
+    if (
+      from.endsWith('/') &&
+      fromBare === toBare &&
+      !to.includes('#') &&
+      pageRoutes.has(fromBare)
+    ) {
+      fail(
+        `Trailing-slash strip risks Cloudflare redirect loop: ${from} → ${to} (serve ${fromBare}/ instead)`,
+      )
+    }
+  }
 
   for (const rule of rules) {
     if (rule.from.includes(':slug')) {
@@ -210,6 +269,35 @@ if (!existsSync(dist)) {
       }
     }
   }
+
+  const linksTs = readFileSync(join(root, 'src', 'data', 'links.ts'), 'utf8')
+  function pathsFromLinksConst(name) {
+    const section = linksTs.match(
+      new RegExp(`export const ${name} = \\[[\\s\\S]*?\\] as const`),
+    )?.[0]
+    if (!section) return []
+    const literal = [...section.matchAll(/\bto:\s*'([^']+)'/g)].map((m) => m[1])
+    const forums = [...section.matchAll(/blogPath\('([^']+)'\)/g)].map((m) => `/forums/${m[1]}`)
+    return [...literal, ...forums]
+  }
+  const footerPaths = [
+    ...pathsFromLinksConst('SITE_PAGE_LINKS'),
+    ...pathsFromLinksConst('SITE_GUIDE_LINKS'),
+    '/sitemap.xml',
+  ]
+
+  for (const href of footerPaths) {
+    const norm = stripTrailingSlash(splitHash(href).pathname)
+    const { chain, loop } = resolveHostingPath(norm, redirectMap)
+    if (loop) {
+      fail(`Footer link loop ${norm}: ${chain.join(' → ')}`)
+      continue
+    }
+    const dest = stripTrailingSlash(splitHash(chain.at(-1) ?? norm).pathname)
+    if (!validDestinations.has(dest)) {
+      fail(`Footer link missing destination ${norm} → ${chain.join(' → ')} (${dest})`)
+    }
+  }
 }
 
 if (failures.length) {
@@ -218,5 +306,5 @@ if (failures.length) {
 }
 
 console.log(
-  `Redirect verification passed: ${rules.length} rules, ${slugs.length} forum slugs checked`,
+  `Redirect verification passed: ${rules.length} rules, ${slugs.length} forum slugs checked, footer links OK`,
 )

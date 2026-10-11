@@ -202,11 +202,11 @@ export function HeroSearch({
     <div ref={rootRef} className={`relative z-50 w-full ${className || 'max-w-xl'}`.trim()}>
       <form
         onSubmit={submit}
-        className="relative flex w-full max-w-full flex-col gap-2.5 sm:flex-row sm:items-center sm:gap-0 sm:rounded-full sm:bg-white sm:p-1"
+        className="search-field relative flex w-full max-w-full flex-col gap-2.5 sm:flex-row sm:items-center sm:gap-0 sm:rounded-full sm:border sm:border-z-soft/25 sm:bg-[rgba(20,16,31,0.94)] sm:p-1 sm:shadow-[inset_0_1px_0_rgba(255,255,255,0.06)]"
         role="search"
       >
-        <div className="flex w-full min-w-0 items-center gap-2 rounded-full bg-white px-3.5 py-2.5 sm:flex-1 sm:rounded-none sm:bg-transparent sm:px-3.5 sm:py-1.5">
-          <Search className="h-4 w-4 shrink-0 text-gray-400" strokeWidth={1.75} aria-hidden />
+        <div className="flex w-full min-w-0 items-center gap-2 rounded-full border border-z-soft/25 bg-[rgba(20,16,31,0.94)] px-3.5 py-2.5 shadow-[inset_0_1px_0_rgba(255,255,255,0.06)] sm:flex-1 sm:rounded-none sm:border-0 sm:bg-transparent sm:px-3.5 sm:py-1.5 sm:shadow-none">
+          <Search className="h-4 w-4 shrink-0 text-z-soft/80" strokeWidth={1.75} aria-hidden />
           <input
             type="search"
             role="combobox"
@@ -221,7 +221,7 @@ export function HeroSearch({
             aria-haspopup="listbox"
             aria-controls={showList ? listId : undefined}
             aria-expanded={showList}
-            className="w-full min-w-0 flex-1 bg-transparent text-sm text-gray-900 outline-none placeholder-gray-400"
+            className="w-full min-w-0 flex-1 bg-transparent text-sm text-white outline-none placeholder:text-white/45"
             autoComplete="off"
             spellCheck={false}
           />

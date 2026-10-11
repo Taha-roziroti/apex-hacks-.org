@@ -39,15 +39,18 @@ const jsonLdExtra = [
   <GuideLandingPage
     client:idle
     currentPath="/best-apex-legends-cheats"
-    breadcrumbLabel="Best Apex Legends Cheats"
+    breadcrumbs={[
+      { label: 'Home', href: '/' },
+      { label: 'Compare' },
+    ]}
     h1="Best Apex Legends Cheats"
-    intro="Compare Apex Legends cheat options by features, PC support, pricing transparency, and honest loader status — then open the buy page when you are ready."
+    intro="Compare options by features, PC support, pricing transparency, and honest loader status — open the buy page when you are ready."
     sections={BEST_GUIDE_SECTIONS}
     internalLinks={BEST_INTERNAL_LINKS}
     imageSrc="/media/apex-screenshot-2.webp"
     imageAlt="Best Apex Legends cheats comparison table for 2026"
     faqs={BEST_PAGE_FAQS}
-    faqHeading="Best Apex Legends cheats FAQ"
+    faqHeading="Comparison FAQ"
     showComparison={true}
   />
 </BaseLayout>

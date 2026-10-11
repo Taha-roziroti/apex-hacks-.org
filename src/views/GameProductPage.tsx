@@ -1,5 +1,7 @@
 import { Check, Shield } from 'lucide-react'
+import { Breadcrumbs } from '../components/Breadcrumbs'
 import { Navbar } from '../components/Navbar'
+import { HOME_CRUMB, PRODUCT_CRUMB, crumbs } from '../data/breadcrumbs'
 import { SiteFooter } from '../components/SiteFooter'
 import { GameCover } from '../components/GameCover'
 import { GameplayPreviewGallery } from '../components/GameplayPreviewGallery'
@@ -11,7 +13,7 @@ import {
   parseGuideSlug,
   type Game,
 } from '../data/games'
-import { PRODUCT_PAGE_FAQS } from '../data/faqs'
+import { PRODUCT_DETAIL_FAQS } from '../data/faqs'
 import { BUY_INTERNAL_LINKS, BUY_PAGE_FAQS } from '../data/seo-landings'
 import { PRODUCT_PRICE_USD, SITE_HOST, SITE_NAME } from '../data/site'
 import { FaqSection } from '../components/FaqSection'
@@ -44,7 +46,7 @@ function ProductPurchaseCard({ game }: { game: Game }) {
         </div>
 
         <CheckoutLink className="cta-gradient mt-5 block w-full rounded-full py-3.5 text-center text-sm font-semibold text-white transition-opacity hover:opacity-90">
-          Buy Apex Legends cheats
+          Continue to checkout
         </CheckoutLink>
         <p className="mt-3 text-center text-[11px] text-white/40">
           Digital delivery · Confirm Active status first
@@ -62,7 +64,7 @@ type GameProductPageProps = {
 export function GameProductPage({ guideSlug, variant = 'features' }: GameProductPageProps) {
   const isBuy = variant === 'buy'
   const navPath = isBuy ? '/buy-apex-legends-cheats' : '/apex-legends-cheats'
-  const pageFaqs = isBuy ? BUY_PAGE_FAQS : PRODUCT_PAGE_FAQS
+  const pageFaqs = isBuy ? BUY_PAGE_FAQS : PRODUCT_DETAIL_FAQS
   const slug = parseGuideSlug(guideSlug)
   const game = getGame(slug)
 
@@ -88,16 +90,13 @@ export function GameProductPage({ guideSlug, variant = 'features' }: GameProduct
       <main>
         <section className="page-x py-8 sm:py-12">
           <div className="mx-auto max-w-6xl">
-            <nav
-              className="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-xs text-white/40"
-              aria-label="Breadcrumb"
-            >
-              <a href="/" className="shrink-0 hover:text-white/70">
-                Home
-              </a>
-              <span className="shrink-0">/</span>
-              <span className="min-w-0 text-white/70">{isBuy ? 'Buy' : 'Product details'}</span>
-            </nav>
+            <Breadcrumbs
+              items={
+                isBuy
+                  ? crumbs(HOME_CRUMB, PRODUCT_CRUMB, { label: 'Buy' })
+                  : crumbs(HOME_CRUMB, { label: 'Product' })
+              }
+            />
 
             <div className="mt-6 text-center lg:mt-8">
               <span className="inline-flex items-center gap-1.5 text-xs text-z-soft">
@@ -110,8 +109,8 @@ export function GameProductPage({ guideSlug, variant = 'features' }: GameProduct
               </h1>
               <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-white/55 sm:mt-4 sm:text-base">
                 {isBuy
-                  ? 'Buy Apex Legends cheats for PC with flexible monthly or lifetime access. Review aimbot, ESP, loot radar, and Windows requirements below — then checkout when loader status is Active.'
-                  : 'Full Apex Legends cheat menu — aimbot options, player ESP, loot ESP, 2D radar, and misc weapon helpers. Compare plans on the buy page when Active — confirm loader status before checkout.'}
+                  ? 'Monthly and lifetime access for Windows. Review modules, requirements, and pricing below — checkout when status is Active.'
+                  : 'Combat assist, player visuals, loot overlays, 2D radar, and misc weapon helpers. Compare plans on the buy page when status is Active.'}
               </p>
               {isBuy && (
                 <ul className="mx-auto mt-5 flex max-w-2xl flex-wrap justify-center gap-2 text-sm">
@@ -139,7 +138,7 @@ export function GameProductPage({ guideSlug, variant = 'features' }: GameProduct
                   {isBuy && (
                     <div>
                       <h2 className="text-lg font-semibold tracking-tight text-white sm:text-xl">
-                        Apex Legends Cheat Pricing
+                        Pricing
                       </h2>
                       <p className="mt-3 text-sm leading-relaxed text-white/55">
                         Plans start from ${PRODUCT_PRICE_USD} monthly with lifetime tiers for longer
@@ -156,7 +155,7 @@ export function GameProductPage({ guideSlug, variant = 'features' }: GameProduct
                   )}
                   <div>
                     <h2 className="text-lg font-semibold tracking-tight text-white sm:text-xl">
-                      {isBuy ? 'Apex Legends Aimbot and ESP Features' : 'Module list'}
+                      {isBuy ? 'Modules' : 'Module list'}
                     </h2>
                   </div>
                   {PRODUCT_FEATURE_GROUPS.map((group) => (
@@ -181,7 +180,7 @@ export function GameProductPage({ guideSlug, variant = 'features' }: GameProduct
 
                 <div className="mt-10">
                   <h2 className="text-lg font-semibold tracking-tight text-white sm:text-xl">
-                    {isBuy ? 'Apex Legends Wallhack and Loot ESP' : 'Why players use these modules'}
+                    {isBuy ? 'Why these overlays help' : 'Why players use these modules'}
                   </h2>
                   <ul className="mt-4 space-y-3">
                     {GUIDE_FEATURES.map((f) => (
@@ -204,11 +203,9 @@ export function GameProductPage({ guideSlug, variant = 'features' }: GameProduct
                       {isBuy ? 'PC Requirements and Compatibility' : 'Platforms & patches'}
                     </h2>
                     <p className="mt-3">
-                      Runs on Apex Legends via Steam or the EA app when loader status is Active. After a
-                      Apex Legends patch,
-                      status may show Updating until tested —{' '}
-                      {SITE_NAME} publishes Active labels so you are not loading a mismatched build.
-                      Status first, raid second.
+                      Runs via Steam or the EA app when status is Active. After a patch, status may show
+                      Updating until tested — we publish labels so you are not loading a mismatched build.
+                      Status first, queue second.
                     </p>
                   </div>
 
@@ -265,8 +262,8 @@ export function GameProductPage({ guideSlug, variant = 'features' }: GameProduct
         </section>
 
         <FaqSection
-          heading="Apex Legends cheats FAQ"
-          intro="Status, features, platforms, delivery, and load questions before checkout."
+          heading={isBuy ? 'Before checkout' : 'Product questions'}
+          intro="Status, delivery, and load help for this page."
           items={pageFaqs}
         />
       </main>

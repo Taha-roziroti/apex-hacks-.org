@@ -2,63 +2,66 @@
 
 export const HOME_FAQS: FaqItem[] = [
   {
-    q: 'What are Apex Legends hacks?',
-    a: 'Apex Legends hacks on apexhacks.org are Windows PC tools with player ESP, optional aimbot, loot ESP, 2D radar, and config profiles — with Active or Updating loader status after patches.',
+    q: 'What does the menu include?',
+    a: 'Player ESP, optional aimbot, loot overlays, 2D radar, and config profiles on Windows. Status is labeled Active or Updating after patches.',
   },
   {
-    q: 'How much do Apex Legends cheats cost?',
-    a: 'Apex Legends cheats start from $35 for monthly access. Lifetime plans cost more. Confirm Active status and pricing on apexhacks.org before checkout.',
+    q: 'How much does access cost?',
+    a: 'Plans start at $35 per month; lifetime tiers cost more. Confirm pricing and status on the buy page before checkout.',
   },
   {
-    q: 'Do you sell hacks for other games?',
-    a: 'No. apexhacks.org covers Apex Legends only — one product, no multi-game catalog.',
+    q: 'Do you cover other games?',
+    a: 'No — one product for Apex Legends only.',
   },
   {
     q: 'Is aimbot required?',
-    a: 'Aimbot is optional. Many players lead with player ESP, loot highlights, and radar, then enable combat assist only when they want it.',
+    a: 'No. Many players start with ESP, loot highlights, and radar, then enable combat assist only when they want it.',
   },
   {
-    q: 'How do you handle game patches?',
-    a: 'We publish Active or Updating labels after Apex Legends updates. Always check status on apexhacks.org before you load.',
+    q: 'How do patches affect the loader?',
+    a: 'We switch labels to Updating when the game updates, then back to Active once the build is verified. Check status before every session.',
   },
   {
-    q: 'What is Apex Legends ESP / wallhack?',
-    a: 'Apex Legends ESP and wallhack-style visuals show players through cover with box, skeleton, health, distance, weapon, and team filters — plus loot and care package highlights.',
+    q: 'What is ESP / wallhack-style visuals?',
+    a: 'On-screen overlays for players through cover — box, skeleton, health, distance, weapon, and team filters — plus loot and care package tags.',
   },
 ]
 
-export const PRODUCT_PAGE_FAQS: FaqItem[] = [
-  ...HOME_FAQS,
+/** Product / buy pages — not duplicated on the homepage FAQ block. */
+export const PRODUCT_DETAIL_FAQS: FaqItem[] = [
   {
-    q: 'Which features are included?',
-    a: 'Aimbot options (FOV, smooth, bone selection, visible check, prediction, draw overlays), player visual options, loot & world ESP, 2D radar, and misc no recoil / no spread / full bright / crosshair / configs — Apex Legends on Windows PC. See the features checklist forum for the full list.',
+    q: 'Which modules can I toggle?',
+    a: 'Combat assist (FOV, smooth, bones, visible check, prediction, draw overlays), player visuals, loot and world ESP, 2D radar, and misc recoil / spread / vision helpers with saved configs. See the features checklist forum for the full list.',
   },
   {
-    q: 'Do Apex Legends cheats work on Steam?',
-    a: 'Yes. The loader supports Apex Legends on Steam when status is Active.',
+    q: 'Does this work on Steam or the EA app?',
+    a: 'Yes on Windows when status is Active and you use a supported client listed on the buy page.',
   },
   {
-    q: 'How do I buy Apex Legends cheats?',
-    a: 'Start on the homepage, review features and Active status, open buy Apex Legends cheats, then continue to checkout for digital delivery.',
+    q: 'How do I purchase?',
+    a: 'Review modules and status here, open the buy page, then continue to checkout for digital delivery.',
   },
   {
-    q: 'How do I load Apex Legends cheats?',
-    a: 'Follow the complete setup forum: exclusions, launch game, run loader, configure ESP and radar, save a config. Re-check status after every patch.',
+    q: 'How do I load after delivery?',
+    a: 'Follow the complete setup forum: exclusions, launch the game, run the loader, tune ESP and radar, save a profile. Re-check status after each patch.',
   },
   {
-    q: 'Where do I get support?',
-    a: 'Use the Support page and your checkout order channel. Include current status and whether you need load, menu, or delivery help.',
+    q: 'Where do I get help?',
+    a: 'Use Support and your order channel. Include current status and whether you need load, menu, or delivery help.',
   },
   {
-    q: 'Where can I read reviews?',
-    a: 'Visit the Reviews page for buyer feedback on ESP, aimbot, loot radar, and loader updates.',
+    q: 'Where are buyer reviews?',
+    a: 'On the Reviews page — feedback on visuals, tuning, and loader updates.',
   },
   {
-    q: 'Is this the official Apex Legends site?',
-    a: 'No. We cover Apex Legends cheat software only. Buy and play the game from official stores. We are not affiliated with the game publisher.',
+    q: 'Is this an official EA site?',
+    a: 'No. Buy and play the game from official stores. We are not affiliated with the publisher.',
   },
 ]
 
-export const FAQ_PAGE_FAQS: FaqItem[] = PRODUCT_PAGE_FAQS
+export const FAQ_PAGE_FAQS: FaqItem[] = [...HOME_FAQS, ...PRODUCT_DETAIL_FAQS]
+
+/** @deprecated Use PRODUCT_DETAIL_FAQS or FAQ_PAGE_FAQS */
+export const PRODUCT_PAGE_FAQS = FAQ_PAGE_FAQS
 
 export const SITE_FAQS = FAQ_PAGE_FAQS

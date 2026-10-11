@@ -21,7 +21,8 @@ const jsonLdExtra = [
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
-      { '@type': 'ListItem', position: 2, name: 'Detection & status', item: pageUrl },
+      { '@type': 'ListItem', position: 2, name: 'Forums', item: `${SITE_URL}/forums` },
+      { '@type': 'ListItem', position: 3, name: 'Status & risk', item: pageUrl },
     ],
   },
 ]
@@ -31,7 +32,11 @@ const jsonLdExtra = [
   <GuideLandingPage
     client:idle
     currentPath="/guides/apex-legends-cheats-undetected"
-    breadcrumbLabel="Apex Legends cheats undetected"
+    breadcrumbs={[
+      { label: 'Home', href: '/' },
+      { label: 'Forums', href: '/forums' },
+      { label: 'Status & risk' },
+    ]}
     h1="Apex Legends Cheats Undetected"
     intro="Easy Anti-Cheat, patch-day risk, and what Active or Updating status means — without unsupported undetected guarantees."
     sections={UNDETECTED_GUIDE_SECTIONS}

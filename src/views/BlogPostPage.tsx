@@ -1,5 +1,7 @@
 import { ArrowLeft, ArrowRight, Lock } from 'lucide-react'
+import { Breadcrumbs } from '../components/Breadcrumbs'
 import { Navbar } from '../components/Navbar'
+import { FORUMS_CRUMB, HOME_CRUMB, crumbs } from '../data/breadcrumbs'
 import { SiteFooter } from '../components/SiteFooter'
 import { blogPath, getBlog, getRelatedForumThreads } from '../data/blogs'
 import { guidePath } from '../data/games'
@@ -47,20 +49,9 @@ export function BlogPostPage({ slug }: BlogPostPageProps) {
       <main className="page-body">
         <article className="page-x py-10 sm:py-14">
           <div className="mx-auto max-w-3xl">
-            <nav
-              className="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-xs text-white/40"
-              aria-label="Breadcrumb"
-            >
-              <a href="/" className="hover:text-white/70">
-                Home
-              </a>
-              <span>/</span>
-              <a href="/forums" className="hover:text-white/70">
-                Forums
-              </a>
-              <span>/</span>
-              <span className="text-white/70">{post.tag}</span>
-            </nav>
+            <Breadcrumbs
+              items={crumbs(HOME_CRUMB, FORUMS_CRUMB, { label: post.title })}
+            />
 
             <div className="mt-6 flex flex-wrap items-center gap-2">
               <p className="text-xs font-medium uppercase tracking-[0.2em] text-white/45">

@@ -96,4 +96,4 @@ export function getCheckoutUrl(_productSlug?: string): string {
   return CHECKOUT_URL
 }
 
-export const CHECKOUT_REL = 'nofollow noopener noreferrer'
+export const CHECKOUT_REL = 'nofollow'

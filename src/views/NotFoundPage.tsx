@@ -1,4 +1,6 @@
+import { Breadcrumbs } from '../components/Breadcrumbs'
 import { Navbar } from '../components/Navbar'
+import { HOME_CRUMB, crumbs } from '../data/breadcrumbs'
 import { SiteFooter } from '../components/SiteFooter'
 import { HeroSearch } from '../components/HeroSearch'
 import { CheckoutLink } from '../components/CheckoutLink'
@@ -13,6 +15,10 @@ export function NotFoundPage() {
       <main className="page-body">
         <section className="page-x py-16 sm:py-28">
           <div className="page-card mx-auto max-w-3xl rounded-2xl px-5 py-12 text-center sm:rounded-3xl sm:px-12 sm:py-16">
+            <Breadcrumbs
+              className="mb-6 text-left"
+              items={crumbs(HOME_CRUMB, { label: 'Page not found' })}
+            />
             <p className="text-xs font-medium uppercase tracking-[0.2em] text-white/45">
               Error 404
             </p>

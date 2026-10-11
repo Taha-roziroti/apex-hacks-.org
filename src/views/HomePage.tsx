@@ -41,7 +41,7 @@ const HOW_IT_WORKS = [
   {
     step: '01',
     title: 'Check loader status',
-    text: 'After Apex Legends patches we label builds Active or Updating on apexhacks.org — load only when Active matches your client.',
+    text: 'After game patches we label builds Active or Updating — load only when Active matches your client.',
   },
   {
     step: '02',
@@ -78,8 +78,8 @@ export function HomePage({ part = 'full' }: HomePageProps) {
                   {HOME_HEADINGS.h1}
                 </h1>
                 <p className="mt-3 max-w-lg text-sm leading-relaxed text-white/70 sm:mt-3.5 sm:text-[0.95rem]">
-                  Explore Apex Legends hacks for PC — ESP, aimbot, loot radar, and wallhack-style overlays
-                  on Windows 10/11. Compare access options and check loader status before you buy.
+                  ESP, optional combat assist, loot radar, and saved configs on Windows 10/11. Compare
+                  plans and check loader status before checkout.
                 </p>
 
                 <ul className="relative z-50 mt-4 flex flex-wrap gap-2 text-xs sm:text-sm">
@@ -100,7 +100,7 @@ export function HomePage({ part = 'full' }: HomePageProps) {
                     href="/buy-apex-legends-cheats"
                     className="cta-gradient inline-flex items-center justify-center rounded-full px-6 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
                   >
-                    Buy Apex Legends cheats
+                    View plans
                   </a>
                   <a
                     href="/forums"
@@ -112,18 +112,17 @@ export function HomePage({ part = 'full' }: HomePageProps) {
               </div>
 
               <div className="relative z-10 grid w-full grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4 lg:w-[30rem] lg:shrink-0">
-                <div className="glass flex h-full min-h-[140px] flex-col justify-between rounded-2xl p-4 sm:min-h-[160px] sm:p-5">
-                  <div className="flex items-center gap-2">
-                    <Sparkles className="h-5 w-5 text-z-soft" strokeWidth={1.75} />
+                <div className="glass flex h-full flex-col rounded-2xl p-4 sm:p-5">
+                  <div className="mb-2.5 flex items-center gap-2 sm:mb-3">
+                    <Sparkles className="h-5 w-5 shrink-0 text-z-soft" strokeWidth={1.75} />
                     <span className="text-sm font-semibold text-white">Patch-synced loader</span>
                   </div>
-                  <p className="mt-2.5 text-xs leading-relaxed text-white/70 sm:mt-3 sm:text-sm">
-                    Active or Updating labels after Apex Legends updates — no mystery builds after patch
-                    days.
+                  <p className="text-xs leading-relaxed text-white/70 sm:text-sm">
+                    Active or Updating labels after patches — no mystery builds on patch day.
                   </p>
                 </div>
 
-                <div className="glass flex h-full min-h-[140px] flex-col rounded-2xl p-4 sm:min-h-[160px] sm:p-5">
+                <div className="glass flex h-full flex-col rounded-2xl p-4 sm:p-5">
                   <div className="mb-2.5 flex items-center gap-2 sm:mb-3">
                     <div className="flex h-5 w-5 items-center justify-center rounded bg-z-accent/30 text-[10px] font-bold text-z-soft sm:h-6 sm:w-6 sm:text-xs">
                       AL
@@ -164,18 +163,10 @@ export function HomePage({ part = 'full' }: HomePageProps) {
             <h2 className="mb-3 text-xl font-semibold tracking-tight text-white sm:text-2xl">
               {HOME_HEADINGS.h2Pc}
             </h2>
-            <p className="mb-4 max-w-2xl text-sm leading-relaxed text-white/55 sm:text-base">
-              Apex Legends hacks on Windows PC — single-game focus with forums, reviews, and honest
-              Active or Updating labels after patches.
-            </p>
-            <h3 className="mb-3 text-lg font-semibold text-white">{HOME_HEADINGS.h2AimbotEsp}</h3>
-            <p className="mb-6 max-w-2xl text-sm leading-relaxed text-white/55 sm:text-base">
-              Aimbot options, player ESP, and radar modules with setup threads so you can tune without
-              cluttering your HUD.
-            </p>
-            <h3 className="mb-3 text-lg font-semibold text-white">{HOME_HEADINGS.h2WallhackLoot}</h3>
             <p className="mb-8 max-w-2xl text-sm leading-relaxed text-white/55 sm:text-base">
-              Wallhack-style visuals plus loot and care package ESP for faster rotates after fights.
+              Single-game focus with forums, reviews, and honest status labels. Combat assist, player
+              visuals, radar, and loot overlays each have setup threads so you can tune without
+              cluttering your HUD.
             </p>
             <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
               {FEATURES.map(({ icon: Icon, label, desc, href }) => (
@@ -205,8 +196,8 @@ export function HomePage({ part = 'full' }: HomePageProps) {
               {HOME_HEADINGS.h2Requirements}
             </h2>
             <p className="mt-3 max-w-2xl text-sm leading-relaxed text-white/55 sm:text-base">
-              Apex Legends cheats stay maintainable when you treat loader status and configs like part of
-              your loadout — same habit as checking patch notes before queue.
+              Treat loader status and configs like part of your loadout — same habit as reading patch
+              notes before queue.
             </p>
             <ol className="mt-10 grid gap-4 lg:grid-cols-3">
               {HOW_IT_WORKS.map(({ step, title, text }) => (
@@ -266,8 +257,8 @@ export function HomePage({ part = 'full' }: HomePageProps) {
                   {HOME_HEADINGS.h2Reviews}
                 </h2>
                 <p className="mt-3 max-w-xl text-sm leading-relaxed text-white/55 sm:text-base">
-                  Feedback from Apex Legends players on ESP clarity, aimbot tuning, loot radar, and
-                  loader updates — no external review links.
+                  On-site feedback on visuals, tuning, loot radar, and loader updates — no external
+                  review links.
                 </p>
               </div>
               <a
@@ -363,7 +354,7 @@ export function HomePage({ part = 'full' }: HomePageProps) {
         <FaqSection
           id="faq"
           heading={HOME_HEADINGS.h2Faq}
-          intro="Features, loader status, platforms, delivery, and setup — before you buy."
+          intro="Status, platforms, delivery, and setup — before checkout."
           items={HOME_FAQS}
           moreHref="/faq"
           moreLabel="Full FAQ →"
@@ -375,25 +366,24 @@ export function HomePage({ part = 'full' }: HomePageProps) {
               {HOME_HEADINGS.h2Access}
             </h2>
             <p className="mt-4 text-sm leading-relaxed text-white/55 sm:text-base">
-              When loader status is Active and your config is saved, continue to checkout for{' '}
-              {SITE_NAME} on PC — or read the{' '}
+              When status is Active and your config is saved, continue to checkout — or skim the{' '}
               <a
                 href="/apex-legends-cheats"
                 className="text-white/80 underline-offset-2 hover:underline"
               >
-                full feature list
+                module list
               </a>{' '}
-              or{' '}
+              and{' '}
               <a
                 href="/best-apex-legends-cheats"
                 className="text-white/80 underline-offset-2 hover:underline"
               >
-                best Apex Legends cheats comparison
+                comparison page
               </a>
               .
             </p>
             <CheckoutLink className="cta-gradient mt-8 inline-flex items-center justify-center rounded-full px-8 py-3.5 text-sm font-semibold text-white transition-opacity hover:opacity-90">
-              Buy Apex Legends cheats
+              Continue to checkout
             </CheckoutLink>
           </div>
         </section>

@@ -1,5 +1,7 @@
 import { Star } from 'lucide-react'
+import { Breadcrumbs } from '../components/Breadcrumbs'
 import { Navbar } from '../components/Navbar'
+import { HOME_CRUMB, crumbs } from '../data/breadcrumbs'
 import { SiteFooter } from '../components/SiteFooter'
 import { getReviewsAggregate, REVIEWS } from '../data/reviews'
 import { CheckoutLink } from '../components/CheckoutLink'
@@ -31,7 +33,8 @@ export function ReviewsPage() {
       <main>
         <section className="page-x pt-12 sm:pt-16">
           <div className="mx-auto max-w-3xl">
-            <p className="text-xs font-medium uppercase tracking-[0.2em] text-z-soft/80">
+            <Breadcrumbs items={crumbs(HOME_CRUMB, { label: 'Reviews' })} />
+            <p className="mt-4 text-xs font-medium uppercase tracking-[0.2em] text-z-soft/80">
               {SITE_NAME}
             </p>
             <h1 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-5xl">

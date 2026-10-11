@@ -1,4 +1,5 @@
 import { ArrowRight } from 'lucide-react'
+import { Breadcrumbs, type BreadcrumbItem } from '../components/Breadcrumbs'
 import { Navbar } from '../components/Navbar'
 import { SiteFooter } from '../components/SiteFooter'
 import { FaqSection } from '../components/FaqSection'
@@ -17,7 +18,7 @@ type GuideLandingPageProps = {
   faqs: FaqItem[]
   faqHeading: string
   showComparison?: boolean
-  breadcrumbLabel: string
+  breadcrumbs: BreadcrumbItem[]
 }
 
 export function GuideLandingPage({
@@ -31,7 +32,7 @@ export function GuideLandingPage({
   faqs,
   faqHeading,
   showComparison = false,
-  breadcrumbLabel,
+  breadcrumbs,
 }: GuideLandingPageProps) {
   return (
     <div className="content-surface min-h-screen overflow-x-hidden text-white">
@@ -41,14 +42,7 @@ export function GuideLandingPage({
 
       <main className="page-x py-10 sm:py-14">
         <div className="mx-auto max-w-6xl">
-          <nav
-            className="flex flex-wrap items-center gap-x-1.5 gap-y-1 text-xs text-white/40"
-            aria-label="Breadcrumb"
-          >
-            <a href="/" className="shrink-0 hover:text-white/70">Home</a>
-            <span className="shrink-0">/</span>
-            <span className="min-w-0 text-white/70">{breadcrumbLabel}</span>
-          </nav>
+          <Breadcrumbs items={breadcrumbs} />
 
           <div className="mt-8 grid gap-10 lg:grid-cols-12 lg:items-start">
             <div className="lg:col-span-7">

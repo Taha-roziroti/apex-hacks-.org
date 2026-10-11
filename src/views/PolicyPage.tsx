@@ -1,4 +1,6 @@
+import { Breadcrumbs } from '../components/Breadcrumbs'
 import { Navbar } from '../components/Navbar'
+import { HOME_CRUMB, crumbs } from '../data/breadcrumbs'
 import { SiteFooter } from '../components/SiteFooter'
 import { SITE_HOST, SITE_NAME } from '../data/site'
 import type { PolicyPageContent } from '../data/policies'
@@ -17,7 +19,8 @@ export function PolicyPage({ page }: PolicyPageProps) {
       <main className="page-body">
         <section className="page-x pt-12 sm:pt-20">
           <div className="mx-auto max-w-3xl">
-            <p className="text-xs font-medium uppercase tracking-[0.2em] text-white/45">
+            <Breadcrumbs items={crumbs(HOME_CRUMB, { label: page.h1 })} />
+            <p className="mt-4 text-xs font-medium uppercase tracking-[0.2em] text-white/45">
               {SITE_NAME} · Policy · {SITE_HOST}
             </p>
             <h1 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-5xl">

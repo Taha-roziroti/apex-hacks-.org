@@ -1,5 +1,7 @@
 import { ChevronDown } from 'lucide-react'
+import { Breadcrumbs } from '../components/Breadcrumbs'
 import { Navbar } from '../components/Navbar'
+import { HOME_CRUMB, crumbs } from '../data/breadcrumbs'
 import { SiteFooter } from '../components/SiteFooter'
 import { SITE_FAQS } from '../data/faqs'
 import { CheckoutLink } from '../components/CheckoutLink'
@@ -15,15 +17,16 @@ export function FaqPage() {
       <main>
         <section className="page-x pt-12 sm:pt-16">
           <div className="mx-auto max-w-3xl">
-            <p className="text-xs font-medium uppercase tracking-[0.2em] text-z-soft/80">
+            <Breadcrumbs items={crumbs(HOME_CRUMB, { label: 'FAQ' })} />
+            <p className="mt-4 text-xs font-medium uppercase tracking-[0.2em] text-z-soft/80">
               {SITE_NAME}
             </p>
             <h1 className="mt-3 text-3xl font-semibold tracking-tight text-white sm:text-5xl">
-              Apex Legends Cheats FAQ
+              FAQ
             </h1>
             <p className="mt-4 text-base leading-relaxed text-white/60">
-              Loader status, ESP, aimbot, loot radar, platforms, buying, loading, support and refunds
-              — straight answers before you checkout.
+              Status, modules, platforms, buying, loading, support, and refunds — straight answers before
+              checkout.
             </p>
           </div>
         </section>

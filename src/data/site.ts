@@ -7,7 +7,7 @@ export const SITE_HOST = 'apexhacks.org'
 
 /** Stable site identity — Organization, WebSite, and about copy (not per-route). */
 export const SITE_PURPOSE =
-  'Apex Legends Cheats is a single-game site focused on Apex Legends cheats, tools, and related gameplay features. The site is dedicated to Apex Legends only and does not sell cheats for other games.'
+  'Single-game site for Apex Legends on PC: feature overview, setup forums, and loader status. This site does not sell cheats for other games.'
 
 /** Site-wide subject terms for schema knowsAbout (max 6). */
 export const SITE_ABOUT = [
@@ -71,7 +71,7 @@ export const SEO = {
   home: {
     title: 'Apex Legends Hacks — ESP, Aimbot & More',
     description:
-      'Explore Apex Legends hacks for PC with ESP, aimbot and other features. Compare access options and check current availability.',
+      'PC overlays for BR trios — ESP, optional aimbot, loot radar, and configs. Compare plans and check loader status before you buy.',
     path: '/',
     ogType: 'website',
     image: PAGE_OG.home,
@@ -121,7 +121,7 @@ export const SEO = {
   product: {
     title: 'Apex Legends Cheats | Features & Setup',
     description:
-      'Apex Legends cheat menu for PC — aimbot, player ESP, loot ESP, 2D radar, and config tools. System requirements, pricing from $35, and loader status.',
+      'Full module list for Windows — combat assist, player visuals, loot overlays, radar, and saved profiles. Requirements, pricing from $35, and live status.',
     path: '/apex-legends-cheats',
     ogType: 'product',
     image: PAGE_OG.product,
@@ -131,7 +131,7 @@ export const SEO = {
   buy: {
     title: 'Buy Apex Legends Cheats — Price & Plans',
     description:
-      'Buy Apex Legends cheats for PC with flexible access options. Review features, pricing and requirements before choosing your plan.',
+      'Monthly and lifetime access from $35. Review modules, Windows requirements, and Active status before checkout.',
     path: '/buy-apex-legends-cheats',
     ogType: 'product',
     image: PAGE_OG.product,
@@ -141,7 +141,7 @@ export const SEO = {
   best: {
     title: 'Best Apex Legends Cheats — 2026 Comparison',
     description:
-      'Compare the best Apex Legends cheats by features, pricing, PC support and current status. Find the option that fits your needs.',
+      'Side-by-side look at features, pricing, PC support, and how honestly status is published after patches.',
     path: '/best-apex-legends-cheats',
     ogType: 'article',
     image: PAGE_OG.home,
@@ -151,7 +151,7 @@ export const SEO = {
   guidePc: {
     title: 'Apex Legends Cheats for PC — Requirements Guide',
     description:
-      'Learn which Apex Legends cheats work on PC, supported Windows versions, requirements and key compatibility checks.',
+      'Windows 10/11, Steam and EA app clients, exclusions, and what to verify before your first inject.',
     path: '/guides/apex-legends-cheats-pc',
     ogType: 'article',
     image: PAGE_OG.home,
@@ -161,7 +161,7 @@ export const SEO = {
   guideUndetected: {
     title: 'Apex Legends Cheats Undetected — Status & Risk Guide',
     description:
-      "Learn how Apex Legends cheat detection works, what EAC means, and how to check a cheat's current status before making a decision.",
+      'Easy Anti-Cheat basics, what Active and Updating mean, and why no vendor can promise zero ban risk.',
     path: '/guides/apex-legends-cheats-undetected',
     ogType: 'article',
     image: PAGE_OG.faq,
@@ -172,14 +172,12 @@ export const SEO = {
 
 export const HOME_HEADINGS = {
   h1: 'Apex Legends Hacks',
-  h2Pc: 'Apex Legends Hacks for PC',
-  h2AimbotEsp: 'Apex Legends Aimbot and ESP Features',
-  h2WallhackLoot: 'Apex Legends Wallhack and Loot ESP',
-  h2Requirements: 'Apex Legends Cheat Requirements',
-  h2Ranked: 'Apex Legends Hacks for Ranked Play',
-  h2Reviews: 'Apex Legends Cheats Reviews',
-  h2Forums: 'Apex Legends Cheats Forum',
-  h2Faq: 'Apex Legends Cheats FAQ',
+  h2Pc: 'Built for PC',
+  h2Requirements: 'Before you load',
+  h2Ranked: 'Ranked trios',
+  h2Reviews: 'Player reviews',
+  h2Forums: 'Community forums',
+  h2Faq: 'Common questions',
   h2Access: 'Ready when you are',
 } as const
 

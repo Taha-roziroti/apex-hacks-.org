@@ -1,6 +1,8 @@
 import { useMemo, useState } from 'react'
 import { ArrowRight, Lock } from 'lucide-react'
+import { Breadcrumbs } from '../components/Breadcrumbs'
 import { Navbar } from '../components/Navbar'
+import { HOME_CRUMB, crumbs } from '../data/breadcrumbs'
 import { SiteFooter } from '../components/SiteFooter'
 import { HeroPanelVideo } from '../components/HeroPanelVideo'
 import { HeroSearch } from '../components/HeroSearch'
@@ -34,6 +36,10 @@ export function ForumsPage({ initialQuery = '' }: ForumsPageProps) {
           <Navbar onVideo currentPath="/forums" />
           <div className="page-x mt-auto pb-10 sm:pb-14">
             <div className="relative z-30 mx-auto max-w-6xl">
+              <Breadcrumbs
+                className="mb-3"
+                items={crumbs(HOME_CRUMB, { label: 'Forums' })}
+              />
               <p className="mb-3 text-xs font-medium uppercase tracking-[0.2em] text-white/50">
                 Forums · Setup · {SITE_HOST}
               </p>

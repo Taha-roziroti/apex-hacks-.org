@@ -9,33 +9,33 @@ export type LandingSection = {
 export type InternalLink = { label: string; href: string }
 
 export const HOME_INTERNAL_LINKS: InternalLink[] = [
-  { label: 'buy Apex Legends cheats', href: '/buy-apex-legends-cheats' },
-  { label: 'best Apex Legends cheats', href: '/best-apex-legends-cheats' },
-  { label: 'Apex Legends cheats for PC', href: '/guides/apex-legends-cheats-pc' },
+  { label: 'Pricing & plans', href: '/buy-apex-legends-cheats' },
+  { label: 'Compare options', href: '/best-apex-legends-cheats' },
+  { label: 'PC requirements', href: '/guides/apex-legends-cheats-pc' },
 ]
 
 export const BUY_INTERNAL_LINKS: InternalLink[] = [
-  { label: 'Apex Legends hacks', href: '/' },
-  { label: 'best Apex Legends cheats', href: '/best-apex-legends-cheats' },
-  { label: 'Apex Legends cheats for PC', href: '/guides/apex-legends-cheats-pc' },
+  { label: 'Home', href: '/' },
+  { label: 'Compare options', href: '/best-apex-legends-cheats' },
+  { label: 'PC requirements', href: '/guides/apex-legends-cheats-pc' },
 ]
 
 export const BEST_INTERNAL_LINKS: InternalLink[] = [
-  { label: 'buy Apex Legends cheats', href: '/buy-apex-legends-cheats' },
-  { label: 'Apex Legends hacks', href: '/' },
-  { label: 'Apex Legends cheats undetected', href: '/guides/apex-legends-cheats-undetected' },
+  { label: 'Pricing & plans', href: '/buy-apex-legends-cheats' },
+  { label: 'Home', href: '/' },
+  { label: 'Status & risk', href: '/guides/apex-legends-cheats-undetected' },
 ]
 
 export const PC_GUIDE_INTERNAL_LINKS: InternalLink[] = [
-  { label: 'buy Apex Legends cheats', href: '/buy-apex-legends-cheats' },
-  { label: 'Apex Legends hacks', href: '/' },
-  { label: 'Apex Legends cheat status', href: '/guides/apex-legends-cheats-undetected' },
+  { label: 'Pricing & plans', href: '/buy-apex-legends-cheats' },
+  { label: 'Home', href: '/' },
+  { label: 'Status & risk', href: '/guides/apex-legends-cheats-undetected' },
 ]
 
 export const UNDETECTED_GUIDE_INTERNAL_LINKS: InternalLink[] = [
-  { label: 'buy Apex Legends cheats', href: '/buy-apex-legends-cheats' },
-  { label: 'best Apex Legends cheats', href: '/best-apex-legends-cheats' },
-  { label: 'Apex Legends cheats for PC', href: '/guides/apex-legends-cheats-pc' },
+  { label: 'Pricing & plans', href: '/buy-apex-legends-cheats' },
+  { label: 'Compare options', href: '/best-apex-legends-cheats' },
+  { label: 'PC requirements', href: '/guides/apex-legends-cheats-pc' },
 ]
 
 export const BEST_COMPARISON_ROWS = [
@@ -70,13 +70,13 @@ export const BEST_COMPARISON_ROWS = [
 
 export const PC_GUIDE_SECTIONS: LandingSection[] = [
   {
-    h2: 'Apex Legends Cheat PC Compatibility',
+    h2: 'PC compatibility',
     paragraphs: [
-      'Apex Legends cheats on PC run as external overlays and loaders on Windows — not on console. Match your game client (Steam or EA app) to the build notes on the buy page before you purchase.',
+      'Tools run as external overlays and loaders on Windows — not on console. Match your game client (Steam or EA app) to the build notes on the buy page before you purchase.',
     ],
   },
   {
-    h2: 'Windows 10 and Windows 11 Support',
+    h2: 'Windows 10 and 11',
     paragraphs: [
       'Use a clean Windows 10 or 11 install with current updates. Close conflicting overlays (Discord, GeForce Experience hooks, RGB tools) before first inject — the setup forums walk through exclusions step by step.',
     ],
@@ -87,46 +87,46 @@ export const PC_GUIDE_SECTIONS: LandingSection[] = [
     ],
   },
   {
-    h2: 'Steam and PC Requirements',
+    h2: 'Steam and EA app',
     paragraphs: [
-      'The supported clients are Steam and the EA app for Apex Legends on PC. Verify Active loader status on apexhacks.org after every seasonal patch — loading while status shows Updating wastes a session.',
+      'Supported clients are Steam and the EA app. Verify Active status after every seasonal patch — loading while status shows Updating wastes a session.',
     ],
   },
   {
-    h2: 'ESP, Aimbot and Other Features',
+    h2: 'Typical modules',
     paragraphs: [
-      'Typical modules include player ESP and wallhack-style visuals, optional aimbot with FOV and smooth sliders, loot ESP for death boxes and care packages, and a 2D radar for squad awareness in trios and ranked.',
+      'Player visuals, optional combat assist with FOV and smooth sliders, loot tags for death boxes and care packages, and a 2D radar for squad awareness in trios and ranked.',
     ],
   },
   {
-    h2: 'Before You Buy an Apex Cheat',
+    h2: 'Before you buy',
     paragraphs: [
-      'Read the PC requirements here, review detection risks on the status guide, compare plans on the best cheats page, then open buy Apex Legends cheats when loader status is Active.',
+      'Read requirements here, review risks on the status guide, compare plans on the comparison page, then checkout when status is Active.',
     ],
   },
 ]
 
 export const UNDETECTED_GUIDE_SECTIONS: LandingSection[] = [
   {
-    h2: 'Are Apex Legends Cheats Safe?',
+    h2: 'Is any menu “safe”?',
     paragraphs: [
       'No third-party cheat is “safe” in the sense of zero risk. EA prohibits cheating and may close or penalize accounts. Treat any menu as high risk — use only what you accept losing.',
     ],
   },
   {
-    h2: 'Apex Legends and Easy Anti-Cheat',
+    h2: 'Easy Anti-Cheat on PC',
     paragraphs: [
       'Apex Legends uses Easy Anti-Cheat (EAC) on PC. EAC and server-side checks can change without notice. We rebuild after major updates, but compatibility and detection risk can shift at any time.',
     ],
   },
   {
-    h2: 'How Cheat Detection Can Change',
+    h2: 'When detection shifts',
     paragraphs: [
       'Seasonal updates, hotfixes, and anti-cheat tuning can flip a build from usable to flagged. That is why we publish Active or Updating status instead of promising permanent bypasses.',
     ],
   },
   {
-    h2: 'Current Cheat Status and Updates',
+    h2: 'Active vs Updating',
     paragraphs: [
       'Check the product card and buy page before every session. If status is Updating after a patch, wait for the rebuild — loading early is the most common self-inflicted failure.',
     ],
@@ -141,41 +141,41 @@ export const UNDETECTED_GUIDE_SECTIONS: LandingSection[] = [
 
 export const BEST_GUIDE_SECTIONS: LandingSection[] = [
   {
-    h2: 'Best Apex Legends Cheat Features',
+    h2: 'What to prioritize',
     paragraphs: [
-      'Prioritize modules you will actually use: clear player ESP, distance tags, loot highlights, and an optional aimbot with visible-check and FOV limits. Skip bloated multi-game menus that rarely track Apex patch cadence.',
+      'Modules you will actually use: clear player visuals, distance tags, loot highlights, and optional combat assist with visible-check and FOV limits. Skip bloated multi-game menus that rarely track patch cadence.',
     ],
   },
   {
-    h2: 'Apex Legends Cheats Compared',
+    h2: 'How we compare options',
     paragraphs: [
-      'Use the table below to compare access models. We bias toward transparent status labels, single-game focus, and documented setup forums — not vague “lifetime undetected” slogans.',
+      'Use the table below for access models. We bias toward transparent status labels, single-game focus, and documented setup forums — not vague “lifetime undetected” slogans.',
     ],
   },
   {
-    h2: 'Apex Legends Cheats 2026',
+    h2: 'Patch cadence in 2026',
     paragraphs: [
-      'In 2026, expect more frequent mid-season balance patches and regular EAC maintenance. The best option is the one with honest Updating windows and PC requirements you can verify before checkout.',
+      'Expect frequent mid-season balance updates and regular EAC maintenance. Favor vendors that publish honest Updating windows and requirements you can verify before checkout.',
     ],
   },
   {
-    h2: 'Pricing and Access Options',
+    h2: 'Pricing and access',
     paragraphs: [
-      'Monthly access starts from $35 on apexhacks.org with lifetime tiers for longer commitments. Confirm pricing on the buy page — digital delivery only, no physical goods.',
+      'Monthly access starts from $35 with lifetime tiers for longer commitments. Confirm live pricing on the buy page — digital delivery only.',
     ],
   },
   {
-    h2: 'Which Apex Legends Cheat Fits You?',
+    h2: 'Fit for your queue style',
     paragraphs: [
-      'Solo ranked players may want ESP-first configs; trio leads may lean on radar and loot ESP. If you need Windows and client compatibility detail, read the PC guide before you buy.',
+      'Solo ranked players often prefer ESP-first configs; trio leads may lean on radar and loot tags. For Windows and client detail, read the PC guide before you buy.',
     ],
   },
 ]
 
 export const PC_GUIDE_FAQS: FaqItem[] = [
   {
-    q: 'Do Apex Legends cheats work on Steam and EA app?',
-    a: 'Yes, when loader status is Active and you use the supported Windows PC client listed on the buy page. Always re-check status after patches.',
+    q: 'Do builds work on Steam and the EA app?',
+    a: 'Yes, when status is Active and you use a supported Windows client listed on the buy page. Re-check after patches.',
   },
   {
     q: 'Which Windows versions are supported?',
@@ -189,7 +189,7 @@ export const PC_GUIDE_FAQS: FaqItem[] = [
 
 export const UNDETECTED_GUIDE_FAQS: FaqItem[] = [
   {
-    q: 'Are Apex Legends cheats 100% undetected?',
+    q: 'Is anything 100% undetected?',
     a: 'No. We do not guarantee permanent undetected status or zero ban risk. Easy Anti-Cheat and publisher enforcement can change at any time.',
   },
   {
@@ -204,12 +204,12 @@ export const UNDETECTED_GUIDE_FAQS: FaqItem[] = [
 
 export const BEST_PAGE_FAQS: FaqItem[] = [
   {
-    q: 'What makes the best Apex Legends cheats in 2026?',
-    a: 'Honest status labels, PC requirements you can verify, modules you will use (ESP, loot, radar, optional aimbot), and setup help — not vague undetected marketing.',
+    q: 'What should I look for in 2026?',
+    a: 'Honest status labels, verifiable PC requirements, modules you will use, and setup help — not vague undetected marketing.',
   },
   {
     q: 'How do I compare pricing?',
-    a: 'Start on the best cheats comparison, then open buy Apex Legends cheats for live plans from $35 monthly and lifetime options.',
+    a: 'Use this comparison, then open the buy page for live plans from $35 monthly and lifetime options.',
   },
   {
     q: 'Should I trust free cheat downloads?',
@@ -219,8 +219,8 @@ export const BEST_PAGE_FAQS: FaqItem[] = [
 
 export const BUY_PAGE_FAQS: FaqItem[] = [
   {
-    q: 'How much do Apex Legends cheats cost?',
-    a: 'Plans start from $35 for monthly access. Lifetime options cost more. Pricing and Active status are shown on this buy page before checkout.',
+    q: 'How much does access cost?',
+    a: 'From $35 monthly; lifetime tiers cost more. Pricing and Active status are shown here before checkout.',
   },
   {
     q: 'What is included after purchase?',

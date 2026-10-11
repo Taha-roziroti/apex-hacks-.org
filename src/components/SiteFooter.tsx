@@ -11,6 +11,10 @@ type SiteFooterProps = {
  * Site footer with page / guide / official Apex Legends links (crawl-friendly).
  * XML sitemap remains at /sitemap.xml — not shown as an on-page “sitemap” section.
  */
+const LEGAL_LINKS = SITE_PAGE_LINKS.filter((l) =>
+  ['/privacy', '/terms', '/refunds'].includes(l.to),
+)
+
 export function SiteFooter({ currentPath }: SiteFooterProps) {
   const path = normalizePath(currentPath || '/')
 
@@ -24,8 +28,8 @@ export function SiteFooter({ currentPath }: SiteFooterProps) {
               <span className="font-semibold text-z-ink">{SITE_NAME}</span>
             </div>
             <p className="mt-3 text-sm leading-relaxed text-white/55">
-              Apex Legends cheats for PC — aimbot, player ESP, loot radar, and patch-synced loader status
-              for ranked trios.
+              PC tools for ranked trios — visuals, optional combat assist, loot radar, and patch-synced
+              loader status.
             </p>
           </div>
 
@@ -108,21 +112,13 @@ export function SiteFooter({ currentPath }: SiteFooterProps) {
                 ))}
               </ul>
               <ul className="mt-6 flex flex-col gap-2 text-sm text-white/55 sm:flex-row sm:flex-wrap sm:gap-x-5 sm:gap-y-2">
-                <li>
-                  <a href="/privacy" className="hover:text-white">
-                    Privacy
-                  </a>
-                </li>
-                <li>
-                  <a href="/terms" className="hover:text-white">
-                    Terms
-                  </a>
-                </li>
-                <li>
-                  <a href="/refunds" className="hover:text-white">
-                    Refunds
-                  </a>
-                </li>
+                {LEGAL_LINKS.map((l) => (
+                  <li key={l.to}>
+                    <a href={l.to} className="hover:text-white">
+                      {l.to === '/privacy' ? 'Privacy' : l.to === '/terms' ? 'Terms' : 'Refunds'}
+                    </a>
+                  </li>
+                ))}
               </ul>
             </div>
           </nav>

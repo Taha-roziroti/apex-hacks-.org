@@ -17,7 +17,8 @@ const jsonLdExtra = [
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
-      { '@type': 'ListItem', position: 2, name: 'PC requirements', item: pageUrl },
+      { '@type': 'ListItem', position: 2, name: 'Forums', item: `${SITE_URL}/forums` },
+      { '@type': 'ListItem', position: 3, name: 'PC requirements', item: pageUrl },
     ],
   },
 ]
@@ -27,9 +28,13 @@ const jsonLdExtra = [
   <GuideLandingPage
     client:idle
     currentPath="/guides/apex-legends-cheats-pc"
-    breadcrumbLabel="Apex Legends cheats for PC"
-    h1="Apex Legends Cheats for PC"
-    intro="Windows 10/11, Steam or EA app, and patch-day loader status — what to verify before you buy Apex Legends cheats for PC."
+    breadcrumbs={[
+      { label: 'Home', href: '/' },
+      { label: 'Forums', href: '/forums' },
+      { label: 'PC requirements' },
+    ]}
+    h1="PC requirements"
+    intro="Windows 10/11, Steam or EA app, and patch-day status — what to verify before your first session."
     sections={PC_GUIDE_SECTIONS}
     internalLinks={PC_GUIDE_INTERNAL_LINKS}
     imageSrc="/media/apex-screenshot-6.webp"
