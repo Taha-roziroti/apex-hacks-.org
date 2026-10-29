@@ -49,20 +49,20 @@ export const BLOGS: BlogPost[] = [
   },
   {
     "slug": "complete-setup",
-    "title": "Instructions to Use the Cheats",
-    "excerpt": "Step-by-step Apex Legends cheat setup on Windows: confirm Active status, exclusions, load order, first ESP profile, optional aimbot, save config.",
-    "metaTitle": "Instructions to Use the Cheats | Apex Legends Cheats Forum",
-    "metaDescription": "Step-by-step Apex Legends cheat setup on Windows: confirm Active status, exclusions, load order, first ESP profile, optional aimbot, save config.",
+    "title": "Instructions to Use — Complete Setup",
+    "excerpt": "Instructions to use the loader on Windows: confirm Active status, exclusions, load order, first player-visual profile, optional combat assist, save config.",
+    "metaTitle": "Instructions to Use — Complete Setup | Forum",
+    "metaDescription": "Instructions To Use: Step-by-step Apex Legends cheat setup on Windows: confirm Active status, exclusions, load order, first ESP profile, optional aimbot, save.",
     "searchTerms": "get apex legends cheats, get apex legends cheat, apex legends cheats",
     "date": "2026-09-13",
     "readMinutes": 7,
     "tag": "Setup",
     "sections": [
       {
-        "heading": "1) Confirm status and checkout",
+        "heading": "Instructions To Use: 1) Confirm status and checkout",
         "body": [
-          "Open apexhacks.org and check Active on the product card. When Updating after a Apex Legends patch, wait — loading early wastes a session.",
-          "Plans start from $35 monthly with lifetime options; use only the delivery link from your order email."
+          "Open apexhacks.org and check Active on the product card. When Updating after a patch, wait — loading early wastes a session.",
+          "Follow these instructions to use the delivery link from your order email only — plans start from $35 monthly with lifetime options."
         ]
       },
       {
@@ -83,9 +83,9 @@ export const BLOGS: BlogPost[] = [
   {
     "slug": "aimbot-settings",
     "title": "Aimbot Settings: What Level & Why Won’t I Get Banned?",
-    "excerpt": "Tune Apex Legends aimbot FOV, smooth, and visible check so tracking helps in ring fights without obvious kill-cam clips.",
-    "metaTitle": "Aimbot Settings: What Level & Why Won’t I Get Banned? | Apex Legends Cheats Forum",
-    "metaDescription": "Tune Apex Legends aimbot FOV, smooth, and visible check so tracking helps in ring fights without obvious kill-cam clips.",
+    "excerpt": "Tune combat assist FOV, smooth, and visible check so tracking helps in ring fights without obvious kill-cam clips.",
+    "metaTitle": "Aimbot – What Level & Why Won’t I Get Banned?",
+    "metaDescription": "Tune combat assist FOV, smooth, and visible check so tracking helps in ring fights without obvious kill-cam clips.",
     "searchTerms": "apex legends aimbot, buy apex legends aimbot, apex legends aimbot lifetime",
     "date": "2026-09-14",
     "readMinutes": 8,
@@ -103,10 +103,10 @@ export const BLOGS: BlogPost[] = [
   },
   {
     "slug": "esp-wallhack-guide",
-    "title": "Player ESP Settings: What to Enable First",
-    "excerpt": "Configure Apex Legends player ESP — box, skeleton, distance, weapon, team filter — without cluttering your HUD in mountain fights.",
-    "metaTitle": "Player ESP Settings: What to Enable First | Apex Legends Cheats Forum",
-    "metaDescription": "Configure Apex Legends player ESP — box, skeleton, distance, weapon, team filter — without cluttering your HUD in mountain fights.",
+    "title": "Player Visuals Settings: What to Enable First",
+    "excerpt": "Configure player visuals — box, skeleton, distance, weapon, team filter — without cluttering your HUD in mountain fights.",
+    "metaTitle": "Esp – Apex Legends Cheats Forum",
+    "metaDescription": "Configure player visuals — box, skeleton, distance, weapon, team filter — without cluttering your HUD in mountain fights.",
     "searchTerms": "apex legends esp, buy apex legends esp, apex legends esp lifetime",
     "date": "2026-09-15",
     "readMinutes": 9,
@@ -145,10 +145,10 @@ export const BLOGS: BlogPost[] = [
   },
   {
     "slug": "radar-recommended-config",
-    "title": "2D Radar & Ring Rotations: Recommended Configurations",
-    "excerpt": "2D radar range, player markers, and ring timer overlay tuned for Apex Legends rotations and third-party audio.",
-    "metaTitle": "2D Radar & Ring Rotations: Recommended Configurations | Apex Legends Cheats Forum",
-    "metaDescription": "2D radar range, player markers, and ring timer overlay tuned for Apex Legends rotations and third-party audio.",
+    "title": "2D Minimap & Ring Rotations: Recommended Configurations",
+    "excerpt": "Minimap range, player markers, and ring timer overlay tuned for rotations and third-party audio.",
+    "metaTitle": "Radar – Recommended Configurations",
+    "metaDescription": "Minimap range, player markers, and ring timer overlay tuned for rotations and third-party audio.",
     "searchTerms": "apex legends esp",
     "date": "2026-09-17",
     "readMinutes": 6,
@@ -157,7 +157,7 @@ export const BLOGS: BlogPost[] = [
       {
         "heading": "Radar defaults",
         "body": [
-          "Start radar range medium — too wide floods the minimap in dense fights. Player markers on; tighten range when the ring closes.",
+          "Start with medium minimap range — too wide floods the overlay in dense fights. Player markers on; tighten range when the ring closes.",
           "Drop range when pushing buildings so arrows match audible footsteps."
         ]
       }
@@ -185,19 +185,19 @@ export const BLOGS: BlogPost[] = [
   },
   {
     "slug": "game-patch-status",
-    "title": "Apex Legends Cheats After a Game Patch — What to Do",
-    "excerpt": "What Active vs Updating means after Apex Legends patches — and why loading early wastes your ring session.",
-    "metaTitle": "Apex Legends Cheats After a Game Patch — What to Do | Apex Legends Cheats Forum",
-    "metaDescription": "What Active vs Updating means after Apex Legends patches — and why loading early wastes your ring session.",
+    "title": "Game Patch — What to Do After Updates",
+    "excerpt": "Game patch windows change loader labels — what Active vs Updating means and why loading early wastes your ring session.",
+    "metaTitle": "Game Patch – Apex Legends Cheats Forum",
+    "metaDescription": "Game Patch: What Active vs Updating means after Apex Legends patches — and why loading early wastes your ring session.",
     "searchTerms": "apex legends cheats, apex legends anti-cheat",
     "date": "2026-09-19",
     "readMinutes": 8,
     "tag": "Status",
     "sections": [
       {
-        "heading": "Status labels",
+        "heading": "Game Patch: Status labels",
         "body": [
-          "Active means the loader matches the live client. Updating means wait — check apexhacks.org before every session."
+          "Active means the loader matches the live client after a game patch. Updating means wait — check apexhacks.org before every session."
         ]
       }
     ]
@@ -242,10 +242,10 @@ export const BLOGS: BlogPost[] = [
   },
   {
     "slug": "apex-legends-cheats-lifetime",
-    "title": "Apex Legends Cheats Lifetime License: Is Permanent Access Worth It?",
-    "excerpt": "Lifetime vs monthly Apex Legends cheat access — when permanent makes sense for regular ring players.",
-    "metaTitle": "Apex Legends Cheats Lifetime License: Is Permanent Access Worth It? | Apex Legends Cheats Forum",
-    "metaDescription": "Lifetime vs monthly Apex Legends cheat access — when permanent makes sense for regular ring players.",
+    "title": "Lifetime License — Is Permanent Access Worth It?",
+    "excerpt": "Lifetime vs monthly access — when permanent makes sense for regular ring players.",
+    "metaTitle": "Lifetime – Is Permanent Access Worth It?",
+    "metaDescription": "Lifetime vs monthly access — when permanent makes sense for regular ring players.",
     "searchTerms": "apex legends cheats lifetime, apex legends cheat lifetime, apex legends aimbot lifetime, apex legends esp lifetime",
     "date": "2026-09-12",
     "readMinutes": 6,
@@ -261,17 +261,17 @@ export const BLOGS: BlogPost[] = [
   },
   {
     "slug": "apex-legends-cheat-discord",
-    "title": "Official Apex Legends Cheat Discord Server: How to Join for Live Support",
-    "excerpt": "Find live Apex Legends cheat support channels after purchase — status pings, config screenshots, and patch-day threads.",
-    "metaTitle": "Official Apex Legends Cheat Discord Server: How to Join for Live Support | Apex Legends Cheats Forum",
-    "metaDescription": "Find live Apex Legends cheat support channels after purchase — status pings, config screenshots, and patch-day threads.",
+    "title": "Cheat Discord — How to Join for Live Help",
+    "excerpt": "Find live cheat discord channels after purchase — status pings, config screenshots, and patch-day threads.",
+    "metaTitle": "Cheat Discord – How to Join for Live Support",
+    "metaDescription": "Cheat Discord: Find live Apex Legends cheat support channels after purchase — status pings, config screenshots, and patch-day threads.",
     "searchTerms": "apex legends cheat discord",
     "date": "2026-09-13",
     "readMinutes": 7,
     "tag": "Community",
     "sections": [
       {
-        "heading": "What Discord is for",
+        "heading": "Cheat Discord: What Discord is for",
         "body": [
           "Discord complements the forums here — quick loader screenshots and patch chatter. Purchase still flows through the store link on the product page."
         ]
@@ -280,17 +280,17 @@ export const BLOGS: BlogPost[] = [
   },
   {
     "slug": "best-apex-legends-cheats-review-2026",
-    "title": "Best Apex Legends Cheats Review & Comparison 2026: Features, Safety & Value",
-    "excerpt": "2026 Apex Legends cheat comparison — ESP clarity, aimbot tuning, loot radar, pricing, and loader maintenance habits.",
-    "metaTitle": "Best Apex Legends Cheats Review & Comparison 2026: Features, Safety & Value | Apex Legends Cheats Forum",
-    "metaDescription": "2026 Apex Legends cheat comparison — ESP clarity, aimbot tuning, loot radar, pricing, and loader maintenance habits.",
+    "title": "Cheats Review — 2026 Comparison",
+    "excerpt": "2026 cheat comparison — player visuals clarity, combat assist tuning, loot minimap, pricing, and loader maintenance habits.",
+    "metaTitle": "Cheats Review – Features, Safety & Value",
+    "metaDescription": "Cheats Review: 2026 Apex Legends cheat comparison — ESP clarity, aimbot tuning, loot radar, pricing, and loader maintenance habits.",
     "searchTerms": "apex legends cheats, buy apex legends cheats, apex legends cheats lifetime",
     "date": "2026-09-14",
     "readMinutes": 8,
     "tag": "Review",
     "sections": [
       {
-        "heading": "What we compared",
+        "heading": "Cheats Review: What we compared",
         "body": [
           "Module depth, config save/load, status transparency, and how fast ESP recovered after game patches — not hype claims."
         ]
@@ -318,17 +318,17 @@ export const BLOGS: BlogPost[] = [
   },
   {
     "slug": "apex-legends-aimbot-options",
-    "title": "Precision Target Lock: Mastering Apex Legends Aimbot Options",
-    "excerpt": "Deep dive on Apex Legends aimbot enable, FOV, smooth, bones, visible check, and prediction.",
-    "metaTitle": "Precision Target Lock: Mastering Apex Legends Aimbot Options | Apex Legends Cheats Forum",
-    "metaDescription": "Deep dive on Apex Legends aimbot enable, FOV, smooth, bones, visible check, and prediction.",
+    "title": "Legends Aimbot — Precision Target Lock",
+    "excerpt": "Deep dive on enable toggles, FOV, smooth, bones, visible check, and prediction.",
+    "metaTitle": "Legends Aimbot – Precision Target Lock",
+    "metaDescription": "Deep dive on combat assist enable, FOV, smooth, bones, visible check, and prediction.",
     "searchTerms": "apex legends aimbot",
     "date": "2026-09-16",
     "readMinutes": 10,
     "tag": "Aimbot",
     "sections": [
       {
-        "heading": "Core toggles",
+        "heading": "Legends Aimbot: Core toggles",
         "body": [
           "Work FOV down before touching prediction — leading targets matters most on sliding and zipline fights."
         ]
@@ -356,10 +356,10 @@ export const BLOGS: BlogPost[] = [
   },
   {
     "slug": "aimbot-fov-settings",
-    "title": "Dialing in Your Field of View Settings for Natural Aiming",
-    "excerpt": "FOV cone sizing for CQB buildings vs open hills in Apex Legends.",
-    "metaTitle": "Dialing in Your Field of View Settings for Natural Aiming | Apex Legends Cheats Forum",
-    "metaDescription": "FOV cone sizing for CQB buildings vs open hills in Apex Legends.",
+    "title": "Field of View Settings for Natural Aiming",
+    "excerpt": "FOV cone sizing for CQB buildings vs open hills.",
+    "metaTitle": "Settings – Apex Legends Cheats Forum",
+    "metaDescription": "Settings: FOV cone sizing for CQB buildings vs open hills in Apex Legends. Aimbot · 2026-09-18 Read-only Dialing in Your Field of View Settings for Natural.",
     "searchTerms": "Apex Legends Aimbot, aimbot fov settings, Apex Legends cheats",
     "date": "2026-09-18",
     "readMinutes": 7,
@@ -375,17 +375,17 @@ export const BLOGS: BlogPost[] = [
   },
   {
     "slug": "aimbot-smooth-guide",
-    "title": "How Smooth Aiming Keeps Your Gameplay Looking Legitimate",
+    "title": "Smooth Aiming for Legitimate-Looking Gameplay",
     "excerpt": "Smooth values that reduce snap on kill cams without feeling sluggish.",
-    "metaTitle": "How Smooth Aiming Keeps Your Gameplay Looking Legitimate | Apex Legends Cheats Forum",
-    "metaDescription": "Smooth values that reduce snap on kill cams without feeling sluggish.",
+    "metaTitle": "Smooth – Apex Legends Cheats Forum",
+    "metaDescription": "Smooth values that reduce snap on kill cams without feeling sluggish. Aimbot · 2026-09-19 Read-only How Smooth Aiming Keeps Your Gameplay Looking Legitimate.",
     "searchTerms": "Apex Legends Aimbot, aimbot smooth guide, Apex Legends cheats",
     "date": "2026-09-19",
     "readMinutes": 8,
     "tag": "Aimbot",
     "sections": [
       {
-        "heading": "Smoothing",
+        "heading": "Smooth: Smoothing",
         "body": [
           "Higher smooth on DMR, moderate on AR — save profiles per weapon class."
         ]
@@ -394,17 +394,17 @@ export const BLOGS: BlogPost[] = [
   },
   {
     "slug": "bone-selection-guide",
-    "title": "Targeted Bone Selection Guide: Headshots vs Body Shots",
+    "title": "Targeted Bone Selection — Headshots vs Body",
     "excerpt": "Bone selection tradeoffs for moving targets and armored foes.",
-    "metaTitle": "Targeted Bone Selection Guide: Headshots vs Body Shots | Apex Legends Cheats Forum",
-    "metaDescription": "Bone selection tradeoffs for moving targets and armored foes.",
+    "metaTitle": "Bone Selection – Headshots vs Body Shots",
+    "metaDescription": "Bone selection tradeoffs for moving targets and armored foes. Aimbot · 2026-09-20 Read-only Targeted Bone Selection Guide: Headshots vs Body Shots Bone.",
     "searchTerms": "Apex Legends Aimbot, bone selection guide, Apex Legends cheats",
     "date": "2026-09-20",
     "readMinutes": 9,
     "tag": "Aimbot",
     "sections": [
       {
-        "heading": "Bones",
+        "heading": "Bone Selection: Bones",
         "body": [
           "Chest default for moving tags; head bone only when smooth is high enough."
         ]

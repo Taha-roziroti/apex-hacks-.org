@@ -14,6 +14,7 @@ import { NotFoundPage } from './NotFoundPage'
 
 type BlogPostPageProps = {
   slug: string
+  logoAlt?: string
 }
 
 function sectionId(heading: string) {
@@ -24,7 +25,7 @@ function sectionId(heading: string) {
     .replace(/(^-|-$)/g, '')
 }
 
-export function BlogPostPage({ slug }: BlogPostPageProps) {
+export function BlogPostPage({ slug, logoAlt }: BlogPostPageProps) {
   const post = getBlog(slug)
 
   if (!post) return <NotFoundPage />
@@ -43,7 +44,7 @@ export function BlogPostPage({ slug }: BlogPostPageProps) {
   return (
     <div className="min-h-screen overflow-x-hidden bg-z-bg text-white">
       <div className="border-b border-z-soft/15 bg-z-bg/90 backdrop-blur-xl">
-        <Navbar currentPath={`/forums/${slug}`} />
+        <Navbar currentPath={`/forums/${slug}`} logoAlt={logoAlt} />
       </div>
 
       <main className="page-body">

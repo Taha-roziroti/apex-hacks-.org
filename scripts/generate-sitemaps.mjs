@@ -96,8 +96,16 @@ function asciiSafe(value) {
     .replace(/[^\x09\x0A\x0D\x20-\x7E]/g, '')
 }
 
+function isAssetPath(path) {
+  return /\.[a-z0-9]{2,5}$/i.test(path)
+}
+
+/** HTML routes use trailing slash (Cloudflare canonical); assets stay extension-only. */
 function siteUrl(path) {
-  return !path || path === '/' ? `${SITE}/` : `${SITE}${path.startsWith('/') ? path : `/${path}`}`
+  if (!path || path === '/') return `${SITE}/`
+  const p = path.startsWith('/') ? path : `/${path}`
+  if (isAssetPath(p)) return `${SITE}${p}`
+  return `${SITE}${p.replace(/\/+$/, '')}/`
 }
 
 function loadGames() {
@@ -178,6 +186,15 @@ ${media.join('\n')}
 }
 
 function imagesForPath(path, games, forums) {
+  if (path === '/sitemap.xml') {
+    return [
+      {
+        src: '/og/home.jpg',
+        title: 'Sitemap for apexhacks.org',
+        caption: 'Canonical URL list for crawlers at /sitemap.xml.',
+      },
+    ]
+  }
   if (path === '/') {
     return [
       {
@@ -411,7 +428,17 @@ function buildSitemap(games, forums, allPaths) {
     )
   }
 
-  const urlCount = sorted.length
+  chunks.push(`  <!-- Sitemap document -->`)
+  chunks.push(
+    urlEntry({
+      path: '/sitemap.xml',
+      priority: '0.25',
+      changefreq: 'daily',
+      images: imagesForPath('/sitemap.xml', games, forums),
+    }),
+  )
+
+  const urlCount = sorted.length + 1
   return `<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="/sitemap.css"?>
 <!-- Generated ${TODAY} | ${urlCount} canonical URLs | ${SITE} -->
@@ -445,7 +472,7 @@ function validate(games, forums, allPaths, sitemap) {
     if (!existsSync(og)) errors.push(`Missing forum OG image: /og/forums-${forum.slug}.jpg`)
   }
 
-  const expectedUrls = new Set(allPaths.map(siteUrl))
+  const expectedUrls = new Set([...allPaths.map(siteUrl), siteUrl('/sitemap.xml')])
   const pageLocs = [...sitemap.matchAll(/<url>\s*<loc>([^<]+)<\/loc>/g)].map((match) => match[1])
   const imageLocs = [...sitemap.matchAll(/<image:loc>([^<]+)<\/image:loc>/g)].map((match) => match[1])
   const urlBlocks = sitemap.match(/<url>[\s\S]*?<\/url>/g) || []

@@ -44,11 +44,11 @@ export function ForumsPage({ initialQuery = '' }: ForumsPageProps) {
                 Forums · Setup · {SITE_HOST}
               </p>
               <h1 className="text-3xl font-semibold tracking-tight text-white sm:text-5xl">
-                Apex Legends Cheats Forum
+                Community Forums
               </h1>
               <p className="mt-4 max-w-2xl text-base leading-relaxed text-white/70">
-                Informational guides for apex legends esp, apex legends aimbot, loot radar, and loader help —
-                plus commercial threads when you want to buy apex legends cheats safely.
+                These forums collect setup threads for player visuals, combat assist tuning, loot tags, and loader help —
+                browse before you queue ranked trios.
               </p>
               <div className="relative z-50 mt-7">
                 <HeroSearch
@@ -94,7 +94,7 @@ export function ForumsPage({ initialQuery = '' }: ForumsPageProps) {
 
             <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
               <h2 className="text-xl font-semibold tracking-tight text-white">
-                {q.trim() ? 'Search results' : 'All forum threads'}
+                {q.trim() ? 'Search results' : 'Forums: all threads'}
               </h2>
               <p className="text-sm text-white/40">
                 {filtered.length} thread{filtered.length === 1 ? '' : 's'}

@@ -5,14 +5,14 @@ import { HOME_CRUMB, crumbs } from '../data/breadcrumbs'
 import { SiteFooter } from '../components/SiteFooter'
 import { CheckoutLink } from '../components/CheckoutLink'
 import { SITE_NAME } from '../data/site'
-import { SUPPORT_FAQS, SUPPORT_INTRO, SUPPORT_TOPICS } from '../data/support'
+import { SUPPORT_FAQS, SUPPORT_INTRO, SUPPORT_TOPICS, SUPPORT_EXTRA } from '../data/support'
 import { blogPath } from '../data/blogs'
 
-export function SupportPage() {
+export function SupportPage({ logoAlt }: { logoAlt?: string }) {
   return (
     <div className="content-surface min-h-screen overflow-x-hidden text-white">
       <div className="content-surface-nav">
-        <Navbar currentPath="/support" />
+        <Navbar currentPath="/support" logoAlt={logoAlt} />
       </div>
 
       <main>
@@ -26,6 +26,7 @@ export function SupportPage() {
               Apex Legends Cheat Support
             </h1>
             <p className="mt-4 text-base leading-relaxed text-white/60">{SUPPORT_INTRO}</p>
+            <p className="mt-3 text-sm leading-relaxed text-white/50">{SUPPORT_EXTRA}</p>
             <p className="mt-3 text-sm text-white/45">
               Setup guides live in the{' '}
               <a

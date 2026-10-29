@@ -15,6 +15,7 @@ type GuideLandingPageProps = {
   internalLinks: InternalLink[]
   imageSrc: string
   imageAlt: string
+  logoAlt?: string
   faqs: FaqItem[]
   faqHeading: string
   showComparison?: boolean
@@ -29,6 +30,7 @@ export function GuideLandingPage({
   internalLinks,
   imageSrc,
   imageAlt,
+  logoAlt,
   faqs,
   faqHeading,
   showComparison = false,
@@ -37,7 +39,7 @@ export function GuideLandingPage({
   return (
     <div className="content-surface min-h-screen overflow-x-hidden text-white">
       <div className="content-surface-nav">
-        <Navbar currentPath={currentPath} />
+        <Navbar currentPath={currentPath} logoAlt={logoAlt} />
       </div>
 
       <main className="page-x py-10 sm:py-14">

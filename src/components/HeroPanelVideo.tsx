@@ -5,6 +5,7 @@ type HeroPanelVideoProps = {
 }
 
 /** Hero animated preview inside the panel (absolute fill). */
-export function HeroPanelVideo(_props: HeroPanelVideoProps) {
-  return <HeroAnimatedBg />
+export function HeroPanelVideo({ variant = 'home' }: HeroPanelVideoProps) {
+  const imageAlt = variant === 'forums' ? 'Forums – apex' : ''
+  return <HeroAnimatedBg imageAlt={imageAlt} />
 }

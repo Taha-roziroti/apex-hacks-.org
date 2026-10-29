@@ -20,7 +20,10 @@ function htmlFiles(directory) {
 function pageUrl(file) {
   const page = relative(dist, file).replaceAll('\\', '/')
   if (page === 'index.html') return `${site}/`
-  if (page.endsWith('/index.html')) return `${site}/${page.slice(0, -11)}`
+  if (page.endsWith('/index.html')) {
+    const path = page.slice(0, -11)
+    return path ? `${site}/${path}/` : `${site}/`
+  }
   return `${site}/${page.slice(0, -5)}`
 }
 
@@ -90,16 +93,16 @@ const guideUndetected = readFileSync(
   join(dist, 'guides', 'apex-legends-cheats-undetected', 'index.html'),
   'utf8',
 )
-if (!buy.includes('<title>Buy Apex Legends Cheats — Price &amp; Plans</title>')) {
+if (!buy.includes('<title>Buy Apex — Price &amp; Plans</title>')) {
   fail('Buy page title must match SEO.buy')
 }
 if (!best.includes('<title>Best Apex Legends Cheats — 2026 Comparison</title>')) {
   fail('Best comparison page title must match SEO.best')
 }
-if (!product.includes('<title>Apex Legends Cheats | Features &amp; Setup</title>')) {
+if (!product.includes('<title>Legends Cheats | Features &amp; Setup</title>')) {
   fail('Product page title must match SEO.product')
 }
-if (!forums.includes('<title>Apex Legends Cheats Forum | Community Discussions</title>')) {
+if (!forums.includes('<title>Forums | Apex Legends Cheats Community Guides</title>')) {
   fail('Forums index title must match SEO.forums')
 }
 if (!siteTs.includes('Apex Legends gameplay tools')) {
@@ -273,6 +276,7 @@ const expectedUrls = new Set(
     .filter((file) => relative(dist, file).replaceAll('\\', '/') !== '404.html')
     .map(pageUrl),
 )
+expectedUrls.add(`${site}/sitemap.xml`)
 const urlBlocks = sitemap.match(/<url>[\s\S]*?<\/url>/g) || []
 const pageLocs = urlBlocks.map((block) => block.match(/<loc>([^<]+)<\/loc>/)?.[1]).filter(Boolean)
 const uniqueSitemapUrls = new Set(pageLocs)

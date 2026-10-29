@@ -70,7 +70,7 @@ export const BEST_COMPARISON_ROWS = [
 
 export const PC_GUIDE_SECTIONS: LandingSection[] = [
   {
-    h2: 'PC compatibility',
+    h2: 'Pc Requirements: PC compatibility',
     paragraphs: [
       'Tools run as external overlays and loaders on Windows — not on console. Match your game client (Steam or EA app) to the build notes on the buy page before you purchase.',
     ],
@@ -141,7 +141,7 @@ export const UNDETECTED_GUIDE_SECTIONS: LandingSection[] = [
 
 export const BEST_GUIDE_SECTIONS: LandingSection[] = [
   {
-    h2: 'What to prioritize',
+    h2: 'Apex Legends Cheats: What to prioritize',
     paragraphs: [
       'Modules you will actually use: clear player visuals, distance tags, loot highlights, and optional combat assist with visible-check and FOV limits. Skip bloated multi-game menus that rarely track patch cadence.',
     ],

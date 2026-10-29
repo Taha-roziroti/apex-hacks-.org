@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css" href="/sitemap.css"?>
-<!-- Generated 2026-10-11 | 69 canonical URLs | https://apexhacks.org -->
+<!-- Generated 2026-10-29 | 70 canonical URLs | https://apexhacks.org -->
 <!-- Submit in Google Search Console: Sitemaps > https://apexhacks.org/sitemap.xml -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
@@ -8,7 +8,7 @@
   <!-- Homepage -->
   <url>
     <loc>https://apexhacks.org/</loc>
-    <lastmod>2026-10-11</lastmod>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -34,8 +34,8 @@
   </url>
   <!-- Product -->
   <url>
-    <loc>https://apexhacks.org/apex-legends-cheats</loc>
-    <lastmod>2026-10-11</lastmod>
+    <loc>https://apexhacks.org/apex-legends-cheats/</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -78,8 +78,8 @@
     </video:video>
   </url>
   <url>
-    <loc>https://apexhacks.org/best-apex-legends-cheats</loc>
-    <lastmod>2026-10-11</lastmod>
+    <loc>https://apexhacks.org/best-apex-legends-cheats/</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
     <image:image>
@@ -89,8 +89,8 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/buy-apex-legends-cheats</loc>
-    <lastmod>2026-10-11</lastmod>
+    <loc>https://apexhacks.org/buy-apex-legends-cheats/</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
     <image:image>
@@ -101,8 +101,8 @@
   </url>
   <!-- Forums index -->
   <url>
-    <loc>https://apexhacks.org/forums</loc>
-    <lastmod>2026-10-11</lastmod>
+    <loc>https://apexhacks.org/forums/</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -118,135 +118,135 @@
   </url>
   <!-- Forum threads -->
   <url>
-    <loc>https://apexhacks.org/forums/aimbot-fov-settings</loc>
+    <loc>https://apexhacks.org/forums/aimbot-fov-settings/</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-aimbot-fov-settings.jpg</image:loc>
-      <image:title>Dialing in Your Field of View Settings for Natural Aiming Open Graph</image:title>
-      <image:caption>FOV cone sizing for CQB buildings vs open hills in Apex Legends.</image:caption>
+      <image:title>Field of View Settings for Natural Aiming Open Graph</image:title>
+      <image:caption>Settings: FOV cone sizing for CQB buildings vs open hills in Apex Legends. Aimbot  2026-09-18 Read-only Dialing in Your Field of View Settings for Natural.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
-      <image:title>Dialing in Your Field of View Settings for Natural Aiming Artwork</image:title>
-      <image:caption>FOV cone sizing for CQB buildings vs open hills in Apex Legends.</image:caption>
+      <image:title>Field of View Settings for Natural Aiming Artwork</image:title>
+      <image:caption>FOV cone sizing for CQB buildings vs open hills.</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/aimbot-settings</loc>
+    <loc>https://apexhacks.org/forums/aimbot-settings/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-aimbot-settings.jpg</image:loc>
       <image:title>Aimbot Settings: What Level &amp; Why Won&apos;t I Get Banned? Open Graph</image:title>
-      <image:caption>Tune Apex Legends aimbot FOV, smooth, and visible check so tracking helps in ring fights without obvious kill-cam clips.</image:caption>
+      <image:caption>Tune combat assist FOV, smooth, and visible check so tracking helps in ring fights without obvious kill-cam clips.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
       <image:title>Aimbot Settings: What Level &amp; Why Won&apos;t I Get Banned? Artwork</image:title>
-      <image:caption>Tune Apex Legends aimbot FOV, smooth, and visible check so tracking helps in ring fights without obvious kill-cam clips.</image:caption>
+      <image:caption>Tune combat assist FOV, smooth, and visible check so tracking helps in ring fights without obvious kill-cam clips.</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/aimbot-smooth-guide</loc>
+    <loc>https://apexhacks.org/forums/aimbot-smooth-guide/</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-aimbot-smooth-guide.jpg</image:loc>
-      <image:title>How Smooth Aiming Keeps Your Gameplay Looking Legitimate Open Graph</image:title>
-      <image:caption>Smooth values that reduce snap on kill cams without feeling sluggish.</image:caption>
+      <image:title>Smooth Aiming for Legitimate-Looking Gameplay Open Graph</image:title>
+      <image:caption>Smooth values that reduce snap on kill cams without feeling sluggish. Aimbot  2026-09-19 Read-only How Smooth Aiming Keeps Your Gameplay Looking Legitimate.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
-      <image:title>How Smooth Aiming Keeps Your Gameplay Looking Legitimate Artwork</image:title>
+      <image:title>Smooth Aiming for Legitimate-Looking Gameplay Artwork</image:title>
       <image:caption>Smooth values that reduce snap on kill cams without feeling sluggish.</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/apex-legends-aimbot-options</loc>
+    <loc>https://apexhacks.org/forums/apex-legends-aimbot-options/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-apex-legends-aimbot-options.jpg</image:loc>
-      <image:title>Precision Target Lock: Mastering Apex Legends Aimbot Options Open Graph</image:title>
-      <image:caption>Deep dive on Apex Legends aimbot enable, FOV, smooth, bones, visible check, and prediction.</image:caption>
+      <image:title>Legends Aimbot - Precision Target Lock Open Graph</image:title>
+      <image:caption>Deep dive on combat assist enable, FOV, smooth, bones, visible check, and prediction.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
-      <image:title>Precision Target Lock: Mastering Apex Legends Aimbot Options Artwork</image:title>
-      <image:caption>Deep dive on Apex Legends aimbot enable, FOV, smooth, bones, visible check, and prediction.</image:caption>
+      <image:title>Legends Aimbot - Precision Target Lock Artwork</image:title>
+      <image:caption>Deep dive on enable toggles, FOV, smooth, bones, visible check, and prediction.</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/apex-legends-cheat-discord</loc>
+    <loc>https://apexhacks.org/forums/apex-legends-cheat-discord/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-apex-legends-cheat-discord.jpg</image:loc>
-      <image:title>Official Apex Legends Cheat Discord Server: How to Join for Live Support Open Graph</image:title>
-      <image:caption>Find live Apex Legends cheat support channels after purchase - status pings, config screenshots, and patch-day threads.</image:caption>
+      <image:title>Cheat Discord - How to Join for Live Help Open Graph</image:title>
+      <image:caption>Cheat Discord: Find live Apex Legends cheat support channels after purchase - status pings, config screenshots, and patch-day threads.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
-      <image:title>Official Apex Legends Cheat Discord Server: How to Join for Live Support Artwork</image:title>
-      <image:caption>Find live Apex Legends cheat support channels after purchase - status pings, config screenshots, and patch-day threads.</image:caption>
+      <image:title>Cheat Discord - How to Join for Live Help Artwork</image:title>
+      <image:caption>Find live cheat discord channels after purchase - status pings, config screenshots, and patch-day threads.</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/apex-legends-cheats-lifetime</loc>
+    <loc>https://apexhacks.org/forums/apex-legends-cheats-lifetime/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-apex-legends-cheats-lifetime.jpg</image:loc>
-      <image:title>Apex Legends Cheats Lifetime License: Is Permanent Access Worth It? Open Graph</image:title>
-      <image:caption>Lifetime vs monthly Apex Legends cheat access - when permanent makes sense for regular ring players.</image:caption>
+      <image:title>Lifetime License - Is Permanent Access Worth It? Open Graph</image:title>
+      <image:caption>Lifetime vs monthly access - when permanent makes sense for regular ring players.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
-      <image:title>Apex Legends Cheats Lifetime License: Is Permanent Access Worth It? Artwork</image:title>
-      <image:caption>Lifetime vs monthly Apex Legends cheat access - when permanent makes sense for regular ring players.</image:caption>
+      <image:title>Lifetime License - Is Permanent Access Worth It? Artwork</image:title>
+      <image:caption>Lifetime vs monthly access - when permanent makes sense for regular ring players.</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/best-apex-legends-cheats-review-2026</loc>
+    <loc>https://apexhacks.org/forums/best-apex-legends-cheats-review-2026/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-best-apex-legends-cheats-review-2026.jpg</image:loc>
-      <image:title>Best Apex Legends Cheats Review &amp; Comparison 2026: Features, Safety &amp; Value Open Graph</image:title>
-      <image:caption>2026 Apex Legends cheat comparison - ESP clarity, aimbot tuning, loot radar, pricing, and loader maintenance habits.</image:caption>
+      <image:title>Cheats Review - 2026 Comparison Open Graph</image:title>
+      <image:caption>Cheats Review: 2026 Apex Legends cheat comparison - ESP clarity, aimbot tuning, loot radar, pricing, and loader maintenance habits.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
-      <image:title>Best Apex Legends Cheats Review &amp; Comparison 2026: Features, Safety &amp; Value Artwork</image:title>
-      <image:caption>2026 Apex Legends cheat comparison - ESP clarity, aimbot tuning, loot radar, pricing, and loader maintenance habits.</image:caption>
+      <image:title>Cheats Review - 2026 Comparison Artwork</image:title>
+      <image:caption>2026 cheat comparison - player visuals clarity, combat assist tuning, loot minimap, pricing, and loader maintenance habits.</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/bone-selection-guide</loc>
+    <loc>https://apexhacks.org/forums/bone-selection-guide/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-bone-selection-guide.jpg</image:loc>
-      <image:title>Targeted Bone Selection Guide: Headshots vs Body Shots Open Graph</image:title>
-      <image:caption>Bone selection tradeoffs for moving targets and armored foes.</image:caption>
+      <image:title>Targeted Bone Selection - Headshots vs Body Open Graph</image:title>
+      <image:caption>Bone selection tradeoffs for moving targets and armored foes. Aimbot  2026-09-20 Read-only Targeted Bone Selection Guide: Headshots vs Body Shots Bone.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
-      <image:title>Targeted Bone Selection Guide: Headshots vs Body Shots Artwork</image:title>
+      <image:title>Targeted Bone Selection - Headshots vs Body Artwork</image:title>
       <image:caption>Bone selection tradeoffs for moving targets and armored foes.</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/box-esp-setup</loc>
+    <loc>https://apexhacks.org/forums/box-esp-setup/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -262,7 +262,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/bullet-prediction</loc>
+    <loc>https://apexhacks.org/forums/bullet-prediction/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -278,7 +278,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/buy-apex-legends-cheats-safely</loc>
+    <loc>https://apexhacks.org/forums/buy-apex-legends-cheats-safely/</loc>
     <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -294,7 +294,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/care-package-tracking</loc>
+    <loc>https://apexhacks.org/forums/care-package-tracking/</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -310,7 +310,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/combat-assist-settings</loc>
+    <loc>https://apexhacks.org/forums/combat-assist-settings/</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -326,23 +326,23 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/complete-setup</loc>
+    <loc>https://apexhacks.org/forums/complete-setup/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-complete-setup.jpg</image:loc>
-      <image:title>Instructions to Use the Cheats Open Graph</image:title>
-      <image:caption>Step-by-step Apex Legends cheat setup on Windows: confirm Active status, exclusions, load order, first ESP profile, optional aimbot, save config.</image:caption>
+      <image:title>Instructions to Use - Complete Setup Open Graph</image:title>
+      <image:caption>Instructions To Use: Step-by-step Apex Legends cheat setup on Windows: confirm Active status, exclusions, load order, first ESP profile, optional aimbot, save.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-hero-full.webp</image:loc>
-      <image:title>Instructions to Use the Cheats Artwork</image:title>
-      <image:caption>Step-by-step Apex Legends cheat setup on Windows: confirm Active status, exclusions, load order, first ESP profile, optional aimbot, save config.</image:caption>
+      <image:title>Instructions to Use - Complete Setup Artwork</image:title>
+      <image:caption>Instructions to use the loader on Windows: confirm Active status, exclusions, load order, first player-visual profile, optional combat assist, save config.</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/config-save-load</loc>
+    <loc>https://apexhacks.org/forums/config-save-load/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -358,7 +358,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/custom-2d-radar-hud</loc>
+    <loc>https://apexhacks.org/forums/custom-2d-radar-hud/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -374,7 +374,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/custom-crosshair-overlays</loc>
+    <loc>https://apexhacks.org/forums/custom-crosshair-overlays/</loc>
     <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -390,7 +390,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/death-box-esp-guide</loc>
+    <loc>https://apexhacks.org/forums/death-box-esp-guide/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -406,7 +406,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/disable-antivirus</loc>
+    <loc>https://apexhacks.org/forums/disable-antivirus/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -422,7 +422,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/distance-esp-indicators</loc>
+    <loc>https://apexhacks.org/forums/distance-esp-indicators/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -438,7 +438,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/draw-fov-overlays</loc>
+    <loc>https://apexhacks.org/forums/draw-fov-overlays/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -454,7 +454,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/draw-target-line</loc>
+    <loc>https://apexhacks.org/forums/draw-target-line/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -470,7 +470,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/enable-aimbot-safely</loc>
+    <loc>https://apexhacks.org/forums/enable-aimbot-safely/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -486,7 +486,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/enemy-weapon-esp</loc>
+    <loc>https://apexhacks.org/forums/enemy-weapon-esp/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -502,23 +502,23 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/esp-wallhack-guide</loc>
+    <loc>https://apexhacks.org/forums/esp-wallhack-guide/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-esp-wallhack-guide.jpg</image:loc>
-      <image:title>Player ESP Settings: What to Enable First Open Graph</image:title>
-      <image:caption>Configure Apex Legends player ESP - box, skeleton, distance, weapon, team filter - without cluttering your HUD in mountain fights.</image:caption>
+      <image:title>Player Visuals Settings: What to Enable First Open Graph</image:title>
+      <image:caption>Configure player visuals - box, skeleton, distance, weapon, team filter - without cluttering your HUD in mountain fights.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-screenshot-5.webp</image:loc>
-      <image:title>Player ESP Settings: What to Enable First Artwork</image:title>
-      <image:caption>Configure Apex Legends player ESP - box, skeleton, distance, weapon, team filter - without cluttering your HUD in mountain fights.</image:caption>
+      <image:title>Player Visuals Settings: What to Enable First Artwork</image:title>
+      <image:caption>Configure player visuals - box, skeleton, distance, weapon, team filter - without cluttering your HUD in mountain fights.</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/features-list</loc>
+    <loc>https://apexhacks.org/forums/features-list/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -534,7 +534,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/full-bright-toggles</loc>
+    <loc>https://apexhacks.org/forums/full-bright-toggles/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -550,23 +550,23 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/game-patch-status</loc>
+    <loc>https://apexhacks.org/forums/game-patch-status/</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-game-patch-status.jpg</image:loc>
-      <image:title>Apex Legends Cheats After a Game Patch - What to Do Open Graph</image:title>
-      <image:caption>What Active vs Updating means after Apex Legends patches - and why loading early wastes your ring session.</image:caption>
+      <image:title>Game Patch - What to Do After Updates Open Graph</image:title>
+      <image:caption>Game Patch: What Active vs Updating means after Apex Legends patches - and why loading early wastes your ring session.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-cover.webp</image:loc>
-      <image:title>Apex Legends Cheats After a Game Patch - What to Do Artwork</image:title>
-      <image:caption>What Active vs Updating means after Apex Legends patches - and why loading early wastes your ring session.</image:caption>
+      <image:title>Game Patch - What to Do After Updates Artwork</image:title>
+      <image:caption>Game patch windows change loader labels - what Active vs Updating means and why loading early wastes your ring session.</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/head-circle-visuals</loc>
+    <loc>https://apexhacks.org/forums/head-circle-visuals/</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -582,7 +582,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/health-bar-tracking</loc>
+    <loc>https://apexhacks.org/forums/health-bar-tracking/</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -598,7 +598,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/hotkeys</loc>
+    <loc>https://apexhacks.org/forums/hotkeys/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -614,7 +614,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/hwid-spoofer-safety</loc>
+    <loc>https://apexhacks.org/forums/hwid-spoofer-safety/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -630,7 +630,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/load-status-checklist</loc>
+    <loc>https://apexhacks.org/forums/load-status-checklist/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -646,7 +646,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/loader-errors</loc>
+    <loc>https://apexhacks.org/forums/loader-errors/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -662,7 +662,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/loot-esp-first</loc>
+    <loc>https://apexhacks.org/forums/loot-esp-first/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -678,7 +678,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/loot-max-distance</loc>
+    <loc>https://apexhacks.org/forums/loot-max-distance/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -694,7 +694,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/loot-tier-highlights</loc>
+    <loc>https://apexhacks.org/forums/loot-tier-highlights/</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -710,7 +710,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/max-distance-filters</loc>
+    <loc>https://apexhacks.org/forums/max-distance-filters/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -726,7 +726,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/misc-utility-features</loc>
+    <loc>https://apexhacks.org/forums/misc-utility-features/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -742,7 +742,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/no-recoil-compensation</loc>
+    <loc>https://apexhacks.org/forums/no-recoil-compensation/</loc>
     <lastmod>2026-09-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -758,7 +758,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/no-spread-elimination</loc>
+    <loc>https://apexhacks.org/forums/no-spread-elimination/</loc>
     <lastmod>2026-09-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -774,7 +774,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/oof-arrows-guide</loc>
+    <loc>https://apexhacks.org/forums/oof-arrows-guide/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -790,7 +790,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/player-markers-radar</loc>
+    <loc>https://apexhacks.org/forums/player-markers-radar/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -806,7 +806,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/player-name-tags</loc>
+    <loc>https://apexhacks.org/forums/player-name-tags/</loc>
     <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -822,7 +822,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/player-visuals-breakdown</loc>
+    <loc>https://apexhacks.org/forums/player-visuals-breakdown/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -838,7 +838,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/radar-options-guide</loc>
+    <loc>https://apexhacks.org/forums/radar-options-guide/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -854,7 +854,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/radar-range-calibration</loc>
+    <loc>https://apexhacks.org/forums/radar-range-calibration/</loc>
     <lastmod>2026-09-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -870,23 +870,23 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/radar-recommended-config</loc>
+    <loc>https://apexhacks.org/forums/radar-recommended-config/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
     <image:image>
       <image:loc>https://apexhacks.org/og/forums-radar-recommended-config.jpg</image:loc>
-      <image:title>2D Radar &amp; Ring Rotations: Recommended Configurations Open Graph</image:title>
-      <image:caption>2D radar range, player markers, and ring timer overlay tuned for Apex Legends rotations and third-party audio.</image:caption>
+      <image:title>2D Minimap &amp; Ring Rotations: Recommended Configurations Open Graph</image:title>
+      <image:caption>Minimap range, player markers, and ring timer overlay tuned for rotations and third-party audio.</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://apexhacks.org/media/apex-menu.webp</image:loc>
-      <image:title>2D Radar &amp; Ring Rotations: Recommended Configurations Artwork</image:title>
-      <image:caption>2D radar range, player markers, and ring timer overlay tuned for Apex Legends rotations and third-party audio.</image:caption>
+      <image:title>2D Minimap &amp; Ring Rotations: Recommended Configurations Artwork</image:title>
+      <image:caption>Minimap range, player markers, and ring timer overlay tuned for rotations and third-party audio.</image:caption>
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/ring-timer-radar</loc>
+    <loc>https://apexhacks.org/forums/ring-timer-radar/</loc>
     <lastmod>2026-09-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -902,7 +902,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/shield-helmet-highlight</loc>
+    <loc>https://apexhacks.org/forums/shield-helmet-highlight/</loc>
     <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -918,7 +918,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/skeleton-esp-guide</loc>
+    <loc>https://apexhacks.org/forums/skeleton-esp-guide/</loc>
     <lastmod>2026-09-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -934,7 +934,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/team-squad-filtering</loc>
+    <loc>https://apexhacks.org/forums/team-squad-filtering/</loc>
     <lastmod>2026-09-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -950,7 +950,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/ultimate-apex-legends-cheats-guide</loc>
+    <loc>https://apexhacks.org/forums/ultimate-apex-legends-cheats-guide/</loc>
     <lastmod>2026-09-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -966,7 +966,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/view-direction-lines</loc>
+    <loc>https://apexhacks.org/forums/view-direction-lines/</loc>
     <lastmod>2026-09-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -982,7 +982,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/visible-check-guide</loc>
+    <loc>https://apexhacks.org/forums/visible-check-guide/</loc>
     <lastmod>2026-09-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -998,7 +998,7 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/forums/windows-setup</loc>
+    <loc>https://apexhacks.org/forums/windows-setup/</loc>
     <lastmod>2026-09-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -1015,8 +1015,8 @@
   </url>
   <!-- Trust and support -->
   <url>
-    <loc>https://apexhacks.org/reviews</loc>
-    <lastmod>2026-10-11</lastmod>
+    <loc>https://apexhacks.org/reviews/</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
     <image:image>
@@ -1026,8 +1026,8 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/faq</loc>
-    <lastmod>2026-10-11</lastmod>
+    <loc>https://apexhacks.org/faq/</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.75</priority>
     <image:image>
@@ -1037,8 +1037,8 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/support</loc>
-    <lastmod>2026-10-11</lastmod>
+    <loc>https://apexhacks.org/support/</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
     <image:image>
@@ -1049,8 +1049,8 @@
   </url>
   <!-- Legal and policies -->
   <url>
-    <loc>https://apexhacks.org/guides/apex-legends-cheats-pc</loc>
-    <lastmod>2026-10-11</lastmod>
+    <loc>https://apexhacks.org/guides/apex-legends-cheats-pc/</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1060,8 +1060,8 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/guides/apex-legends-cheats-undetected</loc>
-    <lastmod>2026-10-11</lastmod>
+    <loc>https://apexhacks.org/guides/apex-legends-cheats-undetected/</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
     <image:image>
@@ -1071,8 +1071,8 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/privacy</loc>
-    <lastmod>2026-10-11</lastmod>
+    <loc>https://apexhacks.org/privacy/</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
     <image:image>
@@ -1082,8 +1082,8 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/refunds</loc>
-    <lastmod>2026-10-11</lastmod>
+    <loc>https://apexhacks.org/refunds/</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.45</priority>
     <image:image>
@@ -1093,14 +1093,26 @@
     </image:image>
   </url>
   <url>
-    <loc>https://apexhacks.org/terms</loc>
-    <lastmod>2026-10-11</lastmod>
+    <loc>https://apexhacks.org/terms/</loc>
+    <lastmod>2026-10-29</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
     <image:image>
       <image:loc>https://apexhacks.org/og/terms.jpg</image:loc>
       <image:title>Apex Legends Cheats Terms of Use</image:title>
       <image:caption>License terms preview for Apex Legends Cheats.</image:caption>
+    </image:image>
+  </url>
+  <!-- Sitemap document -->
+  <url>
+    <loc>https://apexhacks.org/sitemap.xml</loc>
+    <lastmod>2026-10-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.25</priority>
+    <image:image>
+      <image:loc>https://apexhacks.org/og/home.jpg</image:loc>
+      <image:title>Sitemap for apexhacks.org</image:title>
+      <image:caption>Canonical URL list for crawlers at /sitemap.xml.</image:caption>
     </image:image>
   </url>
 </urlset>

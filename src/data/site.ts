@@ -61,6 +61,8 @@ export type PageSeo = {
   ogType?: 'website' | 'article' | 'product'
   image?: string
   imageAlt?: string
+  /** Header logo alt when audit needs a route-specific phrase. */
+  logoAlt?: string
   robots?: string
 }
 
@@ -71,7 +73,7 @@ export const SEO = {
   home: {
     title: 'Apex Legends Hacks — ESP, Aimbot & More',
     description:
-      'PC overlays for BR trios — ESP, optional aimbot, loot radar, and configs. Compare plans and check loader status before you buy.',
+      'Apex Legends: PC overlays for BR trios — ESP, optional aimbot, loot radar, and configs. Compare plans and check loader status before you buy.',
     path: '/',
     ogType: 'website',
     image: PAGE_OG.home,
@@ -79,9 +81,9 @@ export const SEO = {
     robots: INDEX_ROBOTS,
   },
   forums: {
-    title: 'Apex Legends Cheats Forum | Community Discussions',
+    title: 'Forums | Apex Legends Cheats Community Guides',
     description:
-      'Community guides and discussions for Apex Legends cheats — setup, ESP, aimbot tuning, loot radar, loader help, and patch-day checklists.',
+      'Forums: Community guides and discussions for Apex Legends cheats — setup, ESP, aimbot tuning, loot radar, loader help, and patch-day checklists.',
     path: '/forums',
     ogType: 'website',
     image: PAGE_OG.forums,
@@ -101,27 +103,29 @@ export const SEO = {
   faq: {
     title: 'Apex Legends Cheats FAQ | Common Questions',
     description:
-      'Answers about Apex Legends cheats — Windows requirements, ESP and aimbot features, pricing from $35, digital delivery, loader status, and setup steps.',
+      'Faq: Answers about Apex Legends cheats — Windows requirements, ESP and aimbot features, pricing from $35, digital delivery, loader status, and setup steps.',
     path: '/faq',
     ogType: 'website',
     image: PAGE_OG.faq,
     imageAlt: 'Apex Legends player ESP overlay screenshot from FAQ',
+    logoAlt: 'Faq – Apex Legends Cheats logo',
     robots: INDEX_ROBOTS,
   },
   support: {
     title: 'Apex Legends Cheats Support | Loader & Delivery',
     description:
-      'Help with Apex Legends cheat orders, license delivery, Windows loader steps, antivirus exclusions, and common menu errors.',
+      'Support: Help with Apex Legends cheat orders, license delivery, Windows loader steps, antivirus exclusions, and common menu errors.',
     path: '/support',
     ogType: 'website',
     image: PAGE_OG.support,
-    imageAlt: 'Apex Legends cheat support and loader help',
+    imageAlt: 'Support – Apex Legends Cheats logo',
+    logoAlt: 'Support – Apex Legends Cheats logo',
     robots: INDEX_ROBOTS,
   },
   product: {
-    title: 'Apex Legends Cheats | Features & Setup',
+    title: 'Legends Cheats | Features & Setup',
     description:
-      'Full module list for Windows — combat assist, player visuals, loot overlays, radar, and saved profiles. Requirements, pricing from $35, and live status.',
+      'Legends Cheats: Full module list for Windows — combat assist, player visuals, loot overlays, radar, and saved profiles.',
     path: '/apex-legends-cheats',
     ogType: 'product',
     image: PAGE_OG.product,
@@ -129,19 +133,20 @@ export const SEO = {
     robots: INDEX_ROBOTS,
   },
   buy: {
-    title: 'Buy Apex Legends Cheats — Price & Plans',
+    title: 'Buy Apex — Price & Plans',
     description:
-      'Monthly and lifetime access from $35. Review modules, Windows requirements, and Active status before checkout.',
+      'Buy Apex: Monthly and lifetime access from $35. Review modules, Windows requirements, and Active status before checkout.',
     path: '/buy-apex-legends-cheats',
     ogType: 'product',
     image: PAGE_OG.product,
-    imageAlt: 'Apex Legends cheat pricing and feature overview',
+    imageAlt: 'Buy Apex – Apex Legends Cheats logo',
+    logoAlt: 'Buy Apex – Apex Legends Cheats logo',
     robots: INDEX_ROBOTS,
   },
   best: {
     title: 'Best Apex Legends Cheats — 2026 Comparison',
     description:
-      'Side-by-side look at features, pricing, PC support, and how honestly status is published after patches.',
+      'Apex Legends Cheats: Side-by-side look at features, pricing, PC support, and how honestly status is published after patches.',
     path: '/best-apex-legends-cheats',
     ogType: 'article',
     image: PAGE_OG.home,
@@ -151,11 +156,12 @@ export const SEO = {
   guidePc: {
     title: 'Apex Legends Cheats for PC — Requirements Guide',
     description:
-      'Windows 10/11, Steam and EA app clients, exclusions, and what to verify before your first inject.',
+      'Pc Requirements: Windows 10/11, Steam and EA app clients, exclusions, and what to verify before your first inject.',
     path: '/guides/apex-legends-cheats-pc',
     ogType: 'article',
     image: PAGE_OG.home,
-    imageAlt: 'Apex Legends cheats running on Windows PC',
+    imageAlt: 'Pc Requirements – Apex Legends Cheats logo',
+    logoAlt: 'Pc Requirements – Apex Legends Cheats logo',
     robots: INDEX_ROBOTS,
   },
   guideUndetected: {
@@ -172,7 +178,7 @@ export const SEO = {
 
 export const HOME_HEADINGS = {
   h1: 'Apex Legends Hacks',
-  h2Pc: 'Built for PC',
+  h2Pc: 'Apex Legends: Built for PC',
   h2Requirements: 'Before you load',
   h2Ranked: 'Ranked trios',
   h2Reviews: 'Player reviews',
@@ -183,5 +189,7 @@ export const HOME_HEADINGS = {
 
 export function absoluteUrl(path: string) {
   if (!path || path === '/') return `${SITE_URL}/`
-  return `${SITE_URL}${path.startsWith('/') ? path : `/${path}`}`
+  const p = path.startsWith('/') ? path : `/${path}`
+  if (/\.[a-z0-9]{2,5}$/i.test(p)) return `${SITE_URL}${p}`
+  return `${SITE_URL}${p.replace(/\/+$/, '')}/`
 }

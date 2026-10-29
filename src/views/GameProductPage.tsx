@@ -59,9 +59,10 @@ function ProductPurchaseCard({ game }: { game: Game }) {
 type GameProductPageProps = {
   guideSlug: string
   variant?: 'features' | 'buy'
+  logoAlt?: string
 }
 
-export function GameProductPage({ guideSlug, variant = 'features' }: GameProductPageProps) {
+export function GameProductPage({ guideSlug, variant = 'features', logoAlt }: GameProductPageProps) {
   const isBuy = variant === 'buy'
   const navPath = isBuy ? '/buy-apex-legends-cheats' : '/apex-legends-cheats'
   const pageFaqs = isBuy ? BUY_PAGE_FAQS : PRODUCT_DETAIL_FAQS
@@ -84,7 +85,7 @@ export function GameProductPage({ guideSlug, variant = 'features' }: GameProduct
   return (
     <div className="content-surface min-h-screen overflow-x-hidden text-white">
       <div className="content-surface-nav">
-        <Navbar currentPath={navPath} />
+        <Navbar currentPath={navPath} logoAlt={logoAlt} />
       </div>
 
       <main>
@@ -105,12 +106,12 @@ export function GameProductPage({ guideSlug, variant = 'features' }: GameProduct
               </span>
 
               <h1 className="mx-auto mt-3 max-w-3xl text-2xl font-semibold leading-tight tracking-tight text-white sm:text-4xl lg:text-[2.75rem] lg:leading-[1.1]">
-                {isBuy ? 'Buy Apex Legends Cheats' : 'Apex Legends Cheats'}
+                {isBuy ? 'Buy Apex — Plans & Checkout' : 'Legends Cheats — Features'}
               </h1>
               <p className="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-white/55 sm:mt-4 sm:text-base">
                 {isBuy
-                  ? 'Monthly and lifetime access for Windows. Review modules, requirements, and pricing below — checkout when status is Active.'
-                  : 'Combat assist, player visuals, loot overlays, 2D radar, and misc weapon helpers. Compare plans on the buy page when status is Active.'}
+                  ? 'Ready to buy apex? Review modules, requirements, and pricing below — checkout when status is Active.'
+                  : 'Legends cheats bundle combat assist, player visuals, loot overlays, 2D radar, and misc weapon helpers. Compare plans on the buy page when status is Active.'}
               </p>
               {isBuy && (
                 <ul className="mx-auto mt-5 flex max-w-2xl flex-wrap justify-center gap-2 text-sm">
@@ -138,10 +139,10 @@ export function GameProductPage({ guideSlug, variant = 'features' }: GameProduct
                   {isBuy && (
                     <div>
                       <h2 className="text-lg font-semibold tracking-tight text-white sm:text-xl">
-                        Pricing
+                        Buy Apex: Pricing
                       </h2>
                       <p className="mt-3 text-sm leading-relaxed text-white/55">
-                        Plans start from ${PRODUCT_PRICE_USD} monthly with lifetime tiers for longer
+                        When you buy apex, plans start from ${PRODUCT_PRICE_USD} monthly with lifetime tiers for longer
                         access. Pricing is shown at checkout — digital delivery only.
                       </p>
                       <h2 className="mt-8 text-lg font-semibold tracking-tight text-white sm:text-xl">
@@ -155,7 +156,7 @@ export function GameProductPage({ guideSlug, variant = 'features' }: GameProduct
                   )}
                   <div>
                     <h2 className="text-lg font-semibold tracking-tight text-white sm:text-xl">
-                      {isBuy ? 'Modules' : 'Module list'}
+                      {isBuy ? 'Modules' : 'Legends Cheats: Module list'}
                     </h2>
                   </div>
                   {PRODUCT_FEATURE_GROUPS.map((group) => (

@@ -60,11 +60,13 @@ type NavbarProps = {
 
   currentPath?: string
 
+  logoAlt?: string
+
 }
 
 
 
-export function Navbar({ onVideo: _onVideo = false, currentPath }: NavbarProps) {
+export function Navbar({ onVideo: _onVideo = false, currentPath, logoAlt }: NavbarProps) {
 
   const [menuOpen, setMenuOpen] = useState(false)
 
@@ -130,7 +132,7 @@ export function Navbar({ onVideo: _onVideo = false, currentPath }: NavbarProps) 
 
         <a href="/" className="flex min-w-0 items-center gap-2.5">
 
-          <LogoMark priority />
+          <LogoMark priority alt={logoAlt} />
 
           <span className={`truncate text-[1.225rem] font-semibold leading-none tracking-tight sm:text-[1.4rem] ${brandClass}`}>
 

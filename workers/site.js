@@ -101,7 +101,9 @@ export default {
     }
     const contentType = headers.get('content-type') || ''
     if (contentType.includes('text/html')) {
-      const canonical = `https://${url.hostname}${url.pathname === '/' ? '/' : url.pathname.replace(/\/$/, '') || '/'}`
+      const bare = url.pathname.replace(/\/+$/, '') || '/'
+      const canonical =
+        bare === '/' ? `https://${url.hostname}/` : `https://${url.hostname}${bare}/`
       const existing = headers.get('Link')
       const linkCanonical = `<${canonical}>; rel="canonical"`
       headers.set('Link', existing ? `${existing}, ${linkCanonical}` : linkCanonical)

@@ -7,11 +7,11 @@ import { SITE_FAQS } from '../data/faqs'
 import { CheckoutLink } from '../components/CheckoutLink'
 import { SITE_NAME } from '../data/site'
 
-export function FaqPage() {
+export function FaqPage({ logoAlt }: { logoAlt?: string }) {
   return (
     <div className="content-surface min-h-screen overflow-x-hidden text-white">
       <div className="content-surface-nav">
-        <Navbar currentPath="/faq" />
+        <Navbar currentPath="/faq" logoAlt={logoAlt} />
       </div>
 
       <main>
@@ -25,8 +25,8 @@ export function FaqPage() {
               FAQ
             </h1>
             <p className="mt-4 text-base leading-relaxed text-white/60">
-              Status, modules, platforms, buying, loading, support, and refunds — straight answers before
-              checkout.
+              This faq covers status, modules, platforms, buying, loading, help desk tickets, and refunds —
+              straight answers before checkout.
             </p>
           </div>
         </section>
@@ -37,7 +37,7 @@ export function FaqPage() {
               id="faq-heading"
               className="mb-6 text-lg font-semibold tracking-tight text-white sm:text-xl"
             >
-              All questions
+              Faq: All questions
             </h2>
 
             <div className="divide-y divide-white/10 border-y border-white/10">

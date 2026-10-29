@@ -120,7 +120,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Editor",
       "role": "editor",
       "date": "2026-09-08",
-      "body": "Editor: this Aimbot thread is locked read-only. Steps match the live Apex Legends menu on apexhacks.org — confirm Active before you queue."
+      "body": "Editor: this combat-assist thread is locked read-only. Steps match the live menu on apexhacks.org — confirm Active before you queue."
     },
     {
       "author": "patch_day_legend",
@@ -160,7 +160,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-17",
-      "body": "Mod note — keep ESP configs conservative in large lobbies. Visible check and distance caps are strongly recommended."
+      "body": "Mod note — keep player-visual configs conservative in large lobbies. Visible check and distance caps are strongly recommended."
     },
     {
       "author": "newbie_al",
@@ -172,7 +172,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-28",
-      "body": "@newbie_al — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "body": "@newbie_al — care package tags are hints, not guarantees. Scan with player visuals and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
       "replyToAuthor": "newbie_al"
     },
     {
@@ -185,7 +185,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-11",
-      "body": "@IT_guy_gaming — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the aimbot section in this thread has sane starting numbers.",
+      "body": "@IT_guy_gaming — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the combat assist section in this thread has sane starting numbers.",
       "replyToAuthor": "IT_guy_gaming"
     },
     {
@@ -558,7 +558,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-21",
-      "body": "@ridge_runner — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap.",
+      "body": "@ridge_runner — care package tags are hints, not guarantees. Scan with player visuals and audio before you full-send a swap.",
       "replyToAuthor": "ridge_runner"
     },
     {
@@ -678,7 +678,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Editor",
       "role": "editor",
       "date": "2026-09-11",
-      "body": "Editor: this Aimbot thread is locked read-only. Steps match the live Apex Legends menu on apexhacks.org — confirm Active before you queue."
+      "body": "Editor: this combat-assist thread is locked read-only. Steps match the live menu on apexhacks.org — confirm Active before you queue."
     },
     {
       "author": "Forum Moderator",
@@ -736,7 +736,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Editor",
       "role": "editor",
       "date": "2026-09-11",
-      "body": "Editor: this Aimbot thread is locked read-only. Steps match the live Apex Legends menu on apexhacks.org — confirm Active before you queue."
+      "body": "Editor: this combat-assist thread is locked read-only. Steps match the live menu on apexhacks.org — confirm Active before you queue."
     },
     {
       "author": "Forum Moderator",
@@ -898,7 +898,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Editor",
       "role": "editor",
       "date": "2026-09-08",
-      "body": "Editor: this Aimbot thread is locked read-only. Steps match the live Apex Legends menu on apexhacks.org — confirm Active before you queue."
+      "body": "Editor: this combat-assist thread is locked read-only. Steps match the live menu on apexhacks.org — confirm Active before you queue."
     },
     {
       "author": "IT_guy_gaming",
@@ -984,7 +984,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Editor",
       "role": "editor",
       "date": "2026-09-08",
-      "body": "Editor: this Aimbot thread is locked read-only. Steps match the live Apex Legends menu on apexhacks.org — confirm Active before you queue."
+      "body": "Editor: this combat-assist thread is locked read-only. Steps match the live menu on apexhacks.org — confirm Active before you queue."
     },
     {
       "author": "loot_lurker",
@@ -1208,7 +1208,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-13",
-      "body": "Mod note — keep ESP configs conservative in large lobbies. Visible check and distance caps are strongly recommended."
+      "body": "Mod note — keep player-visual configs conservative in large lobbies. Visible check and distance caps are strongly recommended."
     },
     {
       "author": "Kestrel_09",
@@ -1300,7 +1300,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-14",
-      "body": "@loot_lurker — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "body": "@loot_lurker — care package tags are hints, not guarantees. Scan with player visuals and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
       "replyToAuthor": "loot_lurker"
     },
     {
@@ -1313,7 +1313,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-14",
-      "body": "@duo_six — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the aimbot section in this thread has sane starting numbers.",
+      "body": "@duo_six — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the combat assist section in this thread has sane starting numbers.",
       "replyToAuthor": "duo_six"
     },
     {
@@ -1429,7 +1429,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-25",
-      "body": "@solo_q_al — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "body": "@solo_q_al — care package tags are hints, not guarantees. Scan with player visuals and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
       "replyToAuthor": "solo_q_al"
     }
   ],
@@ -1490,7 +1490,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-20",
-      "body": "@patch_day_legend — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "body": "@patch_day_legend — care package tags are hints, not guarantees. Scan with player visuals and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
       "replyToAuthor": "patch_day_legend"
     },
     {
@@ -1503,7 +1503,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-20",
-      "body": "@filterking — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the aimbot section in this thread has sane starting numbers.",
+      "body": "@filterking — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the combat assist section in this thread has sane starting numbers.",
       "replyToAuthor": "filterking"
     }
   ],
@@ -1549,7 +1549,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-26",
-      "body": "@irritated_panda — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the aimbot section in this thread has sane starting numbers.",
+      "body": "@irritated_panda — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the combat assist section in this thread has sane starting numbers.",
       "replyToAuthor": "irritated_panda"
     },
     {
@@ -1582,7 +1582,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-11",
-      "body": "@capslock_warrior — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the aimbot section in this thread has sane starting numbers.",
+      "body": "@capslock_warrior — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the combat assist section in this thread has sane starting numbers.",
       "replyToAuthor": "capslock_warrior"
     },
     {
@@ -1595,7 +1595,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-13",
-      "body": "@newbie_al — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "body": "@newbie_al — care package tags are hints, not guarantees. Scan with player visuals and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
       "replyToAuthor": "newbie_al"
     },
     {
@@ -1858,7 +1858,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-14",
-      "body": "@ridge_runner — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "body": "@ridge_runner — care package tags are hints, not guarantees. Scan with player visuals and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
       "replyToAuthor": "ridge_runner"
     },
     {
@@ -1871,7 +1871,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-14",
-      "body": "@Kestrel_09 — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the aimbot section in this thread has sane starting numbers.",
+      "body": "@Kestrel_09 — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the combat assist section in this thread has sane starting numbers.",
       "replyToAuthor": "Kestrel_09"
     }
   ],
@@ -2002,7 +2002,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-17",
-      "body": "@IT_guy_gaming — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the aimbot section in this thread has sane starting numbers.",
+      "body": "@IT_guy_gaming — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the combat assist section in this thread has sane starting numbers.",
       "replyToAuthor": "IT_guy_gaming"
     },
     {
@@ -2164,7 +2164,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-19",
-      "body": "@duo_six — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "body": "@duo_six — care package tags are hints, not guarantees. Scan with player visuals and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
       "replyToAuthor": "duo_six"
     },
     {
@@ -2183,7 +2183,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Forum Moderator",
       "role": "moderator",
       "date": "2026-09-20",
-      "body": "@impatient_one — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the aimbot section in this thread has sane starting numbers.",
+      "body": "@impatient_one — wide FOV plus low smooth reads obvious on kill cam. Cut FOV roughly in half, raise smooth, and keep visible check on — the combat assist section in this thread has sane starting numbers.",
       "replyToAuthor": "impatient_one"
     },
     {
@@ -2407,7 +2407,7 @@ export const FORUM_REPLIES: Record<string, ForumReply[]> = {
       "author": "Apex Legends Support",
       "role": "moderator",
       "date": "2026-09-25",
-      "body": "@Kestrel_09 — care package tags are hints, not guarantees. Scan with player ESP and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
+      "body": "@Kestrel_09 — care package tags are hints, not guarantees. Scan with player visuals and audio before you full-send a swap. (Follow-up #2 — still locked; use Support for account-specific issues.)",
       "replyToAuthor": "Kestrel_09"
     },
     {
